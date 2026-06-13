@@ -1,7 +1,7 @@
 # Mandarin Tutor — Filipino / English / 中文
 
 A single-page web app for learning Mandarin, with lesson reference data and AI study tools
-(powered by the Anthropic Claude API).
+(powered by the Anthropic Claude API)...
 
 ## Files
 
