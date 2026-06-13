@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#c0392b">
+<meta name="apple-mobile-web-app-title" content="Mandarin Tutor">
 <title>Mandarin Tutor — Filipino / English / 中文</title>
 <style>
   :root{
@@ -10,14 +15,15 @@
     --accent:#c0392b; --accent2:#b8860b; --line:#e7e1d6; --ok:#2e7d32;
     --chip:#f3eee4; --fil:#1565c0;
   }
-  *{box-sizing:border-box}
-  body{margin:0;font-family:"Georgia","Songti SC","STSong",serif;background:var(--bg);color:var(--ink);line-height:1.55}
-  header{background:var(--accent);color:#fff;padding:18px 22px}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:rgba(192,57,43,.15)}
+  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+  body{margin:0;font-family:"Georgia","Songti SC","STSong",serif;background:var(--bg);color:var(--ink);line-height:1.55;overflow-wrap:break-word;word-wrap:break-word}
+  header{background:var(--accent);color:#fff;padding:18px 22px;padding-top:calc(18px + env(safe-area-inset-top))}
   header h1{margin:0;font-size:22px;letter-spacing:.5px}
   header p{margin:4px 0 0;font-size:13px;opacity:.9}
-  .wrap{max-width:1000px;margin:0 auto;padding:18px}
-  nav{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
-  nav button{background:var(--chip);border:1px solid var(--line);padding:8px 14px;border-radius:20px;cursor:pointer;font-size:14px;font-family:inherit;color:var(--ink)}
+  .wrap{max-width:1000px;margin:0 auto;padding:18px;padding-left:calc(18px + env(safe-area-inset-left));padding-right:calc(18px + env(safe-area-inset-right));padding-bottom:calc(18px + env(safe-area-inset-bottom))}
+  nav{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0;position:sticky;top:0;z-index:20;background:var(--bg);padding:8px 0}
+  nav button{background:var(--chip);border:1px solid var(--line);padding:9px 14px;border-radius:20px;cursor:pointer;font-size:14px;font-family:inherit;color:var(--ink);min-height:40px;white-space:nowrap}
   nav button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
   .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:18px;display:none}
   .panel.show{display:block}
@@ -27,11 +33,13 @@
   table{border-collapse:collapse;width:100%;margin:10px 0;font-size:15px}
   th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
   th{background:var(--chip)}
+  .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
   .ch{font-size:18px}
   .py{color:var(--accent2)}
   .fil{color:var(--fil)}
-  textarea,input,select{font-family:inherit;font-size:15px;padding:9px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff;color:var(--ink)}
-  button.go{background:var(--accent);color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:15px;font-family:inherit}
+  textarea,input,select{font-family:inherit;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff;color:var(--ink)}
+  textarea{min-height:64px}
+  button.go{background:var(--accent);color:#fff;border:none;padding:12px 18px;border-radius:8px;cursor:pointer;font-size:15px;font-family:inherit;min-height:44px}
   button.go:hover{background:#a93226}
   button.go:disabled{opacity:.5;cursor:not-allowed}
   .out{background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:14px;margin-top:12px;white-space:pre-wrap;min-height:40px;font-size:15px}
@@ -62,7 +70,7 @@
   .toggle-bar label{font-size:13px;background:var(--chip);border:1px solid var(--line);padding:4px 10px;border-radius:14px;cursor:pointer}
   .toggle-bar input{width:auto;margin-right:4px}
   .banner{background:#fff8e1;border:1px solid #f0d98c;border-radius:8px;padding:12px;margin:10px 0;font-size:14px}
-  .spk{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border:1px solid var(--line);background:#fff;border-radius:50%;cursor:pointer;font-size:13px;padding:0;margin-left:6px;vertical-align:middle;line-height:1}
+  .spk{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;min-width:34px;border:1px solid var(--line);background:#fff;border-radius:50%;cursor:pointer;font-size:15px;padding:0;margin-left:6px;vertical-align:middle;line-height:1}
   .spk:hover{background:var(--chip)}
   .spk.playing{background:var(--accent);color:#fff;border-color:var(--accent)}
   .ch-cell{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}
@@ -70,6 +78,48 @@
   .audio-bar select{width:auto;min-width:160px;padding:5px}
   .audio-bar input[type=range]{width:120px}
   .no-voice{color:var(--accent);font-size:13px}
+
+  /* ===== Tablets / iPad (portrait & narrow landscape) ===== */
+  @media (max-width: 820px){
+    .wrap{padding:14px;padding-left:calc(14px + env(safe-area-inset-left));padding-right:calc(14px + env(safe-area-inset-right))}
+    .panel{padding:16px}
+    nav{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+    nav::-webkit-scrollbar{display:none}
+    .msg{max-width:92%}
+  }
+
+  /* ===== Phones ===== */
+  @media (max-width: 600px){
+    header{padding:14px 16px;padding-top:calc(14px + env(safe-area-inset-top))}
+    header h1{font-size:19px}
+    header p{font-size:12px}
+    .wrap{padding:10px;padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
+    .panel{padding:13px;border-radius:8px}
+    h2{font-size:17px}
+    h3{font-size:15px}
+    table{font-size:14px;min-width:340px}
+    th,td{padding:6px 7px}
+    .ch{font-size:17px}
+    /* stack buttons full-width so they're easy to tap */
+    .row{gap:8px}
+    .row .go{flex:1 1 100%;width:100%}
+    .row select, .row input{flex:1 1 100%}
+    .audio-bar{gap:8px;padding:10px}
+    .audio-bar label{display:flex;align-items:center;gap:6px;flex:1 1 100%}
+    .audio-bar select{flex:1;min-width:0}
+    .audio-bar input[type=range]{width:100%;flex:1}
+    .lesson-list{gap:6px}
+    .lesson-list button{flex:1 1 100%;min-height:44px}
+    .chat-log{max-height:50vh}
+    .msg{max-width:95%}
+    /* dialogue Chinese line: keep speaker button from crowding text */
+    .dlg .ch-cell{flex-wrap:wrap}
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    *{scroll-behavior:auto !important}
+  }
 </style>
 </head>
 <body>
@@ -120,23 +170,23 @@
     <p><span class="han">汉 字</span> means "Chinese Characters" — the building blocks of the language.
     Each character's pronunciation is a consonant + one/two vowels, or vowels only. The phonics system is <b>Pinyin (拼音)</b>.</p>
     <h3>The Four Tones</h3>
-    <table>
+    <div class="table-scroll"><table>
       <tr><th>Tone</th><th>Name</th><th>Mark</th><th>Feel (English "i")</th></tr>
       <tr><td>Tone 1</td><td>flat</td><td class="tone-mark">ā</td><td>flat "I am…"</td></tr>
       <tr><td>Tone 2</td><td>up</td><td class="tone-mark">á</td><td>rising "Is he <i>right</i>?"</td></tr>
       <tr><td>Tone 3</td><td>curve</td><td class="tone-mark">ǎ</td><td>dip down-then-up</td></tr>
       <tr><td>Tone 4</td><td>down</td><td class="tone-mark">à</td><td>firm "Yes, he <i>is</i>."</td></tr>
       <tr><td>5th</td><td>light</td><td class="tone-mark">a</td><td>light & fast, no number</td></tr>
-    </table>
+    </table></div>
     <h3>Vowel Table</h3>
-    <table>
+    <div class="table-scroll"><table>
       <tr><td>a</td><td>o</td><td>e</td><td>i</td><td>u</td><td>ü</td></tr>
       <tr><td>ai</td><td>ei</td><td>ui</td><td></td><td></td><td></td></tr>
       <tr><td>ao</td><td>ou</td><td>iu</td><td></td><td></td><td></td></tr>
       <tr><td>ie</td><td>ue</td><td>er</td><td></td><td></td><td></td></tr>
       <tr><td>an</td><td>en</td><td>in</td><td>un</td><td>ün</td><td></td></tr>
       <tr><td>ang</td><td>eng</td><td>ing</td><td>ong</td><td></td><td></td></tr>
-    </table>
+    </table></div>
     <h3>Vowel sounds</h3><div id="vowel-ref"></div>
     <h3>Consonant Table</h3>
     <div><span class="pill">b p m f</span><span class="pill">d t n l</span><span class="pill">g k h</span><span class="pill">j q x</span><span class="pill">z c s r</span><span class="pill">zh ch sh</span><span class="pill">y w</span></div>
@@ -420,9 +470,9 @@ function renderLesson(data){
         html+=`</div>`;
       });
     }else{
-      html+=`<table><tr>${cols.map(l=>`<th>${LANG_LABEL[l]}</th>`).join("")}</tr>`;
+      html+=`<div class="table-scroll"><table><tr>${cols.map(l=>`<th>${LANG_LABEL[l]}</th>`).join("")}</tr>`;
       sec.items.forEach(it=>{ html+=`<tr>${langCells(it)}</tr>`; });
-      html+=`</table>`;
+      html+=`</table></div>`;
     }
   });
   c.innerHTML=html;
