@@ -1,0 +1,12 @@
+{
+  "course": "Mandarin Tutor — Filipino / English / 中文",
+  "note": "Add new lessons by creating data/lessons/lessonNN.json and adding an entry here.",
+  "languages": ["filipino", "english", "chinese", "pinyin"],
+  "lessons": [
+    { "id": 2, "file": "data/lessons/lesson02.json", "title": "Greetings & Apologies", "title_zh": "問候 / 道歉", "type": "vocab" },
+    { "id": 3, "file": "data/lessons/lesson03.json", "title": "Pronouns and Persons", "title_zh": "代名詞 / 稱謂", "type": "vocab" }
+  ],
+  "references": [
+    { "id": "pinyin", "title": "Pinyin & Tones (Lesson 1)", "builtin": true }
+  ]
+}

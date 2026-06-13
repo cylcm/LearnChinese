@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mandarin Tutor — Filipino / English / 中文</title>
+<style>
+  :root{
+    --bg:#faf7f2; --panel:#ffffff; --ink:#2b2b2b; --muted:#7a7a7a;
+    --accent:#c0392b; --accent2:#b8860b; --line:#e7e1d6; --ok:#2e7d32;
+    --chip:#f3eee4; --fil:#1565c0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Georgia","Songti SC","STSong",serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  header{background:var(--accent);color:#fff;padding:18px 22px}
+  header h1{margin:0;font-size:22px;letter-spacing:.5px}
+  header p{margin:4px 0 0;font-size:13px;opacity:.9}
+  .wrap{max-width:1000px;margin:0 auto;padding:18px}
+  nav{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+  nav button{background:var(--chip);border:1px solid var(--line);padding:8px 14px;border-radius:20px;cursor:pointer;font-size:14px;font-family:inherit;color:var(--ink)}
+  nav button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:18px;display:none}
+  .panel.show{display:block}
+  h2{color:var(--accent);font-size:19px;border-bottom:2px solid var(--line);padding-bottom:6px;margin-top:0}
+  h3{color:var(--accent2);font-size:16px;margin:18px 0 6px}
+  .han{font-size:22px;font-weight:bold}
+  table{border-collapse:collapse;width:100%;margin:10px 0;font-size:15px}
+  th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+  th{background:var(--chip)}
+  .ch{font-size:18px}
+  .py{color:var(--accent2)}
+  .fil{color:var(--fil)}
+  textarea,input,select{font-family:inherit;font-size:15px;padding:9px;border:1px solid var(--line);border-radius:8px;width:100%;background:#fff;color:var(--ink)}
+  button.go{background:var(--accent);color:#fff;border:none;padding:10px 18px;border-radius:8px;cursor:pointer;font-size:15px;font-family:inherit}
+  button.go:hover{background:#a93226}
+  button.go:disabled{opacity:.5;cursor:not-allowed}
+  .out{background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:14px;margin-top:12px;white-space:pre-wrap;min-height:40px;font-size:15px}
+  .muted{color:var(--muted);font-size:13px}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0}
+  .pill{background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:13px;display:inline-block;margin:2px}
+  .key-status{font-size:13px;padding:4px 10px;border-radius:6px}
+  .key-set{background:#e6f4e6;color:var(--ok)}
+  .key-unset{background:#fdecea;color:var(--accent)}
+  .chat-log{max-height:340px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;margin-bottom:10px}
+  .msg{padding:10px 12px;border-radius:10px;max-width:85%;font-size:15px;white-space:pre-wrap}
+  .msg.user{align-self:flex-end;background:var(--accent);color:#fff}
+  .msg.ai{align-self:flex-start;background:var(--chip);border:1px solid var(--line)}
+  .quiz-q{font-size:18px;margin:10px 0}
+  .quiz-opts{display:flex;flex-direction:column;gap:8px}
+  .quiz-opts button{text-align:left;background:#fff;border:1px solid var(--line);padding:10px;border-radius:8px;cursor:pointer;font-family:inherit;font-size:15px}
+  .quiz-opts button:hover{background:var(--chip)}
+  .score{font-weight:bold;color:var(--accent2)}
+  details summary{cursor:pointer;color:var(--accent2);font-size:14px}
+  .tone-mark{font-size:26px;color:var(--accent)}
+  .lesson-list{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+  .lesson-list button{background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer;font-family:inherit;font-size:14px}
+  .lesson-list button.active{background:var(--accent2);color:#fff;border-color:var(--accent2)}
+  .dlg{border:1px solid var(--line);border-radius:8px;padding:12px;margin:10px 0;background:#fff}
+  .dlg .line{padding:5px 0;border-bottom:1px dashed var(--line)}
+  .dlg .line:last-child{border-bottom:none}
+  .toggle-bar{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+  .toggle-bar label{font-size:13px;background:var(--chip);border:1px solid var(--line);padding:4px 10px;border-radius:14px;cursor:pointer}
+  .toggle-bar input{width:auto;margin-right:4px}
+  .banner{background:#fff8e1;border:1px solid #f0d98c;border-radius:8px;padding:12px;margin:10px 0;font-size:14px}
+  .spk{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border:1px solid var(--line);background:#fff;border-radius:50%;cursor:pointer;font-size:13px;padding:0;margin-left:6px;vertical-align:middle;line-height:1}
+  .spk:hover{background:var(--chip)}
+  .spk.playing{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .ch-cell{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}
+  .audio-bar{background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0;font-size:13px;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .audio-bar select{width:auto;min-width:160px;padding:5px}
+  .audio-bar input[type=range]{width:120px}
+  .no-voice{color:var(--accent);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>汉字 · Mandarin Tutor</h1>
+  <p>Filipino / English / 中文 — reference lessons + AI study tools (Claude API)</p>
+</header>
+
+<div class="wrap">
+  <nav id="nav">
+    <button data-tab="lessons" class="active">📚 Lessons</button>
+    <button data-tab="pinyin">📖 Pinyin & Tones</button>
+    <button data-tab="explain">🔎 Explain / Translate</button>
+    <button data-tab="practice">✍️ Practice</button>
+    <button data-tab="quiz">🎯 Quiz</button>
+    <button data-tab="chat">💬 Tutor Chat</button>
+    <button data-tab="settings">⚙️ API Key</button>
+  </nav>
+
+  <!-- ===================== LESSONS ===================== -->
+  <section class="panel show" id="lessons">
+    <h2>Lessons</h2>
+    <div class="audio-bar" id="audio-bar">
+      <span>🔊 Audio:</span>
+      <span id="audio-availability">checking voices…</span>
+      <label>Voice: <select id="voice-select"></select></label>
+      <label>Speed: <input type="range" id="rate-range" min="0.5" max="1.2" step="0.1" value="0.8"> <span id="rate-val">0.8×</span></label>
+    </div>
+    <div id="manifest-status" class="muted">Loading lesson list…</div>
+    <div class="lesson-list" id="lesson-list"></div>
+    <div class="toggle-bar" id="lang-toggles">
+      <label><input type="checkbox" data-lang="filipino" checked> Filipino</label>
+      <label><input type="checkbox" data-lang="english" checked> English</label>
+      <label><input type="checkbox" data-lang="chinese" checked> 中文</label>
+      <label><input type="checkbox" data-lang="pinyin" checked> Pinyin</label>
+    </div>
+    <div id="lesson-content"></div>
+    <details style="margin-top:14px"><summary>🔊 No sound or wrong accent? Voice install tip</summary>
+    <p class="muted">Audio uses your device's built-in Chinese voice. If none is installed:
+    <b>Windows</b> → Settings › Time & Language › Language › add 中文 (Chinese Simplified) with speech.
+    <b>macOS/iOS</b> → Settings › Accessibility › Spoken Content › Voices › add a Chinese voice.
+    <b>Android</b> → Settings › Text-to-speech › install a Chinese voice. Chrome, Edge, and Safari work best.</p></details>
+  </section>
+
+  <!-- ===================== PINYIN ===================== -->
+  <section class="panel" id="pinyin">
+    <h2>Chinese Characters — Introduction</h2>
+    <p><span class="han">汉 字</span> means "Chinese Characters" — the building blocks of the language.
+    Each character's pronunciation is a consonant + one/two vowels, or vowels only. The phonics system is <b>Pinyin (拼音)</b>.</p>
+    <h3>The Four Tones</h3>
+    <table>
+      <tr><th>Tone</th><th>Name</th><th>Mark</th><th>Feel (English "i")</th></tr>
+      <tr><td>Tone 1</td><td>flat</td><td class="tone-mark">ā</td><td>flat "I am…"</td></tr>
+      <tr><td>Tone 2</td><td>up</td><td class="tone-mark">á</td><td>rising "Is he <i>right</i>?"</td></tr>
+      <tr><td>Tone 3</td><td>curve</td><td class="tone-mark">ǎ</td><td>dip down-then-up</td></tr>
+      <tr><td>Tone 4</td><td>down</td><td class="tone-mark">à</td><td>firm "Yes, he <i>is</i>."</td></tr>
+      <tr><td>5th</td><td>light</td><td class="tone-mark">a</td><td>light & fast, no number</td></tr>
+    </table>
+    <h3>Vowel Table</h3>
+    <table>
+      <tr><td>a</td><td>o</td><td>e</td><td>i</td><td>u</td><td>ü</td></tr>
+      <tr><td>ai</td><td>ei</td><td>ui</td><td></td><td></td><td></td></tr>
+      <tr><td>ao</td><td>ou</td><td>iu</td><td></td><td></td><td></td></tr>
+      <tr><td>ie</td><td>ue</td><td>er</td><td></td><td></td><td></td></tr>
+      <tr><td>an</td><td>en</td><td>in</td><td>un</td><td>ün</td><td></td></tr>
+      <tr><td>ang</td><td>eng</td><td>ing</td><td>ong</td><td></td><td></td></tr>
+    </table>
+    <h3>Vowel sounds</h3><div id="vowel-ref"></div>
+    <h3>Consonant Table</h3>
+    <div><span class="pill">b p m f</span><span class="pill">d t n l</span><span class="pill">g k h</span><span class="pill">j q x</span><span class="pill">z c s r</span><span class="pill">zh ch sh</span><span class="pill">y w</span></div>
+    <h3>Consonant sounds</h3><div id="cons-ref"></div>
+    <details style="margin-top:14px"><summary>Note: zh/ch/sh vs j/q/x</summary>
+    <p class="muted">zh = "j"(jeep)+"r"; ch = "q"(cheese)+"r"; sh = "x"(sharp)+"r". Mixing them up is not a big problem to be understood in China.</p></details>
+  </section>
+
+  <!-- ===================== EXPLAIN ===================== -->
+  <section class="panel" id="explain">
+    <h2>Explain / Translate</h2>
+    <p class="muted">Type Chinese, English, or Filipino. Returns characters, pinyin + tones, meaning, usage note.</p>
+    <textarea id="ex-input" rows="3" placeholder="e.g. 你好 / Magandang umaga / how do I say 'thank you'?"></textarea>
+    <div class="row"><button class="go" id="ex-btn">Explain</button><button class="go" id="ex-play" style="background:var(--accent2)">🔊 Play Chinese</button></div>
+    <div class="out" id="ex-out">Output appears here…</div>
+  </section>
+
+  <!-- ===================== PRACTICE ===================== -->
+  <section class="panel" id="practice">
+    <h2>Generate Practice Sentences</h2>
+    <div class="row">
+      <select id="pr-level" style="max-width:200px">
+        <option value="absolute beginner">Absolute beginner</option>
+        <option value="beginner" selected>Beginner</option>
+        <option value="intermediate">Intermediate</option>
+      </select>
+      <input id="pr-topic" placeholder="topic (optional)" style="max-width:260px">
+      <button class="go" id="pr-btn">Generate 5 sentences</button>
+    </div>
+    <div class="out" id="pr-out">Output appears here…</div>
+  </section>
+
+  <!-- ===================== QUIZ ===================== -->
+  <section class="panel" id="quiz">
+    <h2>Tone & Pinyin Quiz</h2>
+    <div class="row">
+      <select id="qz-type" style="max-width:240px">
+        <option value="tones">Identify the tone</option>
+        <option value="pinyin">Match pinyin to sound/meaning</option>
+        <option value="vocab from the loaded lessons">Vocabulary from lessons</option>
+        <option value="mixed">Mixed</option>
+      </select>
+      <button class="go" id="qz-btn">New question</button>
+      <span class="score" id="qz-score">Score: 0 / 0</span>
+    </div>
+    <div id="qz-area"><p class="muted">Click "New question" to begin.</p></div>
+  </section>
+
+  <!-- ===================== CHAT ===================== -->
+  <section class="panel" id="chat">
+    <h2>Tutor Chat</h2>
+    <p class="muted">A patient tutor. Replies in Chinese + pinyin + English (and Filipino if you write in it).</p>
+    <div class="chat-log" id="chat-log"></div>
+    <div class="row"><textarea id="chat-input" rows="2" placeholder="e.g. teach me to order coffee"></textarea></div>
+    <div class="row"><button class="go" id="chat-btn">Send</button><button class="go" id="chat-clear" style="background:#777">Clear</button></div>
+  </section>
+
+  <!-- ===================== SETTINGS ===================== -->
+  <section class="panel" id="settings">
+    <h2>Anthropic API Key</h2>
+    <div class="banner" style="background:#e8f4ea;border-color:#a8d5b5">
+      <b>🔒 Your key stays on this device.</b><br>
+      It is saved only in <b>this browser's localStorage</b> — it is never uploaded to GitHub, never put in any file,
+      and never sent anywhere except directly to Anthropic's own API (<code>api.anthropic.com</code>) over HTTPS when you
+      use a feature. Anyone visiting this page enters their own key on their own machine; keys are not shared.
+    </div>
+    <p class="muted">The key persists across reloads and ordinary cache clearing (removed only if you clear this site's data,
+    use the Remove button below, or use a private/incognito window).</p>
+    <div class="row"><span class="key-status" id="key-status">checking…</span></div>
+    <div class="row"><input id="key-input" type="password" placeholder="sk-ant-…" autocomplete="off"></div>
+    <div class="row">
+      <button class="go" id="key-save">Save / Update</button>
+      <button class="go" id="key-show" style="background:#777">Show/Hide</button>
+      <button class="go" id="key-remove" style="background:#555">Remove</button>
+    </div>
+    <div class="row">
+      <label class="muted">Model:&nbsp;</label>
+      <select id="model-select" style="max-width:280px">
+        <option value="claude-opus-4-8">claude-opus-4-8</option>
+        <option value="claude-sonnet-4-6" selected>claude-sonnet-4-6</option>
+        <option value="claude-haiku-4-5-20251001">claude-haiku-4-5</option>
+      </select>
+    </div>
+    <p class="muted" style="margin-top:14px">⚠️ A browser-stored key can be read by anyone with access to <i>this</i> browser profile, and any
+    JavaScript running on this page can use it. That's fine for your own learning use. Don't enter a key on a shared/public computer,
+    and never paste your key into the page's source code before pushing to GitHub — only ever type it into the field above at runtime.</p>
+  </section>
+</div>
+
+<script>
+/* ============ PINYIN REFERENCE DATA (Lesson 1, built-in) ============ */
+const VOWELS=[["a","啊 dà",'vowel in "star" without "r"'],["o","喔 guō",'vowel in "law"'],["e","鹅 é",'vowel in "stir"'],["i","衣 yī",'vowel in "bit"'],["u","乌 wū",'vowel in "food"'],["ü","鱼 yú",'"y" in "yellow" + u'],["ai","哀 kāi",'vowel in "bike"'],["ei","诶 bēi",'vowel in "lake"'],["ui","危 tuī",'u+i, like "we"'],["ao","凹 dāo",'vowel in "loud"'],["ou","鸥 ōu",'vowel in "flow"'],["iu","优 niú",'i+u, like "yew"'],["ie","椰 yě",'i+e, like "sierra"'],["ue","—",'u+e, as in "buena"'],["er","耳 ěr",'e+r, as in "early"'],["an","安 ān",'vowel in "anchor"'],["en","恩 mén",'"earn" without "r"'],["in","音 qí",'as in "inn"'],["un","温 lún",'as in "one"'],["ün","晕 qún",'"y" in "yellow" + "one"'],["ang","骯 āng",'as "long"'],["eng","灯 dēng",'vowel in "lung"'],["ing","英 tīng",'vowel in "England"'],["ong","冬 dōng",'"u" + "ng"'],["ian","烟 miàn","(mián/yān)"],["üe","月 yuè","(yuè)"],["üan","圈 quān","(quān)"]];
+const CONS=[["b","玻 bō",'"b" in "book"'],["p","坡 pō",'"p" in "pool"'],["m","摸 mó",'"m" in "moon"'],["f","佛 fó",'"f" in "food"'],["d","得 dé",'"d" in "door"'],["t","特 tè",'"t" in "tom"'],["n","呢 ní",'"n" in "no"'],["l","乐 lè",'"l" in "love"'],["g","歌 gē",'"g" in "good"'],["k","蝌 kē",'"k" in "kill"'],["h","喝 hē",'"h" in "high"'],["j","机 jī",'"j" in "jeep"'],["q","七 qī",'"ch" in "cheese"'],["x","西 xī",'"sh" in "sharp"'],["z","滋 zì",'"z" in "zero"'],["c","刺 cì",'"ts" in "tsunami"'],["s","司 sī",'"s" in "sun"'],["r","日 rì",'"r" in "red"'],["zh","知 zhī",'"j"+"r"'],["ch","吃 chī",'"q"+"r"'],["sh","狮 shī",'"x"+"r"'],["y","衣 yī",'"y" in "yes"'],["w","乌 wū",'"w" in "wood"']];
+function refRows(d){return d.map(r=>{
+  const han=(r[1].match(/[\u4e00-\u9fff]+/)||[""])[0];
+  const spk=han?`<button class="spk" data-say="${han}" title="Play ${han}">🔊</button>`:"";
+  return `<div style="display:grid;grid-template-columns:60px 130px 1fr;gap:10px;padding:5px 0;border-bottom:1px dashed var(--line)"><span class="py"><b>${r[0]}</b></span><span class="ch">${r[1]}${spk}</span><span>${r[2]}</span></div>`;
+}).join("");}
+document.getElementById("vowel-ref").innerHTML=refRows(VOWELS);
+document.getElementById("cons-ref").innerHTML=refRows(CONS);
+
+/* ============ TABS ============ */
+document.querySelectorAll("#nav button").forEach(b=>{b.onclick=()=>{
+  document.querySelectorAll("#nav button").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.remove("show"));
+  b.classList.add("active");document.getElementById(b.dataset.tab).classList.add("show");
+};});
+
+/* ============ KEY STORAGE ============ */
+const KEY_NAME="mandarinTutor.anthropic_api_key",MODEL_NAME="mandarinTutor.anthropic_model";
+const getKey=()=>localStorage.getItem(KEY_NAME)||"";
+const getModel=()=>localStorage.getItem(MODEL_NAME)||"claude-sonnet-4-6";
+function refreshKeyStatus(){const s=document.getElementById("key-status");
+  if(getKey()){s.textContent="✓ Key saved in this browser";s.className="key-status key-set";}
+  else{s.textContent="✗ No key saved";s.className="key-status key-unset";}}
+document.getElementById("key-save").onclick=()=>{const v=document.getElementById("key-input").value.trim();
+  if(!v){alert("Enter a key first.");return;}localStorage.setItem(KEY_NAME,v);
+  document.getElementById("key-input").value="";refreshKeyStatus();alert("Key saved.");};
+document.getElementById("key-remove").onclick=()=>{if(confirm("Remove the saved key?")){localStorage.removeItem(KEY_NAME);refreshKeyStatus();}};
+document.getElementById("key-show").onclick=()=>{const i=document.getElementById("key-input");i.type=i.type==="password"?"text":"password";};
+const modelSel=document.getElementById("model-select");modelSel.value=getModel();
+modelSel.onchange=()=>localStorage.setItem(MODEL_NAME,modelSel.value);
+refreshKeyStatus();
+
+/* ============ API CALL ============ */
+async function callClaude(system,messages,maxTokens=1024){
+  const key=getKey();if(!key)throw new Error("No API key. Go to ⚙️ API Key tab and save your Anthropic key.");
+  const res=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",
+    headers:{"Content-Type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+    body:JSON.stringify({model:getModel(),max_tokens:maxTokens,...(system?{system}:{}),messages})});
+  if(!res.ok)throw new Error("API error "+res.status+": "+await res.text());
+  const data=await res.json();
+  return (data.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("\n");
+}
+
+/* ============ AUDIO / TEXT-TO-SPEECH ============ */
+const synth = window.speechSynthesis;
+let zhVoices=[], chosenVoice=null, speakRate=0.8, ttsSupported=!!synth;
+function stripForSpeech(t){
+  // take the Chinese portion; drop pinyin, slashes alternatives -> first option, parens
+  if(!t) return "";
+  let s=t.replace(/[（(].*?[)）]/g,"");           // remove bracketed notes
+  s=s.split("/")[0];                                // first alternative only
+  const han=s.match(/[\u4e00-\u9fff，。！？、]+/g);  // keep Han + cjk punctuation
+  return han?han.join(""):s.trim();
+}
+function loadVoices(){
+  if(!ttsSupported) return;
+  const all=synth.getVoices();
+  zhVoices=all.filter(v=>/zh|cmn|chinese/i.test(v.lang)||/chinese|mandarin|普通话|國語|国语/i.test(v.name));
+  const sel=document.getElementById("voice-select");
+  const avail=document.getElementById("audio-availability");
+  sel.innerHTML="";
+  if(zhVoices.length){
+    zhVoices.forEach((v,i)=>{const o=document.createElement("option");o.value=i;o.textContent=`${v.name} (${v.lang})`;sel.appendChild(o);});
+    chosenVoice=zhVoices[0];
+    avail.innerHTML="<span style='color:var(--ok)'>✓ Chinese voice ready</span>";
+  }else if(all.length){
+    // no zh voice installed — offer any voice but warn
+    all.slice(0,12).forEach((v,i)=>{const o=document.createElement("option");o.value="any:"+i;o.textContent=`${v.name} (${v.lang})`;sel.appendChild(o);});
+    chosenVoice=null;
+    avail.innerHTML="<span class='no-voice'>⚠ No Chinese voice found on this device — playback may be inaccurate. See tip below.</span>";
+  }else{
+    avail.textContent="Loading voices…";
+  }
+}
+if(ttsSupported){
+  loadVoices();
+  synth.onvoiceschanged=loadVoices; // fires when async voice list arrives (Chrome)
+  document.getElementById("voice-select").onchange=e=>{
+    const v=e.target.value;
+    if(v.startsWith("any:")) chosenVoice=synth.getVoices()[+v.split(":")[1]];
+    else chosenVoice=zhVoices[+v];
+  };
+  document.getElementById("rate-range").oninput=e=>{speakRate=+e.target.value;document.getElementById("rate-val").textContent=speakRate.toFixed(1)+"×";};
+}else{
+  const bar=document.getElementById("audio-bar");
+  if(bar) bar.innerHTML="🔊 Audio not supported in this browser. Try Chrome, Edge, or Safari.";
+}
+let curBtn=null;
+function speak(text,btn){
+  if(!ttsSupported) return;
+  const clean=stripForSpeech(text);
+  if(!clean) return;
+  synth.cancel();                       // stop anything already playing
+  if(curBtn){curBtn.classList.remove("playing");curBtn.textContent="🔊";}
+  const u=new SpeechSynthesisUtterance(clean);
+  u.lang="zh-CN"; u.rate=speakRate;
+  if(chosenVoice) u.voice=chosenVoice;
+  if(btn){curBtn=btn;btn.classList.add("playing");btn.textContent="⏸";
+    u.onend=u.onerror=()=>{btn.classList.remove("playing");btn.textContent="🔊";if(curBtn===btn)curBtn=null;};}
+  synth.speak(u);
+}
+// one delegated listener for every speaker button anywhere in the app
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".spk");
+  if(!b) return;
+  if(b.classList.contains("playing")){synth.cancel();b.classList.remove("playing");b.textContent="🔊";curBtn=null;}
+  else speak(b.dataset.say,b);
+});
+
+/* ============ LESSON LOADING ============ */
+const LANG_LABEL={filipino:"Filipino",english:"English",chinese:"中文",pinyin:"Pinyin"};
+let activeLangs={filipino:true,english:true,chinese:true,pinyin:true};
+let loadedLessons={}; // id -> data, used for quiz
+let currentLessonData=null;
+
+document.querySelectorAll("#lang-toggles input").forEach(cb=>{cb.onchange=()=>{
+  activeLangs[cb.dataset.lang]=cb.checked;
+  if(currentLessonData)renderLesson(currentLessonData);
+};});
+
+async function loadManifest(){
+  const status=document.getElementById("manifest-status");
+  try{
+    const res=await fetch("manifest.json");
+    if(!res.ok)throw new Error("HTTP "+res.status);
+    const m=await res.json();
+    status.textContent="";
+    const list=document.getElementById("lesson-list");
+    list.innerHTML="";
+    m.lessons.forEach(L=>{
+      const btn=document.createElement("button");
+      btn.textContent=`Lesson ${L.id}: ${L.title}`;
+      btn.onclick=()=>{document.querySelectorAll("#lesson-list button").forEach(x=>x.classList.remove("active"));btn.classList.add("active");openLesson(L);};
+      list.appendChild(btn);
+    });
+    if(m.lessons[0]){list.firstChild.classList.add("active");openLesson(m.lessons[0]);}
+  }catch(e){ showFileError(status,e); }
+}
+async function openLesson(L){
+  const c=document.getElementById("lesson-content");
+  c.innerHTML="<p class='muted'>Loading "+L.title+"…</p>";
+  try{
+    const res=await fetch(L.file);
+    if(!res.ok)throw new Error("HTTP "+res.status);
+    const data=await res.json();
+    loadedLessons[data.id]=data;currentLessonData=data;
+    renderLesson(data);
+  }catch(e){ showFileError(c,e); }
+}
+function showFileError(el,e){
+  el.innerHTML=`<div class="banner"><b>Couldn't load lesson files.</b><br>
+  Browsers block reading local JSON when you open this file directly (file://). Two fixes:<br>
+  <b>1) Recommended:</b> in this folder run <code>python3 -m http.server</code> then open
+  <code>http://localhost:8000/mandarin_tutor.html</code>.<br>
+  <b>2)</b> Host the folder on any static web server.<br>
+  <span class="muted">Technical detail: ${e.message}</span></div>`;
+}
+function langCells(obj){
+  return ["filipino","english","chinese","pinyin"].filter(l=>activeLangs[l]).map(l=>{
+    const v=obj[l]||"";
+    const cls=l==="chinese"?"ch":l==="pinyin"?"py":l==="filipino"?"fil":"";
+    if(l==="chinese" && v){
+      const say=v.replace(/"/g,"&quot;");
+      return `<td class="${cls}"><div class="ch-cell"><span>${v}</span><button class="spk" data-say="${say}" title="Play">🔊</button></div></td>`;
+    }
+    return `<td class="${cls}">${v}</td>`;
+  }).join("");
+}
+function renderLesson(data){
+  const c=document.getElementById("lesson-content");
+  const cols=["filipino","english","chinese","pinyin"].filter(l=>activeLangs[l]);
+  let html=`<h2>Lesson ${data.id}: ${data.title} <span class="muted">${data.title_zh||""}</span></h2>`;
+  data.sections.forEach(sec=>{
+    html+=`<h3>${sec.heading}</h3>`;
+    if(sec.type==="dialogue"){
+      sec.dialogues.forEach(d=>{
+        html+=`<div class="dlg">`;
+        d.lines.forEach(line=>{
+          html+=`<div class="line">`+["filipino","english","chinese","pinyin"].filter(l=>activeLangs[l]).map(l=>{
+            const cls=l==="chinese"?"ch":l==="pinyin"?"py":l==="filipino"?"fil":"";
+            if(!line[l]) return "";
+            if(l==="chinese"){
+              const say=line[l].replace(/"/g,"&quot;");
+              return `<div class="${cls} ch-cell"><span>${line[l]}</span><button class="spk" data-say="${say}" title="Play">🔊</button></div>`;
+            }
+            return `<div class="${cls}">${line[l]}</div>`;
+          }).join("")+`</div>`;
+        });
+        html+=`</div>`;
+      });
+    }else{
+      html+=`<table><tr>${cols.map(l=>`<th>${LANG_LABEL[l]}</th>`).join("")}</tr>`;
+      sec.items.forEach(it=>{ html+=`<tr>${langCells(it)}</tr>`; });
+      html+=`</table>`;
+    }
+  });
+  c.innerHTML=html;
+}
+loadManifest();
+
+/* ============ EXPLAIN ============ */
+document.getElementById("ex-btn").onclick=async()=>{const inp=document.getElementById("ex-input").value.trim();const out=document.getElementById("ex-out");
+  if(!inp){out.textContent="Type something first.";return;}out.textContent="Thinking…";
+  try{const sys="You are a Mandarin tutor for a learner who may speak English or Filipino (Tagalog). For the input give: (1) Chinese characters, (2) pinyin WITH tone marks and tone number in brackets per syllable, (3) English meaning, (4) Filipino meaning, (5) one-line usage note. If input is English or Filipino, translate to natural Mandarin first. Be concise.";
+  out.textContent=await callClaude(sys,[{role:"user",content:inp}],800);}catch(e){out.textContent="⚠️ "+e.message;}};
+document.getElementById("ex-play").onclick=()=>{
+  const txt=document.getElementById("ex-out").textContent;
+  const han=(txt.match(/[\u4e00-\u9fff，。！？、]+/g)||[]).join("");
+  if(han) speak(han); else alert("No Chinese characters found to play yet.");
+};
+
+/* ============ PRACTICE ============ */
+document.getElementById("pr-btn").onclick=async()=>{const lvl=document.getElementById("pr-level").value;const topic=document.getElementById("pr-topic").value.trim();const out=document.getElementById("pr-out");
+  out.textContent="Generating…";
+  try{const sys="You are a Mandarin tutor. For EACH practice sentence give Chinese characters, pinyin with tone marks, English, and Filipino (Tagalog) translation, on separate lines, numbered.";
+  const u=`Give me 5 ${lvl} practice sentences${topic?(" about "+topic):""}.`;
+  out.textContent=await callClaude(sys,[{role:"user",content:u}],1000);}catch(e){out.textContent="⚠️ "+e.message;}};
+
+/* ============ QUIZ ============ */
+let qScore=0,qTotal=0,curAnswer=null;
+document.getElementById("qz-btn").onclick=async()=>{const type=document.getElementById("qz-type").value;const area=document.getElementById("qz-area");
+  area.innerHTML="<p class='muted'>Generating question…</p>";
+  let ctx="";
+  if(type.includes("lessons")){
+    const words=[];Object.values(loadedLessons).forEach(L=>L.sections.forEach(s=>{(s.items||[]).forEach(it=>words.push(`${it.chinese}=${it.english}`));}));
+    ctx=words.length?(" Use ONLY these vocabulary pairs: "+words.slice(0,60).join("; ")):"";
+  }
+  try{const sys="You are a Mandarin quiz generator. Output ONLY valid JSON, no markdown. Schema: {\"question\":string,\"options\":[string,string,string,string],\"answer_index\":number,\"explanation\":string}. Test "+type+" for a beginner."+ctx;
+    const raw=await callClaude(sys,[{role:"user",content:"Generate one quiz question as JSON."}],500);
+    const q=JSON.parse(raw.replace(/```json|```/g,"").trim());curAnswer=q.answer_index;
+    let html=`<div class="quiz-q">${q.question}</div><div class="quiz-opts">`;
+    q.options.forEach((o,i)=>html+=`<button data-i="${i}">${o}</button>`);
+    html+="</div><div class='out' id='qz-fb' style='display:none'></div>";area.innerHTML=html;
+    area.querySelectorAll(".quiz-opts button").forEach(btn=>{btn.onclick=()=>{qTotal++;const i=+btn.dataset.i;const fb=document.getElementById("qz-fb");fb.style.display="block";
+      if(i===curAnswer){qScore++;fb.innerHTML="✅ Correct! "+q.explanation;}else{fb.innerHTML="❌ Correct: <b>"+q.options[curAnswer]+"</b>. "+q.explanation;}
+      document.getElementById("qz-score").textContent=`Score: ${qScore} / ${qTotal}`;
+      area.querySelectorAll(".quiz-opts button").forEach(b=>b.disabled=true);};});
+  }catch(e){area.innerHTML="<div class='out'>⚠️ "+e.message+"</div>";}};
+
+/* ============ CHAT ============ */
+let chatHistory=[];const chatLog=document.getElementById("chat-log");
+function addMsg(role,text){const d=document.createElement("div");d.className="msg "+(role==="user"?"user":"ai");d.textContent=text;chatLog.appendChild(d);chatLog.scrollTop=chatLog.scrollHeight;}
+document.getElementById("chat-btn").onclick=async()=>{const inp=document.getElementById("chat-input");const text=inp.value.trim();if(!text)return;
+  addMsg("user",text);chatHistory.push({role:"user",content:text});inp.value="";
+  const t=document.createElement("div");t.className="msg ai";t.textContent="…";chatLog.appendChild(t);
+  try{const sys="You are a warm, patient Mandarin tutor for a learner who speaks English and/or Filipino (Tagalog). When you give Chinese, include characters, pinyin with tone marks, and an English gloss (add Filipino if the user writes in Filipino). Keep replies focused and encouraging.";
+    const reply=await callClaude(sys,chatHistory,900);t.remove();addMsg("ai",reply);chatHistory.push({role:"assistant",content:reply});
+  }catch(e){t.remove();addMsg("ai","⚠️ "+e.message);}};
+document.getElementById("chat-clear").onclick=()=>{chatHistory=[];chatLog.innerHTML="";};
+</script>
+</body>
+</html>
