@@ -1,0 +1,219 @@
+{
+  "id": 3,
+  "title": "Pronouns and Persons",
+  "title_zh": "代名詞 / 稱謂",
+  "columns": ["english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "1. Personal Pronouns",
+      "items": [
+        { "english": "I", "chinese": "我", "pinyin": "wǒ" },
+        { "english": "you (singular)", "chinese": "你 / 您", "pinyin": "nǐ / nín" },
+        { "english": "he / she / him / her", "chinese": "他 / 她", "pinyin": "tā" },
+        { "english": "we / us", "chinese": "我們", "pinyin": "wǒ mén" },
+        { "english": "you (plural)", "chinese": "你們", "pinyin": "nǐ mén" },
+        { "english": "they / them", "chinese": "他們", "pinyin": "tā mén" },
+        { "english": "all of us", "chinese": "大家", "pinyin": "dà jiā" }
+      ]
+    },
+    {
+      "heading": "2. Possessive Pronouns",
+      "items": [
+        { "english": "my / mine", "chinese": "我的", "pinyin": "wǒ de" },
+        { "english": "your / yours (singular)", "chinese": "你的", "pinyin": "nǐ de" },
+        { "english": "his / her / hers", "chinese": "他的", "pinyin": "tā de" },
+        { "english": "our / ours", "chinese": "我們的", "pinyin": "wǒ mén de" },
+        { "english": "your / yours (plural)", "chinese": "你們的", "pinyin": "nǐ mén de" },
+        { "english": "their / theirs", "chinese": "他們的", "pinyin": "tā mén de" },
+        { "english": "all of us", "chinese": "大家的", "pinyin": "dà jiā de" }
+      ]
+    },
+    {
+      "heading": "3. Pronouns Used To Point Out Someone / Something",
+      "items": [
+        { "english": "this", "chinese": "這(個)", "pinyin": "zhè (gè)" },
+        { "english": "that", "chinese": "那(個)", "pinyin": "nà (gè)" },
+        { "english": "these", "chinese": "這些", "pinyin": "zhè xiē" },
+        { "english": "those", "chinese": "那些", "pinyin": "nà xiē" }
+      ]
+    },
+    {
+      "heading": "4. House members",
+      "items": [
+        { "english": "male", "chinese": "男", "pinyin": "nán" },
+        { "english": "female", "chinese": "女", "pinyin": "nǚ" },
+        { "english": "family", "chinese": "家庭", "pinyin": "jiā tíng" },
+        { "english": "grandfather", "chinese": "祖父 / 阿公", "pinyin": "zǔ fù / a gōng" },
+        { "english": "grandmother", "chinese": "祖母 / 阿嬤", "pinyin": "zǔ mǔ / a má" },
+        { "english": "father", "chinese": "父親 / 爸爸", "pinyin": "fù qīn / bà ba" },
+        { "english": "mother", "chinese": "母親 / 媽媽", "pinyin": "mǔ qīn / mā ma" },
+        { "english": "elder brother (kuya)", "chinese": "哥哥", "pinyin": "gē gē" },
+        { "english": "elder sister (ate)", "chinese": "姐姐", "pinyin": "jiě jiě" },
+        { "english": "younger brother", "chinese": "弟弟", "pinyin": "dì dì" },
+        { "english": "younger sister", "chinese": "妹妹", "pinyin": "mèi mèi" },
+        { "english": "uncle (paternal)", "chinese": "伯伯 / 叔叔", "pinyin": "bó bó / shú shú" },
+        { "english": "uncle (maternal)", "chinese": "舅舅", "pinyin": "jiù jiù" },
+        { "english": "auntie (paternal)", "chinese": "姑姑", "pinyin": "gū gū" },
+        { "english": "auntie (maternal)", "chinese": "阿姨", "pinyin": "ā yí" },
+        { "english": "baby", "chinese": "嬰兒", "pinyin": "yīng ér" },
+        { "english": "parent", "chinese": "父母", "pinyin": "fù mǔ" },
+        { "english": "husband", "chinese": "丈夫 / 先生", "pinyin": "zhàng fū / xiān shēng" },
+        { "english": "wife", "chinese": "妻子 / 太太", "pinyin": "qī zi / tài tài" },
+        { "english": "child / children", "chinese": "孩子 / 小孩", "pinyin": "hái zi / xiǎo hái" },
+        { "english": "son", "chinese": "兒子", "pinyin": "ér zi" },
+        { "english": "daughter", "chinese": "女兒", "pinyin": "nǚ ér" },
+        { "english": "boy", "chinese": "男孩", "pinyin": "nán hái" },
+        { "english": "girl", "chinese": "女孩", "pinyin": "nǚ hái" },
+        { "english": "family member", "chinese": "家人", "pinyin": "jiā rén" },
+        { "english": "relative", "chinese": "親人 / 親戚", "pinyin": "qīn rén / qīn qī" }
+      ]
+    },
+    {
+      "heading": "5. Professions",
+      "items": [
+        { "english": "mister", "chinese": "先生", "pinyin": "xiān shēng" },
+        { "english": "mrs.", "chinese": "太太", "pinyin": "tài tài" },
+        { "english": "miss", "chinese": "小姐", "pinyin": "xiǎo jiě" },
+        { "english": "worker", "chinese": "工人", "pinyin": "gōng rén" },
+        { "english": "domestic helper", "chinese": "傭人 / 女傭", "pinyin": "yōng rén / nǚ yōng" },
+        { "english": "driver", "chinese": "司機", "pinyin": "sī jī" },
+        { "english": "caretaker", "chinese": "監護工", "pinyin": "jiān hù gōng" },
+        { "english": "caregiver", "chinese": "看護", "pinyin": "kān hù" },
+        { "english": "doctor", "chinese": "醫生", "pinyin": "yī shēng" },
+        { "english": "dentist", "chinese": "牙醫", "pinyin": "yá yī" },
+        { "english": "nurse", "chinese": "護士", "pinyin": "hù shì" },
+        { "english": "employer / boss / sir", "chinese": "老闆", "pinyin": "lǎo bǎn" },
+        { "english": "employer's wife", "chinese": "老闆娘", "pinyin": "lǎo bǎn niáng" },
+        { "english": "broker", "chinese": "仲介", "pinyin": "zhòng jiè" },
+        { "english": "manager", "chinese": "經理", "pinyin": "jīng lǐ" },
+        { "english": "secretary", "chinese": "秘書", "pinyin": "mì shū" },
+        { "english": "co-worker", "chinese": "同事", "pinyin": "tóng shì" },
+        { "english": "priest", "chinese": "神父", "pinyin": "shén fù" },
+        { "english": "pastor", "chinese": "牧師", "pinyin": "mù shī" },
+        { "english": "nun (Catholic)", "chinese": "修女", "pinyin": "xiū nǚ" },
+        { "english": "monk", "chinese": "和尚", "pinyin": "hé shàng" },
+        { "english": "nun (Buddhist)", "chinese": "尼姑", "pinyin": "ní gū" },
+        { "english": "policeman", "chinese": "警察", "pinyin": "jǐng chá" },
+        { "english": "fireman", "chinese": "消防員", "pinyin": "xiāo fáng yuán" },
+        { "english": "lawyer", "chinese": "律師", "pinyin": "lǜ shī" },
+        { "english": "engineer", "chinese": "工程師", "pinyin": "gōng chéng shī" },
+        { "english": "teacher", "chinese": "老師", "pinyin": "lǎo shī" },
+        { "english": "student", "chinese": "學生", "pinyin": "xué shēng" },
+        { "english": "businessman", "chinese": "生意人", "pinyin": "shēng yì rén" },
+        { "english": "waiter / waitress", "chinese": "服務生 / 服務員", "pinyin": "fú wù shēng / fú wù yuán" },
+        { "english": "sales clerk", "chinese": "售貨員", "pinyin": "shòu huò yuán" },
+        { "english": "guard", "chinese": "警衛 / 守衛", "pinyin": "jǐng wèi / shǒu wèi" }
+      ]
+    },
+    {
+      "heading": "6. Others",
+      "items": [
+        { "english": "friend", "chinese": "朋友", "pinyin": "péng yǒu" },
+        { "english": "old friend", "chinese": "老朋友", "pinyin": "lǎo péng yǒu" },
+        { "english": "boyfriend", "chinese": "男朋友", "pinyin": "nán péng yǒu" },
+        { "english": "girlfriend", "chinese": "女朋友", "pinyin": "nǚ péng yǒu" },
+        { "english": "neighbor", "chinese": "鄰居", "pinyin": "lín jū" },
+        { "english": "visitor", "chinese": "客人", "pinyin": "kè rén" },
+        { "english": "patient", "chinese": "病患 / 病人", "pinyin": "bìng huàn / bìng rén" },
+        { "english": "old man", "chinese": "老人", "pinyin": "lǎo rén" },
+        { "english": "orphan (ulila)", "chinese": "孤兒", "pinyin": "gū ér" },
+        { "english": "disabled person (baldado)", "chinese": "殘廢者 / 殘廢的人", "pinyin": "cán fèi zhě / cán fèi de rén" },
+        { "english": "special child", "chinese": "低能兒", "pinyin": "dī néng ér" },
+        { "english": "widower (biyudo)", "chinese": "鰥夫", "pinyin": "guān fū" },
+        { "english": "widow (biyuda)", "chinese": "寡婦", "pinyin": "guǎ fù" },
+        { "english": "single mother", "chinese": "單親媽媽", "pinyin": "dān qīn mā ma" },
+        { "english": "stranger", "chinese": "陌生人", "pinyin": "mò shēng rén" },
+        { "english": "overseas worker", "chinese": "外勞", "pinyin": "wài láo" }
+      ]
+    },
+    {
+      "heading": "7. Conversations",
+      "type": "dialogue",
+      "dialogues": [
+        {
+          "lines": [
+            { "filipino": "Ginoong Wang, magandang umaga, kumusta po kayo?", "english": "Mr. Wang, good morning. How are you?", "chinese": "王先生，早安，你好嗎？", "pinyin": "Wáng xiān shēng, zǎo ān. Nǐ hǎo ma?" },
+            { "filipino": "Binibining Zhang, mabuti ako, salamat po.", "english": "Miss Zhang, I'm fine. Thanks.", "chinese": "張小姐，我很好，謝謝", "pinyin": "Zhāng xiǎo jiě, Wǒ hěn hǎo, xiè xiè." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Salamat sa iyo.", "english": "Thank you.", "chinese": "謝謝你", "pinyin": "Xiè xiè nǐ." },
+            { "filipino": "Walang anuman.", "english": "You are welcome.", "chinese": "不客氣 / 不用謝", "pinyin": "Bú kè qì / Bú yòng xiè" }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Ano po ang apelyido at pangalan niyo?", "english": "What's your surname and first name?", "chinese": "您貴姓大名？", "pinyin": "Nín guì xìng dà míng?" },
+            { "filipino": "Ang apelyido ko ay ___, ang pangalan ko ay ___.", "english": "My surname is ___, my name is ___.", "chinese": "我姓 ___，我叫 ___", "pinyin": "Wǒ xìng ___, Wǒ jiào ___." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Ikaw ay mula sa anong bansa?", "english": "You are from what country?", "chinese": "你是那國人？", "pinyin": "Nǐ shì nǎ guó rén?" },
+            { "filipino": "Ako ay Filipino.", "english": "I am Filipino.", "chinese": "我是菲律賓人", "pinyin": "Wǒ shì Fēi Lǜ Bīn rén" }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Siya ba ay Filipino?", "english": "Is she Filipino?", "chinese": "他是菲律賓人嗎？", "pinyin": "Tā shì Fēi Lǜ Bīn rén ma?" },
+            { "filipino": "Siya ay hindi Filipino. Siya ay Tsino.", "english": "She is not Filipino. She is Chinese.", "chinese": "他不是菲律賓人. 他是中國人", "pinyin": "Tā bú shì Fēi Lǜ Bīn rén. Tā shì Zhōng Guó rén." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Sila ay mula sa anong bansa?", "english": "They are from what country?", "chinese": "他們是那國人？", "pinyin": "Tā mén shì nǎ guó rén?" },
+            { "filipino": "Sila ay Filipino.", "english": "They are Filipinos.", "chinese": "他們是菲律賓人", "pinyin": "Tā mén shì Fēi Lǜ Bīn rén." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Sino Siya?", "english": "Who is he?", "chinese": "他是誰？", "pinyin": "Tā shì shéi?" },
+            { "filipino": "Siya ay hindi amo. Siya ay trabahador.", "english": "He is not the boss. He is the worker.", "chinese": "他不是老闆. 他是工人", "pinyin": "Tā bú shì lǎo bǎn. Tā shì gōng rén." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Ano ito?", "english": "What is this?", "chinese": "這是什麼？", "pinyin": "Zhè shì shé me?" },
+            { "filipino": "Ito ay panulat.", "english": "This is pen.", "chinese": "這是筆", "pinyin": "Zhè shì bǐ." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Ano iyon?", "english": "What is that?", "chinese": "那是什麼？", "pinyin": "Nà shì shé me?" },
+            { "filipino": "Iyon ay aklat.", "english": "That is a book.", "chinese": "那是書", "pinyin": "Nà shì shū." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Anong aklat iyon?", "english": "What book is that?", "chinese": "那是什麼書？", "pinyin": "Nà shì shé me shū?" },
+            { "filipino": "Iyon ay aklat na Ingles.", "english": "That is an English book.", "chinese": "那是英文書", "pinyin": "Nà shì Yīng wén shū." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Iyon ba ay aklat na Ingles din?", "english": "Is that also an English book?", "chinese": "那也是英文書嗎？", "pinyin": "Nà yě shì Yīng wén shū ma?" },
+            { "filipino": "Iyon ay hindi aklat na Ingles. Iyon ay aklat na Tsino.", "english": "That is not an English book. That is a Chinese book.", "chinese": "那不是英文書. 那是中文書", "pinyin": "Nà bú shì Yīng wén shū. Nà shì Zhōng wén shū." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Kanino ang panulat na ito?", "english": "Whose pen is this?", "chinese": "這是誰的筆？", "pinyin": "Zhè shì shéi de bǐ?" },
+            { "filipino": "Ito ay akin.", "english": "This is mine.", "chinese": "這是我的", "pinyin": "Zhè shì wǒ de." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Ang mga damit na iyon ay sa iyo ba?", "english": "Are those clothes yours?", "chinese": "那些是你的衣服嗎？", "pinyin": "Nà xiē shì nǐ de yī fú ma?" },
+            { "filipino": "Hindi, ang mga iyon ay hindi akin. Ang mga iyon ay kay Ginoong Wang.", "english": "No, those are not mine. Those are Mr. Wang's.", "chinese": "不，那些不是我的. 那些是王先生的", "pinyin": "Bù, Nà xiē bú shì wǒ de. Nà xiē shì Wáng xiān shēng de." }
+          ]
+        },
+        {
+          "lines": [
+            { "filipino": "Masaya ako nakita kita.", "english": "I am glad to meet you.", "chinese": "見到你我很高興", "pinyin": "Jiàn dào nǐ wǒ hěn gāo xìng." }
+          ]
+        }
+      ]
+    }
+  ]
+}

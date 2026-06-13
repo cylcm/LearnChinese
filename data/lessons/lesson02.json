@@ -1,1 +1,56 @@
-this
+{
+  "id": 2,
+  "title": "Greetings & Apologies",
+  "title_zh": "問候 / 道歉",
+  "columns": ["filipino", "english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "Greetings & Apologies",
+      "items": [
+        { "filipino": "Magandang umaga", "english": "Good morning", "chinese": "早安", "pinyin": "Zǎo ān" },
+        { "filipino": "Magandang hapon", "english": "Good afternoon", "chinese": "午安", "pinyin": "Wǔ ān" },
+        { "filipino": "Magandang gabi", "english": "Good evening", "chinese": "晚安", "pinyin": "Wǎn ān" },
+        { "filipino": "Kumusta ka?", "english": "How are you?", "chinese": "您好嗎？", "pinyin": "Nín hǎo ma?" },
+        { "filipino": "Mabuti po ako", "english": "I am fine", "chinese": "我很好", "pinyin": "Wǒ hěn hǎo" },
+        { "filipino": "Ayos lang", "english": "It's alright", "chinese": "還好", "pinyin": "Hái hǎo" },
+        { "filipino": "Hindi masyadong mabuti", "english": "Not so good", "chinese": "不太好", "pinyin": "Bú tài hǎo" },
+        { "filipino": "Napakasama", "english": "Very bad", "chinese": "很糟糕", "pinyin": "Hěn zāo gāo" },
+        { "filipino": "May sakit po ako", "english": "I am sick", "chinese": "我生病了", "pinyin": "Wǒ shēng bìng le" },
+        { "filipino": "Paki", "english": "Please", "chinese": "請", "pinyin": "Qǐng" },
+        { "filipino": "Pakiusap", "english": "Ask for favor", "chinese": "拜託", "pinyin": "Bài tuō" },
+        { "filipino": "Pasok dito / Pasok doon", "english": "Come in / Go in", "chinese": "進來 / 進去", "pinyin": "Jìn lái / Jìn qù" },
+        { "filipino": "Labas dito / Labas doon", "english": "Go out", "chinese": "出來 / 出去", "pinyin": "Chū lái / Chū qù" },
+        { "filipino": "Akyat dito / Akyat doon", "english": "Go up", "chinese": "上來 / 上去", "pinyin": "Shàng lái / Shàng qù" },
+        { "filipino": "Baba dito / Baba doon", "english": "Go down", "chinese": "下來 / 下去", "pinyin": "Xià lái / Xià qù" },
+        { "filipino": "Tumayo", "english": "Stand up", "chinese": "站起來", "pinyin": "Zhàn qǐ lái" },
+        { "filipino": "Umupo", "english": "Sit down", "chinese": "坐下", "pinyin": "Zuò xià" },
+        { "filipino": "Salamat po", "english": "Thank you!", "chinese": "謝謝", "pinyin": "Xiè xiè" },
+        { "filipino": "Walang anuman", "english": "You're welcome", "chinese": "不客氣 / 不用謝", "pinyin": "Bú kè qì / Bú yòng xiè" },
+        { "filipino": "Ikinalulungkot ko", "english": "Sorry", "chinese": "對不起", "pinyin": "Duì bù qǐ" },
+        { "filipino": "Hindi bale", "english": "It's okay", "chinese": "沒關係", "pinyin": "Méi guān xì" },
+        { "filipino": "Patawarin mo ako", "english": "Please forgive me", "chinese": "請你原諒我", "pinyin": "Qǐng nǐ yuán liàng wǒ" },
+        { "filipino": "Paalam", "english": "Good bye!", "chinese": "再見", "pinyin": "Zài jiàn" },
+        { "filipino": "Ayos", "english": "Okay", "chinese": "好的", "pinyin": "Hǎo de" },
+        { "filipino": "Maligayang pagdating", "english": "Welcome", "chinese": "歡迎", "pinyin": "Huān yíng" },
+        { "filipino": "Kumain na po kayo?", "english": "Have you eaten yet?", "chinese": "你吃飯了嗎？", "pinyin": "Nǐ chī fàn le ma?" },
+        { "filipino": "Kain na tayo ng almusal", "english": "Let's eat breakfast", "chinese": "來吃早餐", "pinyin": "Lái chī zǎo cān" },
+        { "filipino": "Kain na tayo ng tanghalian", "english": "Let's eat lunch", "chinese": "來吃午餐", "pinyin": "Lái chī wǔ cān" },
+        { "filipino": "Kain na tayo ng hapunan", "english": "Let's eat dinner", "chinese": "來吃晚餐", "pinyin": "Lái chī wǎn cān" },
+        { "filipino": "Kain na tayo ng merienda", "english": "Let's eat snack", "chinese": "來吃點心", "pinyin": "Lái chī diǎn xīn" },
+        { "filipino": "Magkita tayo bukas", "english": "See you tomorrow!", "chinese": "明天見", "pinyin": "Míng tiān jiàn" },
+        { "filipino": "Matagal na tayo hindi nagkita", "english": "Long time no see", "chinese": "好久不見", "pinyin": "Hǎo jiǔ bú jiàn" },
+        { "filipino": "Ingat", "english": "Be careful", "chinese": "小心", "pinyin": "Xiǎo xīn" },
+        { "filipino": "Walang problema", "english": "No problem!", "chinese": "沒問題", "pinyin": "Méi wèn tí" },
+        { "filipino": "Mahal kita", "english": "I love you", "chinese": "我愛你", "pinyin": "Wǒ ài nǐ" },
+        { "filipino": "Gusto kita", "english": "I like you very much", "chinese": "我很喜歡你", "pinyin": "Wǒ hěn xǐ huān nǐ" },
+        { "filipino": "Lagi kitang iniisip", "english": "I miss you very much", "chinese": "我很想念你", "pinyin": "Wǒ hěn xiǎng niàn nǐ" },
+        { "filipino": "Binabati Kita", "english": "Congratulations", "chinese": "恭喜", "pinyin": "Gōng xǐ" },
+        { "filipino": "Maligayang Paglalakbay", "english": "Bon Voyage", "chinese": "祝您一路順風", "pinyin": "Zhù nín yí lù shùn fēng" },
+        { "filipino": "Maayos na kalusugan", "english": "Good Health", "chinese": "祝您身體健康", "pinyin": "Zhù nín shēn tǐ jiàn kāng" },
+        { "filipino": "Buwenas", "english": "Good Luck", "chinese": "祝您萬事如意", "pinyin": "Zhù nín wàn shì rú yì" },
+        { "filipino": "Maligayang Kaarawan", "english": "Happy Birthday", "chinese": "祝您生日快樂", "pinyin": "Zhù nín shēng rì kuài lè" },
+        { "filipino": "Maligayang Bagong Taon", "english": "Happy New Year", "chinese": "祝您新年快樂", "pinyin": "Zhù nín xīn nián kuài lè" }
+      ]
+    }
+  ]
+}
