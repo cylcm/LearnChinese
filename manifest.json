@@ -8,6 +8,7 @@
     { "id": 4, "file": "data/lessons/lesson04.json", "title": "Self-Introduction & Simple Questions", "title_zh": "自我介紹 / 簡單問話", "type": "vocab" },
     { "id": 5, "file": "data/lessons/lesson05.json", "title": "Numerals / Money", "title_zh": "數字 / 錢額", "type": "vocab" },
     { "id": 6, "file": "data/lessons/lesson06.json", "title": "Calendar / Time", "title_zh": "日曆 / 時間", "type": "vocab" },
+    { "id": 7, "file": "data/lessons/lesson07.json", "title": "Adjectives / Grammar", "title_zh": "形容詞 / 文法", "type": "vocab" },
     { "id": 8, "file": "data/lessons/lesson08.json", "title": "Verbs / Grammar", "title_zh": "動詞 / 文法", "type": "vocab" },
     { "id": 9, "file": "data/lessons/lesson09.json", "title": "Pets, Pests and Insects", "title_zh": "寵物及昆蟲", "type": "vocab" },
     { "id": 10, "file": "data/lessons/lesson10.json", "title": "Colors and Shapes", "title_zh": "顏色和形狀", "type": "vocab" },
