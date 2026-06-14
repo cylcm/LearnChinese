@@ -13,7 +13,11 @@
     { "id": 9, "file": "data/lessons/lesson09.json", "title": "Pets, Pests and Insects", "title_zh": "寵物及昆蟲", "type": "vocab" },
     { "id": 10, "file": "data/lessons/lesson10.json", "title": "Colors and Shapes", "title_zh": "顏色和形狀", "type": "vocab" },
     { "id": 11, "file": "data/lessons/lesson11.json", "title": "Places and Directions", "title_zh": "地點和方向", "type": "vocab" },
-    { "id": 12, "file": "data/lessons/lesson12.json", "title": "Going Abroad / Travel", "title_zh": "出國 / 旅遊", "type": "vocab" }
+    { "id": 12, "file": "data/lessons/lesson12.json", "title": "Going Abroad / Travel", "title_zh": "出國 / 旅遊", "type": "vocab" },
+    { "id": 13, "file": "data/lessons/lesson13.json", "title": "Shopping / Personal Belongings", "title_zh": "購物 / 私人東西", "type": "vocab" },
+    { "id": 14, "file": "data/lessons/lesson14.json", "title": "Telephone Conversation", "title_zh": "電話交談", "type": "vocab" },
+    { "id": 15, "file": "data/lessons/lesson15.json", "title": "Parts of the House, Housewares & Appliances", "title_zh": "房屋各部份 / 家庭用具 / 電器", "type": "vocab" },
+    { "id": 16, "file": "data/lessons/lesson16.json", "title": "Household Chores", "title_zh": "家務事", "type": "vocab" }
   ],
   "references": [
     { "id": "pinyin", "title": "Pinyin & Tones (Lesson 1)", "builtin": true }
