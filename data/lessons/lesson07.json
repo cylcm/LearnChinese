@@ -1,0 +1,168 @@
+{
+  "id": 7,
+  "title": "Adjectives / Grammar",
+  "title_zh": "形容詞 / 文法",
+  "sections": [
+    {
+      "heading": "Adjectives",
+      "type": "vocab",
+      "items": [
+        { "filipino": "mabuti", "english": "good", "chinese": "好", "pinyin": "hǎo" },
+        { "filipino": "masama", "english": "bad", "chinese": "壞", "pinyin": "huài" },
+        { "filipino": "malaki", "english": "big", "chinese": "大", "pinyin": "dà" },
+        { "filipino": "maliit", "english": "small", "chinese": "小", "pinyin": "xiǎo" },
+        { "filipino": "marami", "english": "plenty / many", "chinese": "多 / 很多", "pinyin": "duō / hěn duō" },
+        { "filipino": "kaunti", "english": "little", "chinese": "少", "pinyin": "shǎo" },
+        { "filipino": "tuyo", "english": "dry", "chinese": "乾", "pinyin": "gān" },
+        { "filipino": "basa", "english": "wet", "chinese": "濕", "pinyin": "shī" },
+        { "filipino": "malinis", "english": "clean", "chinese": "乾淨", "pinyin": "gān jìng" },
+        { "filipino": "marumi", "english": "dirty", "chinese": "骯髒", "pinyin": "āng zhāng" },
+        { "filipino": "mataba", "english": "fat", "chinese": "胖", "pinyin": "pàng" },
+        { "filipino": "payat", "english": "thin", "chinese": "瘦", "pinyin": "shòu" },
+        { "filipino": "mabigat", "english": "heavy", "chinese": "重", "pinyin": "zhòng" },
+        { "filipino": "magaan", "english": "light", "chinese": "輕", "pinyin": "qīng" },
+        { "filipino": "mabilis", "english": "fast", "chinese": "快", "pinyin": "kuài" },
+        { "filipino": "mabagal", "english": "slow", "chinese": "慢", "pinyin": "màn" },
+        { "filipino": "mataas", "english": "high", "chinese": "高", "pinyin": "gāo" },
+        { "filipino": "mababa", "english": "low", "chinese": "低", "pinyin": "dī" },
+        { "filipino": "matangkad", "english": "tall (height)", "chinese": "高", "pinyin": "gāo" },
+        { "filipino": "pandak", "english": "short (height)", "chinese": "矮", "pinyin": "ǎi" },
+        { "filipino": "mahaba", "english": "long", "chinese": "長", "pinyin": "cháng" },
+        { "filipino": "maiksi", "english": "short (length)", "chinese": "短", "pinyin": "duǎn" },
+        { "filipino": "mahigpit", "english": "tight", "chinese": "緊", "pinyin": "jǐn" },
+        { "filipino": "maluwag", "english": "loose", "chinese": "鬆", "pinyin": "sōng" },
+        { "filipino": "malawak", "english": "wide", "chinese": "寬", "pinyin": "kuān" },
+        { "filipino": "makitid", "english": "narrow", "chinese": "窄", "pinyin": "zhǎi" },
+        { "filipino": "makapal", "english": "thick", "chinese": "厚", "pinyin": "hòu" },
+        { "filipino": "manipis", "english": "thin", "chinese": "薄", "pinyin": "bó" },
+        { "filipino": "malalim", "english": "deep", "chinese": "深", "pinyin": "shēn" },
+        { "filipino": "mababaw", "english": "shallow", "chinese": "淺", "pinyin": "qiǎn" },
+        { "filipino": "malayo", "english": "far", "chinese": "遠", "pinyin": "yuǎn" },
+        { "filipino": "malapit", "english": "near", "chinese": "近", "pinyin": "jìn" },
+        { "filipino": "bago", "english": "new", "chinese": "新", "pinyin": "xīn" },
+        { "filipino": "luma", "english": "old", "chinese": "舊", "pinyin": "jiù" },
+        { "filipino": "matigas", "english": "hard", "chinese": "硬", "pinyin": "yìng" },
+        { "filipino": "malambot", "english": "soft", "chinese": "軟", "pinyin": "ruǎn" },
+        { "filipino": "maliwanag", "english": "bright", "chinese": "光亮", "pinyin": "guāng liàng" },
+        { "filipino": "madilim", "english": "dark", "chinese": "暗", "pinyin": "àn" },
+        { "filipino": "mainit", "english": "hot", "chinese": "熱", "pinyin": "rè" },
+        { "filipino": "malamig", "english": "cold", "chinese": "冷", "pinyin": "lěng" },
+        { "filipino": "mabango", "english": "fragrant", "chinese": "香", "pinyin": "xiāng" },
+        { "filipino": "mabaho", "english": "bad smell", "chinese": "臭", "pinyin": "chòu" },
+        { "filipino": "malakas (katawan)", "english": "strong (body)", "chinese": "強壯", "pinyin": "qiáng zhuàng" },
+        { "filipino": "malakas", "english": "strong", "chinese": "強", "pinyin": "qiáng" },
+        { "filipino": "mahina", "english": "weak", "chinese": "弱", "pinyin": "ruò" },
+        { "filipino": "maingay", "english": "noisy", "chinese": "吵", "pinyin": "chǎo" },
+        { "filipino": "tahimik", "english": "quiet", "chinese": "靜", "pinyin": "jìng" },
+        { "filipino": "malakas ang boses", "english": "loud voice", "chinese": "大聲", "pinyin": "dà shēng" },
+        { "filipino": "mahina ang boses", "english": "soft voice", "chinese": "小聲", "pinyin": "xiǎo shēng" },
+        { "filipino": "gutom", "english": "hungry", "chinese": "餓", "pinyin": "è" },
+        { "filipino": "uhaw", "english": "thirsty", "chinese": "口渴", "pinyin": "kǒu kě" },
+        { "filipino": "busog", "english": "full", "chinese": "飽", "pinyin": "bǎo" },
+        { "filipino": "masarap", "english": "delicious", "chinese": "好吃", "pinyin": "hǎo chī" },
+        { "filipino": "pagod", "english": "tired", "chinese": "累", "pinyin": "lèi" },
+        { "filipino": "pilyo", "english": "naughty", "chinese": "頑皮", "pinyin": "wán pí" },
+        { "filipino": "mabait (bata)", "english": "obedient", "chinese": "乖", "pinyin": "guāi" },
+        { "filipino": "mabait (matanda)", "english": "kind", "chinese": "慈祥", "pinyin": "cí xiáng" },
+        { "filipino": "mahigpit", "english": "strict", "chinese": "嚴格", "pinyin": "yán gé" },
+        { "filipino": "maganda", "english": "beautiful", "chinese": "漂亮", "pinyin": "piào liàng" },
+        { "filipino": "pogi", "english": "handsome", "chinese": "帥", "pinyin": "shuài" },
+        { "filipino": "nakatutuwa", "english": "cute", "chinese": "可愛", "pinyin": "kě ài" },
+        { "filipino": "pangit", "english": "ugly", "chinese": "醜", "pinyin": "chǒu" },
+        { "filipino": "masipag", "english": "hardworking", "chinese": "勤勞", "pinyin": "qín láo" },
+        { "filipino": "tamad", "english": "lazy", "chinese": "懶惰", "pinyin": "lǎn duò" },
+        { "filipino": "matipid", "english": "thrifty", "chinese": "節儉", "pinyin": "jié jiǎn" },
+        { "filipino": "matalino", "english": "intelligent", "chinese": "聰明", "pinyin": "cōng míng" },
+        { "filipino": "bobo", "english": "stupid", "chinese": "笨", "pinyin": "bèn" },
+        { "filipino": "mayaman", "english": "rich", "chinese": "富有", "pinyin": "fù yǒu" },
+        { "filipino": "mahirap", "english": "poor", "chinese": "窮", "pinyin": "qióng" },
+        { "filipino": "abala", "english": "busy", "chinese": "忙", "pinyin": "máng" },
+        { "filipino": "mahirap (trabaho)", "english": "laborious", "chinese": "辛苦", "pinyin": "xīn kǔ" },
+        { "filipino": "mahal", "english": "expensive", "chinese": "貴", "pinyin": "guì" },
+        { "filipino": "mura", "english": "cheap", "chinese": "便宜", "pinyin": "pián yí" }
+      ]
+    },
+    {
+      "heading": "Feelings",
+      "type": "vocab",
+      "items": [
+        { "filipino": "pagmamahal", "english": "love", "chinese": "愛", "pinyin": "ài" },
+        { "filipino": "pagkagusto", "english": "like", "chinese": "喜歡", "pinyin": "xǐ huān" },
+        { "filipino": "hindi gusto", "english": "dislike", "chinese": "不喜歡", "pinyin": "bù xǐ huān" },
+        { "filipino": "pagkainis", "english": "disgusting", "chinese": "討厭", "pinyin": "tǎo yàn" },
+        { "filipino": "masaya", "english": "happy", "chinese": "快樂 / 高興 / 開心", "pinyin": "kuài lè / gāo xìng / kāi xīn" },
+        { "filipino": "malungkot", "english": "sad", "chinese": "傷心 / 難過 / 憂愁", "pinyin": "shāng xīn / nán guò / yōu chóu" },
+        { "filipino": "galit", "english": "angry", "chinese": "生氣", "pinyin": "shēng qì" },
+        { "filipino": "kinakabahan", "english": "nervous", "chinese": "緊張", "pinyin": "jǐn zhāng" },
+        { "filipino": "takot", "english": "afraid", "chinese": "害怕", "pinyin": "hài pà" },
+        { "filipino": "pag-alala", "english": "worry", "chinese": "擔心", "pinyin": "dān xīn" },
+        { "filipino": "magaan ang pakiramdam", "english": "relaxed", "chinese": "輕鬆", "pinyin": "qīng sōng" },
+        { "filipino": "maginhawa ang pakiramdam", "english": "comfortable", "chinese": "舒服", "pinyin": "shū fú" },
+        { "filipino": "nasorpresa", "english": "surprised", "chinese": "驚喜", "pinyin": "jīng xǐ" },
+        { "filipino": "tuwang-tuwa", "english": "excited", "chinese": "興奮", "pinyin": "xīng fèn" },
+        { "filipino": "mausisa", "english": "curious", "chinese": "好奇", "pinyin": "hào qí" },
+        { "filipino": "nagtataka", "english": "wonder", "chinese": "奇怪", "pinyin": "qí guài" },
+        { "filipino": "nalulumbay", "english": "lonely", "chinese": "寂寞", "pinyin": "jí mò" },
+        { "filipino": "nabigo", "english": "disappointed", "chinese": "失望", "pinyin": "shī wàng" },
+        { "filipino": "namroblema", "english": "vexed", "chinese": "煩惱", "pinyin": "fán nǎo" },
+        { "filipino": "sabik sa pamilya", "english": "homesick", "chinese": "想家", "pinyin": "xiǎng jiā" }
+      ]
+    },
+    {
+      "heading": "Adjective Forms",
+      "type": "vocab",
+      "items": [
+        { "filipino": "napaka", "english": "very", "chinese": "很", "pinyin": "hěn + (adjective)" },
+        { "filipino": "masyado", "english": "too much", "chinese": "太", "pinyin": "tài + (adjective)" },
+        { "filipino": "ubod ng", "english": "extraordinary", "chinese": "非常", "pinyin": "fēi cháng + (adjective)" },
+        { "filipino": "pinaka", "english": "most", "chinese": "最", "pinyin": "zuì + (adjective)" },
+        { "filipino": "mas", "english": "comparison", "chinese": "比較", "pinyin": "bǐ jiào + (adjective)" },
+        { "filipino": "pareho", "english": "same", "chinese": "一樣", "pinyin": "yí yàng + (adjective)" },
+        { "filipino": "mas...ng kaunti", "english": "more", "chinese": "一點", "pinyin": "(adjective) + yī diǎn" },
+        { "filipino": "hindi", "english": "not", "chinese": "不", "pinyin": "bù + (adjective)" }
+      ]
+    },
+    {
+      "heading": "Conversations — Subject + Adjective Form + Adjective",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "filipino": "Ako ay napakasaya.", "english": "I am very happy.", "chinese": "我很快樂。", "pinyin": "Wǒ hěn kuài lè." }
+        ]},
+        { "lines": [
+          { "filipino": "Siya ay mahilig sa bata.", "english": "She likes kids.", "chinese": "她很喜歡孩子。", "pinyin": "Tā hěn xǐ huān hái zi." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang amo ko ay napakabuti / napakabait.", "english": "My boss is very good / very kind.", "chinese": "我的老闆很好 / 很慈祥。", "pinyin": "Wǒ de lǎo bǎn hěn hǎo / hěn cí xiáng." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang batang ito ay ubod ng bait.", "english": "This child is very obedient.", "chinese": "這個孩子非常乖。", "pinyin": "Zhè gè hái zi fēi cháng guāi." }
+        ]},
+        { "lines": [
+          { "filipino": "Iyong estudyante ay masyadong mataba.", "english": "That student is too fat.", "chinese": "那個學生太胖。", "pinyin": "Nà gè xué shēng tài pàng." }
+        ]},
+        { "lines": [
+          { "filipino": "Ikaw ang pinakamaganda sa inyong tatlo.", "english": "You are the most beautiful among the three.", "chinese": "你們三個你最漂亮。", "pinyin": "Nǐ mén sān gè nǐ zuì piào liàng." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang aming bahay ay mas malaki ngayon.", "english": "Our house is bigger now.", "chinese": "我們現在的房子比較大。", "pinyin": "Wǒ mén xiàn zài de fáng zi bǐ jiào dà." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang aking kuya at ate ay parehong matalino.", "english": "My brother and sister are both intelligent.", "chinese": "我的哥哥和姊姊一樣聰明。", "pinyin": "Wǒ de gē gē hé jiě jiě yí yàng cōng míng." }
+        ]},
+        { "lines": [
+          { "filipino": "Gusto ko ng mas maraming prutas.", "english": "I want more fruits.", "chinese": "我要多一點水果。", "pinyin": "Wǒ yào duō yī diǎn shuǐ guǒ." }
+        ]},
+        { "lines": [
+          { "filipino": "Masyadong malakas ang boses mo.", "english": "Your voice is too loud.", "chinese": "你的聲音太大聲。", "pinyin": "Nǐ de shēng yīn tài dà shēng." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang panahon ngayon ay napakainit.", "english": "Today's weather is very hot.", "chinese": "今天的天氣很熱。", "pinyin": "Jīn tiān de tiān qì hěn rè." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang pagtatrabaho sa ibang bansa ay isang napakagandang pagkakataon.", "english": "Working abroad is a great opportunity.", "chinese": "到外國工作是一個很好的機會。", "pinyin": "Dào wài guó gōng zuò shì yí gè hěn hǎo de jī huì." }
+        ]}
+      ]
+    }
+  ]
+}
