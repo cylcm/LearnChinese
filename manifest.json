@@ -15,7 +15,10 @@
     { "id": 12, "file": "data/lessons/lesson12.json", "title": "Going Abroad / Travel", "title_zh": "出國 / 旅遊", "type": "vocab" },
     { "id": 17, "file": "data/lessons/lesson17.json", "title": "Food & Condiments", "title_zh": "食物 / 調味", "type": "vocab" },
     { "id": 18, "file": "data/lessons/lesson18.json", "title": "Caring for the Sick", "title_zh": "照顧病患", "type": "vocab" },
-    { "id": 19, "file": "data/lessons/lesson19.json", "title": "Parts of the Body", "title_zh": "身體部位", "type": "vocab" }
+    { "id": 19, "file": "data/lessons/lesson19.json", "title": "Parts of the Body", "title_zh": "身體部位", "type": "vocab" },
+    { "id": 20, "file": "data/lessons/lesson20.json", "title": "Common Illness", "title_zh": "身體不適", "type": "vocab" },
+    { "id": 21, "file": "data/lessons/lesson21.json", "title": "Units of Measurement & Specifiers", "title_zh": "單位", "type": "vocab" },
+    { "id": 22, "file": "data/lessons/lesson22_roleplay.json", "title": "Sample Conversation for Role Play", "title_zh": "短劇對話", "type": "dialogue" }
   ],
   "references": [
     { "id": "pinyin", "title": "Pinyin & Tones (Lesson 1)", "builtin": true }
