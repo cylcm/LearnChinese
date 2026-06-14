@@ -1,0 +1,36 @@
+{
+  "id": 14,
+  "title": "Telephone Conversation",
+  "title_zh": "電話交談",
+  "sections": [
+    {
+      "heading": "Conversations",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [ { "filipino": "Hello!", "english": "Hello!", "chinese": "喂!", "pinyin": "Wéi! (only use in telephone conversation)" } ] },
+        { "lines": [ { "filipino": "Nandyan po ba si ___?", "english": "Is ___ there? / May I talk to ___?", "chinese": "請問 ___ 在嗎?", "pinyin": "Qǐng wèn ___ zài ma?" } ] },
+        { "lines": [ { "filipino": "Sino po sila?", "english": "Who's calling?", "chinese": "請問那裡找?", "pinyin": "Qǐng wèn nǎ lǐ zhǎo?" } ] },
+        { "lines": [ { "filipino": "Ako po si ___.", "english": "I am ___.", "chinese": "我是 ___。", "pinyin": "Wǒ shì ___." } ] },
+        { "lines": [ { "filipino": "Sandali lang po.", "english": "Please wait for a moment.", "chinese": "請等一下。", "pinyin": "Qǐng děng yí xià." } ] },
+        { "lines": [ { "filipino": "Sori, mali ang numerong tinawagan niyo.", "english": "Sorry, wrong number.", "chinese": "對不起,打錯了。", "pinyin": "Duì bù qǐ, dǎ cuò le." } ] },
+        { "lines": [ { "filipino": "Sino po ang kailangan nila?", "english": "Who are you looking for?", "chinese": "請問您找誰?", "pinyin": "Qǐng wèn nín zhǎo shéi?" } ] },
+        { "lines": [ { "filipino": "Hinahanap ko si ___.", "english": "I am looking for ___.", "chinese": "我找 ___。", "pinyin": "Wǒ zhǎo ___." } ] },
+        { "lines": [ { "filipino": "Nais ko po makausap si ___.", "english": "I want to talk to ___.", "chinese": "我想要跟 ___ 講話。", "pinyin": "Wǒ xiǎng yào gēn ___ jiǎng huà." } ] },
+        { "lines": [ { "filipino": "Wala po siya.", "english": "He / she is not here.", "chinese": "他不在。", "pinyin": "Tā bú zài." } ] },
+        { "lines": [ { "filipino": "Magbilin na lang po kayo.", "english": "Please leave a message.", "chinese": "請留話。", "pinyin": "Qǐng liú huà." } ] },
+        { "lines": [ { "filipino": "Tawag na lang kayo ulit.", "english": "Please call back.", "chinese": "請再打來。", "pinyin": "Qǐng zài dǎ lái." } ] },
+        { "lines": [ { "filipino": "Ano po ang apelyido at pangalan nila?", "english": "May I have your surname and first name?", "chinese": "請問您貴姓大名?", "pinyin": "Qǐng wèn nín guì xìng dà míng?" } ] },
+        { "lines": [ { "filipino": "Apelyido ko ay ___, pangalan ko ay ___.", "english": "My surname is ___, my name is ___.", "chinese": "我姓 ___,我叫 ___。", "pinyin": "Wǒ xìng ___, Wǒ jiào ___." } ] },
+        { "lines": [ { "filipino": "Puwede po bang makigamit ng telepono?", "english": "May I use your telephone?", "chinese": "我可以借用一下電話嗎?", "pinyin": "Wǒ kě yǐ jiè yòng yí xià diàn huà ma?" } ] },
+        { "lines": [ { "filipino": "Puwede po bang malaman ang numero ng telepono niyo?", "english": "May I have your telephone number?", "chinese": "請問您的電話幾號?", "pinyin": "Qǐng wèn nín de diàn huà jǐ hào?" } ] },
+        { "lines": [ { "filipino": "Mayroon ba kayong directory ng telepono?", "english": "Do you have a telephone directory?", "chinese": "你有電話簿嗎?", "pinyin": "Nǐ yǒu diàn huà bù ma?" } ] },
+        { "lines": [ { "filipino": "Gagawin ko.", "english": "I will do it.", "chinese": "我會做。", "pinyin": "Wǒ huì zuò." } ] },
+        { "lines": [ { "filipino": "Walang problema, sasabihin ko sa kanya.", "english": "No problem, I will tell him.", "chinese": "沒問題,我會告訴他。", "pinyin": "Méi wèn tí, Wǒ huì gào sù tā." } ] },
+        { "lines": [ { "filipino": "Tatawag sa telepono.", "english": "Make a telephone call.", "chinese": "打電話。", "pinyin": "Dǎ diàn huà." } ] },
+        { "lines": [ { "filipino": "Tawagan ako sa telepono.", "english": "Please return call.", "chinese": "請回電話給我。", "pinyin": "Qǐng huí diàn huà gěi wǒ." } ] },
+        { "lines": [ { "filipino": "May tumawag po sa inyo.", "english": "Someone called you.", "chinese": "有人打電話找你。", "pinyin": "Yǒu rén dǎ diàn huà zhǎo nǐ." } ] },
+        { "lines": [ { "filipino": "Tumawag ka sa Pilipinas.", "english": "Please call to the Philippines.", "chinese": "請打電話回菲律賓。", "pinyin": "Qǐng dǎ diàn huà huí Fēi Lǜ Bīn." } ] }
+      ]
+    }
+  ]
+}

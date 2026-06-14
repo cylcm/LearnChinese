@@ -1,0 +1,48 @@
+{
+  "id": 16,
+  "title": "Household Chores",
+  "title_zh": "家務事",
+  "sections": [
+    {
+      "heading": "Conversations",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [ { "filipino": "Saan nakalagay ang ___?", "english": "Where did you put the ___?", "chinese": "___ 放在那裡?", "pinyin": "___ fàng zài nǎ lǐ?" } ] },
+        { "lines": [ { "filipino": "Alagaan ang bata.", "english": "Take care of the children.", "chinese": "帶小孩 / 照顧小孩。", "pinyin": "Dài xiǎo hái / Zhào gù xiǎo hái." } ] },
+        { "lines": [ { "filipino": "Mag-timpla ng gatas.", "english": "Make milk.", "chinese": "沖牛奶。", "pinyin": "Chōng niú nǎi." } ] },
+        { "lines": [ { "filipino": "Painumin ng gatas.", "english": "Feed milk.", "chinese": "餵牛奶。", "pinyin": "Wèi niú nǎi." } ] },
+        { "lines": [ { "filipino": "Hugasan ang bote ng gatas.", "english": "Wash the milk bottle.", "chinese": "洗奶瓶。", "pinyin": "Xǐ nǎi píng." } ] },
+        { "lines": [ { "filipino": "Palitan ang lampin.", "english": "Change the diaper.", "chinese": "換尿布。", "pinyin": "Huàn niào bù." } ] },
+        { "lines": [ { "filipino": "Palitan ang damit ng bata.", "english": "Change the child's clothes.", "chinese": "幫小孩換衣服。", "pinyin": "Bāng xiǎo hái huàn yī fú." } ] },
+        { "lines": [ { "filipino": "Patulugin ang bata.", "english": "Put the child to sleep.", "chinese": "哄小孩睡覺。", "pinyin": "Hǒng xiǎo hái shuì jiào." } ] },
+        { "lines": [ { "filipino": "Paliguan ang bata.", "english": "Give the child a bath.", "chinese": "幫小孩洗澡。", "pinyin": "Bāng xiǎo hái xǐ zǎo." } ] },
+        { "lines": [ { "filipino": "Maglaba ng damit.", "english": "Wash the clothes.", "chinese": "洗衣服。", "pinyin": "Xǐ yī fú." } ] },
+        { "lines": [ { "filipino": "Isampay ang damit.", "english": "Hang the clothes.", "chinese": "晾衣服。", "pinyin": "Liàng yī fú." } ] },
+        { "lines": [ { "filipino": "Patuyuin ang damit.", "english": "Dry the clothes.", "chinese": "烘乾衣服。", "pinyin": "Hōng gān yī fú." } ] },
+        { "lines": [ { "filipino": "Iligpit ang sampay.", "english": "Collect the hanged clothes.", "chinese": "收衣服。", "pinyin": "Shōu yī fú." } ] },
+        { "lines": [ { "filipino": "Tupiin ang damit.", "english": "Fold the clothes.", "chinese": "摺衣服。", "pinyin": "Zhé yī fú." } ] },
+        { "lines": [ { "filipino": "Plantsahin ang damit.", "english": "Iron the clothes.", "chinese": "燙衣服。", "pinyin": "Tàng yī fú." } ] },
+        { "lines": [ { "filipino": "Walisin ang sahig.", "english": "Sweep the floor.", "chinese": "掃地板。", "pinyin": "Sǎo dì bǎn." } ] },
+        { "lines": [ { "filipino": "Maglampaso.", "english": "Mop the floor.", "chinese": "拖地板。", "pinyin": "Tuō dì bǎn." } ] },
+        { "lines": [ { "filipino": "Linisin ang bintana.", "english": "Clean the window.", "chinese": "洗窗戶。", "pinyin": "Xǐ chuāng hù." } ] },
+        { "lines": [ { "filipino": "Linisin ang kubeta.", "english": "Clean the restroom.", "chinese": "洗廁所。", "pinyin": "Xǐ cè suǒ." } ] },
+        { "lines": [ { "filipino": "Linisin ang sasakyan.", "english": "Wash the car.", "chinese": "洗車。", "pinyin": "Xǐ chē." } ] },
+        { "lines": [ { "filipino": "Linisin ang refrigerator.", "english": "Clean the refrigerator.", "chinese": "洗冰箱。", "pinyin": "Xǐ bīng xiāng." } ] },
+        { "lines": [ { "filipino": "Hugasan ang tasa at plato.", "english": "Wash the dishes.", "chinese": "洗碗盤。", "pinyin": "Xǐ wǎn pán." } ] },
+        { "lines": [ { "filipino": "Hugasan ang mga gamit sa kusina.", "english": "Wash the kitchenwares.", "chinese": "清洗廚房用具。", "pinyin": "Qǐng xǐ chú fáng yòng jù." } ] },
+        { "lines": [ { "filipino": "Punasan ang mesa.", "english": "Wipe the table.", "chinese": "擦桌子。", "pinyin": "Cā zhuō zi." } ] },
+        { "lines": [ { "filipino": "Mamalengke.", "english": "Go to market.", "chinese": "買菜。", "pinyin": "Mǎi cài." } ] },
+        { "lines": [ { "filipino": "Magluto.", "english": "Cook meal.", "chinese": "煮飯。", "pinyin": "Zhǔ fàn." } ] },
+        { "lines": [ { "filipino": "Maghiwa ng gulay.", "english": "Cut the vegetables.", "chinese": "切菜。", "pinyin": "Qiē cài." } ] },
+        { "lines": [ { "filipino": "Linisin ang bahay.", "english": "Clean the house.", "chinese": "打掃房子。", "pinyin": "Dǎ sǎo fáng zi." } ] },
+        { "lines": [ { "filipino": "Diligan ang halaman.", "english": "Water the plants.", "chinese": "澆花。", "pinyin": "Jiāo huā." } ] },
+        { "lines": [ { "filipino": "Itapon ang basura.", "english": "Dispose the garbage.", "chinese": "倒垃圾。", "pinyin": "Dào lè sè." } ] },
+        { "lines": [ { "filipino": "Bantayan ang bahay.", "english": "Look after the house.", "chinese": "看家。", "pinyin": "Kàn jiā." } ] },
+        { "lines": [ { "filipino": "Asikasuhin ang bisita.", "english": "Entertain the guest.", "chinese": "招待 / 招呼客人。", "pinyin": "Zhāo dài / zhāo hū kè rén." } ] },
+        { "lines": [ { "filipino": "Anong oras po ang balik ninyo?", "english": "When are you coming back?", "chinese": "你們什麼時候回來?", "pinyin": "Nǐ mén shé me shí hòu huí lái?" } ] },
+        { "lines": [ { "filipino": "Tandaan ikandado ang pinto.", "english": "Remember to lock the door.", "chinese": "記得鎖門。", "pinyin": "Jì dé suǒ mén." } ] },
+        { "lines": [ { "filipino": "Huwag kalimutan magdala ng susi.", "english": "Don't forget to bring the keys.", "chinese": "不要忘記帶鑰匙。", "pinyin": "Bú yào wàng jì dài yào shí." } ] }
+      ]
+    }
+  ]
+}
