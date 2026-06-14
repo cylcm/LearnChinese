@@ -1,31 +1,180 @@
 {
   "course": "Mandarin Tutor — Filipino / English / 中文",
   "note": "Add new lessons by creating data/lessons/lessonNN.json and adding an entry here.",
-  "languages": ["filipino", "english", "chinese", "pinyin"],
+  "languages": [
+    "filipino",
+    "english",
+    "chinese",
+    "pinyin"
+  ],
   "lessons": [
-    { "id": 2, "file": "data/lessons/lesson02.json", "title": "Greetings & Apologies", "title_zh": "問候 / 道歉", "type": "vocab" },
-    { "id": 3, "file": "data/lessons/lesson03.json", "title": "Pronouns and Persons", "title_zh": "代名詞 / 稱謂", "type": "vocab" },
-    { "id": 4, "file": "data/lessons/lesson04.json", "title": "Self-Introduction & Simple Questions", "title_zh": "自我介紹 / 簡單問話", "type": "vocab" },
-    { "id": 5, "file": "data/lessons/lesson05.json", "title": "Numerals / Money", "title_zh": "數字 / 錢額", "type": "vocab" },
-    { "id": 6, "file": "data/lessons/lesson06.json", "title": "Calendar / Time", "title_zh": "日曆 / 時間", "type": "vocab" },
-    { "id": 8, "file": "data/lessons/lesson08.json", "title": "Verbs / Grammar", "title_zh": "動詞 / 文法", "type": "vocab" },
-    { "id": 7, "file": "data/lessons/lesson07.json", "title": "Adjectives / Grammar", "title_zh": "形容詞 / 文法", "type": "vocab" },
-    { "id": 9, "file": "data/lessons/lesson09.json", "title": "Pets, Pests and Insects", "title_zh": "寵物及昆蟲", "type": "vocab" },
-    { "id": 10, "file": "data/lessons/lesson10.json", "title": "Colors and Shapes", "title_zh": "顏色和形狀", "type": "vocab" },
-    { "id": 11, "file": "data/lessons/lesson11.json", "title": "Places and Directions", "title_zh": "地點和方向", "type": "vocab" },
-    { "id": 12, "file": "data/lessons/lesson12.json", "title": "Going Abroad / Travel", "title_zh": "出國 / 旅遊", "type": "vocab" },
-    { "id": 13, "file": "data/lessons/lesson13.json", "title": "Shopping / Personal Belongings", "title_zh": "購物 / 私人東西", "type": "vocab" },
-    { "id": 14, "file": "data/lessons/lesson14.json", "title": "Telephone Conversation", "title_zh": "電話交談", "type": "vocab" },
-    { "id": 15, "file": "data/lessons/lesson15.json", "title": "Parts of the House, Housewares & Appliances", "title_zh": "房屋各部份 / 家庭用具 / 電器", "type": "vocab" },
-    { "id": 16, "file": "data/lessons/lesson16.json", "title": "Household Chores", "title_zh": "家務事", "type": "vocab" },
-    { "id": 17, "file": "data/lessons/lesson17.json", "title": "Food & Condiments", "title_zh": "食物 / 調味", "type": "vocab" },
-    { "id": 18, "file": "data/lessons/lesson18.json", "title": "Caring for the Sick", "title_zh": "照顧病患", "type": "vocab" },
-    { "id": 19, "file": "data/lessons/lesson19.json", "title": "Parts of the Body", "title_zh": "身體部位", "type": "vocab" },
-    { "id": 20, "file": "data/lessons/lesson20.json", "title": "Common Illness", "title_zh": "身體不適", "type": "vocab" },
-    { "id": 21, "file": "data/lessons/lesson21.json", "title": "Units of Measurement & Specifiers", "title_zh": "單位", "type": "vocab" },
-    { "id": 22, "file": "data/lessons/lesson22_roleplay.json", "title": "Sample Conversation for Role Play", "title_zh": "短劇對話", "type": "dialogue" }
+    {
+      "id": 2,
+      "file": "data/lessons/lesson02.json",
+      "title": "Greetings & Apologies",
+      "title_zh": "問候 / 道歉",
+      "type": "vocab"
+    },
+    {
+      "id": 3,
+      "file": "data/lessons/lesson03.json",
+      "title": "Pronouns and Persons",
+      "title_zh": "代名詞 / 稱謂",
+      "type": "vocab"
+    },
+    {
+      "id": 4,
+      "file": "data/lessons/lesson04.json",
+      "title": "Self-Introduction & Simple Questions",
+      "title_zh": "自我介紹 / 簡單問話",
+      "type": "vocab"
+    },
+    {
+      "id": 5,
+      "file": "data/lessons/lesson05.json",
+      "title": "Numerals / Money",
+      "title_zh": "數字 / 錢額",
+      "type": "vocab"
+    },
+    {
+      "id": 6,
+      "file": "data/lessons/lesson06.json",
+      "title": "Calendar / Time",
+      "title_zh": "日曆 / 時間",
+      "type": "vocab"
+    },
+    {
+      "id": 8,
+      "file": "data/lessons/lesson08.json",
+      "title": "Verbs / Grammar",
+      "title_zh": "動詞 / 文法",
+      "type": "vocab"
+    },
+    {
+      "id": 7,
+      "file": "data/lessons/lesson07.json",
+      "title": "Adjectives / Grammar",
+      "title_zh": "形容詞 / 文法",
+      "type": "vocab"
+    },
+    {
+      "id": 9,
+      "file": "data/lessons/lesson09.json",
+      "title": "Pets, Pests and Insects",
+      "title_zh": "寵物及昆蟲",
+      "type": "vocab"
+    },
+    {
+      "id": 10,
+      "file": "data/lessons/lesson10.json",
+      "title": "Colors and Shapes",
+      "title_zh": "顏色和形狀",
+      "type": "vocab"
+    },
+    {
+      "id": 11,
+      "file": "data/lessons/lesson11.json",
+      "title": "Places and Directions",
+      "title_zh": "地點和方向",
+      "type": "vocab"
+    },
+    {
+      "id": 12,
+      "file": "data/lessons/lesson12.json",
+      "title": "Going Abroad / Travel",
+      "title_zh": "出國 / 旅遊",
+      "type": "vocab"
+    },
+    {
+      "id": 13,
+      "file": "data/lessons/lesson13.json",
+      "title": "Shopping / Personal Belongings",
+      "title_zh": "購物 / 私人東西",
+      "type": "vocab"
+    },
+    {
+      "id": 14,
+      "file": "data/lessons/lesson14.json",
+      "title": "Telephone Conversation",
+      "title_zh": "電話交談",
+      "type": "vocab"
+    },
+    {
+      "id": 15,
+      "file": "data/lessons/lesson15.json",
+      "title": "Parts of the House, Housewares & Appliances",
+      "title_zh": "房屋各部份 / 家庭用具 / 電器",
+      "type": "vocab"
+    },
+    {
+      "id": 16,
+      "file": "data/lessons/lesson16.json",
+      "title": "Household Chores",
+      "title_zh": "家務事",
+      "type": "vocab"
+    },
+    {
+      "id": 17,
+      "file": "data/lessons/lesson17.json",
+      "title": "Food & Condiments",
+      "title_zh": "食物 / 調味",
+      "type": "vocab"
+    },
+    {
+      "id": 18,
+      "file": "data/lessons/lesson18.json",
+      "title": "Caring for the Sick",
+      "title_zh": "照顧病患",
+      "type": "vocab"
+    },
+    {
+      "id": 19,
+      "file": "data/lessons/lesson19.json",
+      "title": "Parts of the Body",
+      "title_zh": "身體部位",
+      "type": "vocab"
+    },
+    {
+      "id": 20,
+      "file": "data/lessons/lesson20.json",
+      "title": "Common Illness",
+      "title_zh": "身體不適",
+      "type": "vocab"
+    },
+    {
+      "id": 21,
+      "file": "data/lessons/lesson21.json",
+      "title": "Units of Measurement & Specifiers",
+      "title_zh": "單位",
+      "type": "vocab"
+    },
+    {
+      "id": 22,
+      "file": "data/lessons/lesson22_roleplay.json",
+      "title": "Sample Conversation for Role Play",
+      "title_zh": "短劇對話",
+      "type": "dialogue"
+    },
+    {
+      "id": 23,
+      "file": "data/lessons/lesson23_songs.json",
+      "title": "Chinese Songs",
+      "title_zh": "中文歌曲",
+      "type": "dialogue"
+    },
+    {
+      "id": 24,
+      "file": "data/lessons/lesson24_exercises.json",
+      "title": "Exercises",
+      "title_zh": "練習",
+      "type": "vocab"
+    }
   ],
   "references": [
-    { "id": "pinyin", "title": "Pinyin & Tones (Lesson 1)", "builtin": true }
+    {
+      "id": "pinyin",
+      "title": "Pinyin & Tones (Lesson 1)",
+      "builtin": true
+    }
   ]
 }
