@@ -1,0 +1,271 @@
+{
+  "id": 6,
+  "title": "Calendar / Time",
+  "title_zh": "日曆 / 時間",
+  "columns": ["english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "1. Time",
+      "items": [
+        { "english": "calendar", "chinese": "日曆", "pinyin": "rì lì" },
+        { "english": "clock (orasan)", "chinese": "時鐘", "pinyin": "shí zhōng" },
+        { "english": "watch (relo)", "chinese": "手錶", "pinyin": "shǒu biǎo" },
+        { "english": "time", "chinese": "時間", "pinyin": "shí jiān" },
+        { "english": "hour", "chinese": "小時 / 鐘頭", "pinyin": "xiǎo shí / zhōng tóu" },
+        { "english": "minute", "chinese": "分 / 分鐘", "pinyin": "fēn / fēn zhōng" },
+        { "english": "second", "chinese": "秒", "pinyin": "miǎo" },
+        { "english": "o'clock", "chinese": "點", "pinyin": "diǎn" },
+        { "english": "half (y media)", "chinese": "半", "pinyin": "bàn" },
+        { "english": "day", "chinese": "天", "pinyin": "tiān" },
+        { "english": "date", "chinese": "日 / 號", "pinyin": "rì / hào" },
+        { "english": "week", "chinese": "星期 / 禮拜", "pinyin": "xīng qí / lǐ bài" },
+        { "english": "month", "chinese": "月", "pinyin": "yuè" },
+        { "english": "year", "chinese": "年", "pinyin": "nián" },
+        { "english": "morning", "chinese": "早上", "pinyin": "zǎo shàng" },
+        { "english": "noon", "chinese": "中午", "pinyin": "zhōng wǔ" },
+        { "english": "afternoon", "chinese": "下午", "pinyin": "xià wǔ" },
+        { "english": "evening", "chinese": "晚上", "pinyin": "wǎn shàng" },
+        { "english": "midnight", "chinese": "半夜", "pinyin": "bàn yè" },
+        { "english": "sometimes", "chinese": "有時候", "pinyin": "yǒu shí hòu" },
+        { "english": "never", "chinese": "從來沒有", "pinyin": "cóng lái méi yǒu" }
+      ]
+    },
+    {
+      "heading": "2. Clock",
+      "items": [
+        { "english": "one o'clock", "chinese": "一點", "pinyin": "yī diǎn" },
+        { "english": "two o'clock", "chinese": "兩點", "pinyin": "liǎng diǎn" },
+        { "english": "three o'clock", "chinese": "三點", "pinyin": "sān diǎn" },
+        { "english": "four o'clock", "chinese": "四點", "pinyin": "sì diǎn" },
+        { "english": "five o'clock", "chinese": "五點", "pinyin": "wǔ diǎn" },
+        { "english": "six o'clock", "chinese": "六點", "pinyin": "liù diǎn" },
+        { "english": "seven o'clock", "chinese": "七點", "pinyin": "qī diǎn" },
+        { "english": "eight o'clock", "chinese": "八點", "pinyin": "bā diǎn" },
+        { "english": "nine o'clock", "chinese": "九點", "pinyin": "jiǔ diǎn" },
+        { "english": "ten o'clock", "chinese": "十點", "pinyin": "shí diǎn" },
+        { "english": "eleven o'clock", "chinese": "十一點", "pinyin": "shí yī diǎn" },
+        { "english": "twelve o'clock", "chinese": "十二點", "pinyin": "shí èr diǎn" },
+        { "english": "1:30", "chinese": "一點半 / 一點三十分", "pinyin": "yī diǎn bàn / yī diǎn sān shí fēn" },
+        { "english": "5:03", "chinese": "五點零三分", "pinyin": "wǔ diǎn líng sān fēn" },
+        { "english": "6:45", "chinese": "六點四十五分", "pinyin": "liù diǎn sì shí wǔ fēn" },
+        { "english": "9:00am", "chinese": "早上九點", "pinyin": "zǎo shàng jiǔ diǎn" },
+        { "english": "3:10pm", "chinese": "下午三點十分", "pinyin": "xià wǔ sān diǎn shí fēn" }
+      ]
+    },
+    {
+      "heading": "3. Days of the Week",
+      "items": [
+        { "english": "Monday", "chinese": "星期一 / 禮拜一", "pinyin": "xīng qí yī / lǐ bài yī" },
+        { "english": "Tuesday", "chinese": "星期二 / 禮拜二", "pinyin": "xīng qí èr / lǐ bài èr" },
+        { "english": "Wednesday", "chinese": "星期三 / 禮拜三", "pinyin": "xīng qí sān / lǐ bài sān" },
+        { "english": "Thursday", "chinese": "星期四 / 禮拜四", "pinyin": "xīng qí sì / lǐ bài sì" },
+        { "english": "Friday", "chinese": "星期五 / 禮拜五", "pinyin": "xīng qí wǔ / lǐ bài wǔ" },
+        { "english": "Saturday", "chinese": "星期六 / 禮拜六", "pinyin": "xīng qí liù / lǐ bài liù" },
+        { "english": "Sunday", "chinese": "星期天 / 星期日 / 禮拜天 / 禮拜日", "pinyin": "xīng qí tiān / xīng qí rì / lǐ bài tiān / lǐ bài rì" },
+        { "english": "weekend", "chinese": "週末", "pinyin": "zhōu mò" }
+      ]
+    },
+    {
+      "heading": "4. Months of the Year",
+      "items": [
+        { "english": "January", "chinese": "一月 / 正月 / 元月", "pinyin": "yī yuè / zhèng yuè / yuán yuè" },
+        { "english": "February", "chinese": "二月", "pinyin": "èr yuè" },
+        { "english": "March", "chinese": "三月", "pinyin": "sān yuè" },
+        { "english": "April", "chinese": "四月", "pinyin": "sì yuè" },
+        { "english": "May", "chinese": "五月", "pinyin": "wǔ yuè" },
+        { "english": "June", "chinese": "六月", "pinyin": "liù yuè" },
+        { "english": "July", "chinese": "七月", "pinyin": "qī yuè" },
+        { "english": "August", "chinese": "八月", "pinyin": "bā yuè" },
+        { "english": "September", "chinese": "九月", "pinyin": "jiǔ yuè" },
+        { "english": "October", "chinese": "十月", "pinyin": "shí yuè" },
+        { "english": "November", "chinese": "十一月", "pinyin": "shí yī yuè" },
+        { "english": "December", "chinese": "十二月", "pinyin": "shí èr yuè" }
+      ]
+    },
+    {
+      "heading": "5. Past / Present / Future",
+      "items": [
+        { "english": "before", "chinese": "之前", "pinyin": "zhī qián" },
+        { "english": "after", "chinese": "之後", "pinyin": "zhī hòu" },
+        { "english": "a while ago", "chinese": "剛才", "pinyin": "gāng cái" },
+        { "english": "now", "chinese": "現在", "pinyin": "xiàn zài" },
+        { "english": "later", "chinese": "待會", "pinyin": "dāi huí" },
+        { "english": "which day?", "chinese": "哪一天？", "pinyin": "nǎ yī tiān?" },
+        { "english": "day before yesterday", "chinese": "前天", "pinyin": "qián tiān" },
+        { "english": "yesterday", "chinese": "昨天", "pinyin": "zuó tiān" },
+        { "english": "today", "chinese": "今天", "pinyin": "jīn tiān" },
+        { "english": "tomorrow", "chinese": "明天", "pinyin": "míng tiān" },
+        { "english": "day after tomorrow", "chinese": "後天", "pinyin": "hòu tiān" },
+        { "english": "yesterday morning", "chinese": "昨天早上", "pinyin": "zuó tiān zǎo shàng" },
+        { "english": "yesterday afternoon", "chinese": "昨天下午", "pinyin": "zuó tiān xià wǔ" },
+        { "english": "last night", "chinese": "昨天晚上", "pinyin": "zuó tiān wǎn shàng" },
+        { "english": "this morning", "chinese": "今天早上", "pinyin": "jīn tiān zǎo shàng" },
+        { "english": "this afternoon", "chinese": "今天下午", "pinyin": "jīn tiān xià wǔ" },
+        { "english": "tonight", "chinese": "今天晚上", "pinyin": "jīn tiān wǎn shàng" },
+        { "english": "tomorrow morning", "chinese": "明天早上", "pinyin": "míng tiān zǎo shàng" },
+        { "english": "tomorrow afternoon", "chinese": "明天下午", "pinyin": "míng tiān xià wǔ" },
+        { "english": "tomorrow night", "chinese": "明天晚上", "pinyin": "míng tiān wǎn shàng" },
+        { "english": "last week", "chinese": "上個星期 / 上個禮拜", "pinyin": "shàng gè xīng qí / shàng gè lǐ bài" },
+        { "english": "this week", "chinese": "這個星期 / 這個禮拜", "pinyin": "zhè gè xīng qí / zhè gè lǐ bài" },
+        { "english": "next week", "chinese": "下個星期 / 下個禮拜", "pinyin": "xià gè xīng qí / xià gè lǐ bài" },
+        { "english": "last month", "chinese": "上個月", "pinyin": "shàng gè yuè" },
+        { "english": "this month", "chinese": "這個月", "pinyin": "zhè gè yuè" },
+        { "english": "next month", "chinese": "下個月", "pinyin": "xià gè yuè" },
+        { "english": "last year", "chinese": "去年", "pinyin": "qù nián" },
+        { "english": "this year", "chinese": "今年", "pinyin": "jīn nián" },
+        { "english": "next year", "chinese": "明年", "pinyin": "míng nián" }
+      ]
+    },
+    {
+      "heading": "6. Each / Every",
+      "items": [
+        { "english": "every hour", "chinese": "每個小時", "pinyin": "měi gè xiǎo shí" },
+        { "english": "every morning", "chinese": "每個早上", "pinyin": "měi gè zǎo shàng" },
+        { "english": "every afternoon", "chinese": "每個下午", "pinyin": "měi gè xià wǔ" },
+        { "english": "every night", "chinese": "每個晚上", "pinyin": "měi gè wǎn shàng" },
+        { "english": "every day", "chinese": "每天", "pinyin": "měi tiān" },
+        { "english": "every week", "chinese": "每個星期 / 每個禮拜", "pinyin": "měi gè xīng qí / měi gè lǐ bài" },
+        { "english": "every month", "chinese": "每個月", "pinyin": "měi gè yuè" },
+        { "english": "every year", "chinese": "每年", "pinyin": "měi nián" }
+      ]
+    },
+    {
+      "heading": "7. Whole",
+      "items": [
+        { "english": "whole hour", "chinese": "整個小時", "pinyin": "zhěng gè xiǎo shí" },
+        { "english": "whole morning", "chinese": "整個早上", "pinyin": "zhěng gè zǎo shàng" },
+        { "english": "whole afternoon", "chinese": "整個下午", "pinyin": "zhěng gè xià wǔ" },
+        { "english": "whole evening", "chinese": "整個晚上", "pinyin": "zhěng gè wǎn shàng" },
+        { "english": "whole day", "chinese": "整天", "pinyin": "zhěng tiān" },
+        { "english": "whole week", "chinese": "整個星期 / 整個禮拜", "pinyin": "zhěng gè xīng qí / zhěng gè lǐ bài" },
+        { "english": "whole month", "chinese": "整個月", "pinyin": "zhěng gè yuè" },
+        { "english": "whole year", "chinese": "整年", "pinyin": "zhěng nián" }
+      ]
+    },
+    {
+      "heading": "8. How Many?",
+      "items": [
+        { "english": "half hour", "chinese": "半個小時", "pinyin": "bàn gè xiǎo shí" },
+        { "english": "one hour", "chinese": "一個小時", "pinyin": "yí gè xiǎo shí" },
+        { "english": "two hours", "chinese": "兩個小時", "pinyin": "liǎng gè xiǎo shí" },
+        { "english": "three hours", "chinese": "三個小時", "pinyin": "sān gè xiǎo shí" },
+        { "english": "half day", "chinese": "半天", "pinyin": "bàn tiān" },
+        { "english": "one day", "chinese": "一天", "pinyin": "yì tiān" },
+        { "english": "two days", "chinese": "兩天", "pinyin": "liǎng tiān" },
+        { "english": "three days", "chinese": "三天", "pinyin": "sān tiān" },
+        { "english": "one week", "chinese": "一個星期 / 一個禮拜", "pinyin": "yí gè xīng qí / yí gè lǐ bài" },
+        { "english": "two weeks", "chinese": "兩個星期 / 兩個禮拜", "pinyin": "liǎng gè xīng qí / liǎng gè lǐ bài" },
+        { "english": "three weeks", "chinese": "三個星期 / 三個禮拜", "pinyin": "sān gè xīng qí / sān gè lǐ bài" },
+        { "english": "half month", "chinese": "半個月", "pinyin": "bàn gè yuè" },
+        { "english": "one month", "chinese": "一個月", "pinyin": "yí gè yuè" },
+        { "english": "two months", "chinese": "兩個月", "pinyin": "liǎng gè yuè" },
+        { "english": "three months", "chinese": "三個月", "pinyin": "sān gè yuè" },
+        { "english": "half year", "chinese": "半年", "pinyin": "bàn nián" },
+        { "english": "one year", "chinese": "一年", "pinyin": "yì nián" },
+        { "english": "two years", "chinese": "兩年", "pinyin": "liǎng nián" },
+        { "english": "three years", "chinese": "三年", "pinyin": "sān nián" }
+      ]
+    },
+    {
+      "heading": "9. Ordinals — th (ika / pang)",
+      "items": [
+        { "english": "first (una)", "chinese": "第一", "pinyin": "dì yī" },
+        { "english": "second (ikalawa)", "chinese": "第二", "pinyin": "dì èr" },
+        { "english": "third (ikatlo)", "chinese": "第三", "pinyin": "dì sān" },
+        { "english": "fourth (ikaapat)", "chinese": "第四", "pinyin": "dì sì" },
+        { "english": "fifth (ikalima)", "chinese": "第五", "pinyin": "dì wǔ" },
+        { "english": "first hour", "chinese": "第一個小時", "pinyin": "dì yí gè xiǎo shí" },
+        { "english": "second hour", "chinese": "第二個小時", "pinyin": "dì èr gè xiǎo shí" },
+        { "english": "third hour", "chinese": "第三個小時", "pinyin": "dì sān gè xiǎo shí" },
+        { "english": "first day", "chinese": "第一天", "pinyin": "dì yì tiān" },
+        { "english": "second day", "chinese": "第二天", "pinyin": "dì èr tiān" },
+        { "english": "third day", "chinese": "第三天", "pinyin": "dì sān tiān" },
+        { "english": "first week", "chinese": "第一個星期 / 第一個禮拜", "pinyin": "dì yí gè xīng qí / dì yí gè lǐ bài" },
+        { "english": "second week", "chinese": "第二個星期 / 第二個禮拜", "pinyin": "dì èr gè xīng qí / dì èr gè lǐ bài" },
+        { "english": "third week", "chinese": "第三個星期 / 第三個禮拜", "pinyin": "dì sān gè xīng qí / dì sān gè lǐ bài" },
+        { "english": "first month", "chinese": "第一個月", "pinyin": "dì yí gè yuè" },
+        { "english": "second month", "chinese": "第二個月", "pinyin": "dì èr gè yuè" },
+        { "english": "third month", "chinese": "第三個月", "pinyin": "dì sān gè yuè" },
+        { "english": "first year", "chinese": "第一年", "pinyin": "dì yì nián" },
+        { "english": "second year", "chinese": "第二年", "pinyin": "dì èr nián" },
+        { "english": "third year", "chinese": "第三年", "pinyin": "dì sān nián" }
+      ]
+    },
+    {
+      "heading": "10. Four Seasons",
+      "items": [
+        { "english": "spring (tagsibol)", "chinese": "春天 / 春季", "pinyin": "chūn tiān / chūn jì" },
+        { "english": "summer (tag-init)", "chinese": "夏天 / 夏季", "pinyin": "xià tiān / xià jì" },
+        { "english": "autumn (taglagas)", "chinese": "秋天 / 秋季", "pinyin": "qiū tiān / qiū jì" },
+        { "english": "winter (taglamig)", "chinese": "冬天 / 冬季", "pinyin": "dōng tiān / dōng jì" }
+      ]
+    },
+    {
+      "heading": "11. Conversations",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "filipino": "Anong oras na ngayon?", "english": "What time is it now?", "chinese": "現在幾點？", "pinyin": "Xiàn zài jǐ diǎn?" },
+          { "filipino": "Ngayon ay alas tres ng hapon.", "english": "Now is three o'clock in the afternoon.", "chinese": "現在是下午三點", "pinyin": "Xiàn zài shì xià wǔ sān diǎn." }
+        ]},
+        { "lines": [
+          { "filipino": "Anong petsa ngayon?", "english": "What is the date today?", "chinese": "今天是幾月幾號？", "pinyin": "Jīn tiān shì jǐ yuè jǐ hào?" },
+          { "filipino": "Ngayon ay ika-12 ng Setyembre.", "english": "Today is September 12.", "chinese": "今天是九月十二號", "pinyin": "Jīn tiān shì jiǔ yuè shí èr hào." }
+        ]},
+        { "lines": [
+          { "filipino": "Anong araw ngayon?", "english": "What day is it today?", "chinese": "今天是星期幾？", "pinyin": "Jīn tiān shì xīng qí jǐ?" },
+          { "filipino": "Ngayon ay Miyerkules.", "english": "Today is Wednesday.", "chinese": "今天是星期三", "pinyin": "Jīn tiān shì xīng qí sān." }
+        ]},
+        { "lines": [
+          { "filipino": "Alas otso ng umaga.", "english": "Eight o'clock in the morning.", "chinese": "早上八點", "pinyin": "Zǎo shàng bā diǎn." }
+        ]},
+        { "lines": [
+          { "filipino": "Biyernes ng hapon.", "english": "Friday afternoon.", "chinese": "星期五下午", "pinyin": "Xīng qí wǔ xià wǔ." }
+        ]},
+        { "lines": [
+          { "filipino": "Ikatlong linggo nitong buwan.", "english": "Third week of this month.", "chinese": "這個月第三個星期", "pinyin": "Zhè gè yuè dì sān gè xīng qí." }
+        ]},
+        { "lines": [
+          { "filipino": "Disyembre ng nakaraang taon.", "english": "December of Last year.", "chinese": "去年十二月", "pinyin": "Qù nián shí èr yuè." }
+        ]},
+        { "lines": [
+          { "filipino": "Ika-25 ng Oktubre, 2007.", "english": "October 25, 2007.", "chinese": "二零零七年十月二十五日", "pinyin": "èr líng líng qī nián shí yuè èr shí wǔ rì / liǎng qiān líng qī nián shí yuè èr shí wǔ rì" },
+          { "filipino": "(96th year of Republic of China, October 25 — Taiwan)", "english": "96th year of Republic of China, October 25 (Taiwan)", "chinese": "民國九十六年十月二十五日", "pinyin": "Mín guó jiǔ shí liù nián shí yuè èr shí wǔ rì" }
+        ]},
+        { "lines": [
+          { "filipino": "Maliligo ako mamaya.", "english": "I will take a bath later.", "chinese": "我待會要洗澡", "pinyin": "Wǒ dāi huí yào xǐ zǎo." }
+        ]},
+        { "lines": [
+          { "filipino": "Magluluto ako ng alas-sais ng hapon.", "english": "I will cook at 6 p.m.", "chinese": "我下午六點要煮飯", "pinyin": "Wǒ xià wǔ liù diǎn yào zhǔ fàn." }
+        ]},
+        { "lines": [
+          { "filipino": "Nagpatingin ako sa doktor kahapon.", "english": "I went to the doctor yesterday.", "chinese": "我昨天去看醫生", "pinyin": "Wǒ zuó tiān qù kàn yī shēng." }
+        ]},
+        { "lines": [
+          { "filipino": "Tumawag ako sa nars kanina.", "english": "I called the nurse a while ago.", "chinese": "我剛才打電話給護士", "pinyin": "Wǒ gāng cái dǎ diàn huà gěi hù shì." }
+        ]},
+        { "lines": [
+          { "filipino": "Pupunta ako sa Taiwan bukas ng alas otso ng umaga.", "english": "I will go to Taiwan tomorrow 8 a.m.", "chinese": "我明天早上八點要去台灣", "pinyin": "Wǒ míng tiān zǎo shàng bā diǎn yào qù Tái Wān." }
+        ]},
+        { "lines": [
+          { "filipino": "Mayroon akong oras sa Lunes.", "english": "I have time on Monday.", "chinese": "我星期一有時間", "pinyin": "Wǒ xīng qí yī yǒu shí jiān." }
+        ]},
+        { "lines": [
+          { "filipino": "Maraming ginagawa ang boss ko sa linggo ng hapon.", "english": "My boss is busy on Sunday afternoon.", "chinese": "我的老闆星期天下午很忙", "pinyin": "Wǒ de lǎo bǎn xīng qí tiān xià wǔ hěn máng." }
+        ]},
+        { "lines": [
+          { "filipino": "Uuwi sila sa Pilipinas sa susunod na buwan.", "english": "They will be going back to the Philippines next month.", "chinese": "他們下個月要回菲律賓", "pinyin": "Tā mén xià gè yuè yào huí Fēi Lǜ Bīn." }
+        ]},
+        { "lines": [
+          { "filipino": "Ang araw ng aking pahinga ay Sabado.", "english": "My day-off is on Saturday.", "chinese": "我星期六休假", "pinyin": "Wǒ xīng qí liù xiū jià." }
+        ]},
+        { "lines": [
+          { "filipino": "Pista opisyal bukas.", "english": "Tomorrow is a holiday.", "chinese": "明天是假期", "pinyin": "Míng tiān shì jià qí." }
+        ]},
+        { "lines": [
+          { "filipino": "May bagyo sa susunod na linggo.", "english": "There will be a typhoon next week.", "chinese": "下個星期有颱風", "pinyin": "Xià gè xīng qí yǒu tái fēng." }
+        ]}
+      ]
+    }
+  ]
+}

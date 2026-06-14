@@ -1,0 +1,40 @@
+{
+  "id": 10,
+  "title": "Colors and Shapes",
+  "title_zh": "顏色和形狀",
+  "columns": ["filipino", "english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "1. Colors",
+      "items": [
+        { "filipino": "kulay", "english": "color", "chinese": "顏色", "pinyin": "yán sè" },
+        { "filipino": "gatas", "english": "beige", "chinese": "米色", "pinyin": "mǐ sè" },
+        { "filipino": "itim", "english": "black", "chinese": "黑色", "pinyin": "hēi sè" },
+        { "filipino": "asul", "english": "blue", "chinese": "藍色", "pinyin": "lán sè" },
+        { "filipino": "kayumanggi", "english": "brown", "chinese": "咖啡色", "pinyin": "kā fēi sè" },
+        { "filipino": "berde", "english": "green", "chinese": "綠色", "pinyin": "lǜ sè" },
+        { "filipino": "dalandan", "english": "orange", "chinese": "橘色 / 橙色", "pinyin": "jú sè / chén sè" },
+        { "filipino": "rosas", "english": "pink", "chinese": "粉紅色", "pinyin": "fěn hóng sè" },
+        { "filipino": "biyoleta", "english": "purple", "chinese": "紫色", "pinyin": "zǐ sè" },
+        { "filipino": "pula", "english": "red", "chinese": "紅色", "pinyin": "hóng sè" },
+        { "filipino": "puti", "english": "white", "chinese": "白色", "pinyin": "bái sè" },
+        { "filipino": "dilaw", "english": "yellow", "chinese": "黃色", "pinyin": "huáng sè" },
+        { "filipino": "ginto", "english": "gold", "chinese": "金色", "pinyin": "jīn sè" },
+        { "filipino": "pilak", "english": "silver", "chinese": "銀色", "pinyin": "yín sè" },
+        { "filipino": "matingkad na kulay", "english": "dark color", "chinese": "深色", "pinyin": "shēn sè" },
+        { "filipino": "mapusyaw na kulay", "english": "light color", "chinese": "淺色", "pinyin": "qiǎn sè" }
+      ]
+    },
+    {
+      "heading": "2. Shapes",
+      "items": [
+        { "filipino": "hugis", "english": "shape", "chinese": "形狀", "pinyin": "xíng zhuàng" },
+        { "filipino": "bilog", "english": "round", "chinese": "圓形", "pinyin": "yuán xíng" },
+        { "filipino": "habilog", "english": "oval", "chinese": "橢圓形", "pinyin": "tuǒ yuán xíng" },
+        { "filipino": "triyanggulo", "english": "triangle", "chinese": "三角形", "pinyin": "sān jiǎo xíng" },
+        { "filipino": "kuwadrado", "english": "square", "chinese": "正方形", "pinyin": "zhèng fāng xíng" },
+        { "filipino": "rektanggulo", "english": "rectangle", "chinese": "長方形", "pinyin": "cháng fāng xíng" }
+      ]
+    }
+  ]
+}

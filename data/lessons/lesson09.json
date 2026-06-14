@@ -1,0 +1,27 @@
+{
+  "id": 9,
+  "title": "Pets, Pests and Insects",
+  "title_zh": "寵物及昆蟲",
+  "columns": ["filipino", "english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "Pets, Pests and Insects",
+      "items": [
+        { "filipino": "pusa", "english": "cat", "chinese": "貓", "pinyin": "māo" },
+        { "filipino": "aso", "english": "dog", "chinese": "狗", "pinyin": "gǒu" },
+        { "filipino": "ibon", "english": "bird", "chinese": "鳥", "pinyin": "niǎo" },
+        { "filipino": "isda", "english": "gold fish", "chinese": "金魚", "pinyin": "jīn yú" },
+        { "filipino": "pagong", "english": "turtle", "chinese": "龜", "pinyin": "guī" },
+        { "filipino": "daga", "english": "mouse / rat", "chinese": "老鼠", "pinyin": "lǎo shǔ" },
+        { "filipino": "gagamba", "english": "spider", "chinese": "蜘蛛", "pinyin": "zhī zhū" },
+        { "filipino": "butiki", "english": "lizard", "chinese": "蜥蜴", "pinyin": "xī yì" },
+        { "filipino": "ipis", "english": "cockroach", "chinese": "蟑螂", "pinyin": "zhāng láng" },
+        { "filipino": "lamok", "english": "mosquito", "chinese": "蚊子", "pinyin": "wén zi" },
+        { "filipino": "langaw", "english": "flies", "chinese": "蒼蠅", "pinyin": "cāng yíng" },
+        { "filipino": "langgam", "english": "ant", "chinese": "螞蟻", "pinyin": "mǎ yǐ" },
+        { "filipino": "anay", "english": "termite", "chinese": "白蟻", "pinyin": "bái yǐ" },
+        { "filipino": "uod / bulati", "english": "worm", "chinese": "蟲", "pinyin": "chóng" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 5,
+  "title": "Numerals / Money",
+  "title_zh": "數字 / 錢額",
+  "columns": ["english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "1. The Chinese Number System",
+      "items": [
+        { "english": "0 — zero", "chinese": "〇", "pinyin": "líng" },
+        { "english": "1 — one", "chinese": "一", "pinyin": "yī" },
+        { "english": "2 — two", "chinese": "二", "pinyin": "èr" },
+        { "english": "2 — two (used when a noun follows)", "chinese": "兩", "pinyin": "liǎng" },
+        { "english": "3 — three", "chinese": "三", "pinyin": "sān" },
+        { "english": "4 — four", "chinese": "四", "pinyin": "sì" },
+        { "english": "5 — five", "chinese": "五", "pinyin": "wǔ" },
+        { "english": "6 — six", "chinese": "六", "pinyin": "liù" },
+        { "english": "7 — seven", "chinese": "七", "pinyin": "qī" },
+        { "english": "8 — eight", "chinese": "八", "pinyin": "bā" },
+        { "english": "9 — nine", "chinese": "九", "pinyin": "jiǔ" },
+        { "english": "10 — ten", "chinese": "十", "pinyin": "shí" },
+        { "english": "11 — eleven (lit. ten one)", "chinese": "十一", "pinyin": "shí yī" },
+        { "english": "12 — twelve (lit. ten two)", "chinese": "十二", "pinyin": "shí èr" },
+        { "english": "20 — twenty (lit. two tens)", "chinese": "二十", "pinyin": "èr shí" },
+        { "english": "30 — thirty (lit. three tens)", "chinese": "三十", "pinyin": "sān shí" },
+        { "english": "100's — hundred", "chinese": "百", "pinyin": "bǎi" },
+        { "english": "1,000's — thousand", "chinese": "千", "pinyin": "qiān" },
+        { "english": "10,000's — ten thousand", "chinese": "萬", "pinyin": "wàn" },
+        { "english": "100,000's — hundred thousand", "chinese": "十萬", "pinyin": "shí wàn" },
+        { "english": "1,000,000's — million", "chinese": "百萬", "pinyin": "bǎi wàn" },
+        { "english": "10,000,000's — ten million", "chinese": "千萬", "pinyin": "qiān wàn" }
+      ]
+    },
+    {
+      "heading": "Forming numbers 10–99",
+      "type": "notes",
+      "text": "Numbers from 10 to 99 are formed by multiplying tens. Examples: 22 = 2×10+2 = 二十二 (èr shí èr); 34 = 3×10+4 = 三十四 (sān shí sì); 52 = 5×10+2 = 五十二 (wǔ shí èr); 63 = 6×10+3 = 六十三 (liù shí sān); 99 = 9×10+9 = 九十九 (jiǔ shí jiǔ)."
+    },
+    {
+      "heading": "About the Chinese Number System",
+      "type": "notes",
+      "text": "China uses both Arabic numerals and its native Chinese-character number system. The Chinese system is base-10 with characters for 0–9. A simple circle 〇 can also be used for zero. Eleven is \"ten one\", twelve \"ten two\"; twenty is \"two ten\" (2×10), and so on to 99. One-hundred is \"one hundred\"; 101 is \"one hundred zero one\"; 111 is \"one hundred one ten one\". For 1,000 and above you say how many thousands, hundreds, tens and ones. When a zero occurs inside a number (not at the end) you say \"zero\" once for one or more consecutive zeroes — so 1,001 is \"one thousand zero one\". Unlike English (which groups every three decimal places: thousand, million, billion), Chinese introduces a new character every FOUR decimal places: 萬 wàn = ten-thousand, and 億 yì = hundred-million. So 100,000 is \"ten wàn\" (十萬)."
+    },
+    {
+      "heading": "Formal characters, fractions & decimals",
+      "type": "notes",
+      "text": "Regular number characters use few strokes (一二三 are just 1–3 horizontal lines). To prevent fraud on checks, Chinese also has formal complex characters that can't be easily altered. Numbers can be abbreviated by listing digits with tens/hundreds omitted. 兩 (liǎng) is a variant of \"two\" used in the hundred-million, ten-thousand, thousand or hundred place — never in the tens place. Shorthand forms 廿 (niàn) = twenty and 卅 (sà) = thirty appear in newspapers/dates. Fractions use denominator + 分之 (fēn zhī, \"parts of\") + numerator, so two-thirds is \"three fēn zhī two\". Percent uses \"hundred fēn zhī [amount]\" — 63% is \"hundred fēn zhī six ten three\". The decimal point is the character 點 (diǎn)."
+    },
+    {
+      "heading": "2. Money",
+      "items": [
+        { "english": "money", "chinese": "錢", "pinyin": "qián" },
+        { "english": "coin", "chinese": "硬幣", "pinyin": "yìng bì" },
+        { "english": "bill", "chinese": "鈔票", "pinyin": "chāo piào" },
+        { "english": "New Taiwan dollar (NT$)", "chinese": "台幣", "pinyin": "Tái bì" },
+        { "english": "Singapore dollar (Sg$)", "chinese": "星幣", "pinyin": "Xīng bì" },
+        { "english": "Philippine peso (Php)", "chinese": "菲幣 / 批索", "pinyin": "Fēi bì / Pī suǒ" },
+        { "english": "U.S. dollar (US$)", "chinese": "美金 / 美元", "pinyin": "Měi jīn / Měi yuán" },
+        { "english": "1¢", "chinese": "一分", "pinyin": "yì fēn" },
+        { "english": "5¢", "chinese": "五分", "pinyin": "wǔ fēn" },
+        { "english": "10¢", "chinese": "一毛錢", "pinyin": "yì máo qián" },
+        { "english": "20¢", "chinese": "兩毛錢", "pinyin": "liǎng máo qián" },
+        { "english": "50¢", "chinese": "五毛錢", "pinyin": "wǔ máo qián" },
+        { "english": "$1", "chinese": "一塊", "pinyin": "yí kuài" },
+        { "english": "$10", "chinese": "十塊", "pinyin": "shí kuài" },
+        { "english": "$76", "chinese": "七十六塊", "pinyin": "qī shí liù kuài" },
+        { "english": "$190.50", "chinese": "一百九十塊五毛錢", "pinyin": "yì bǎi jiǔ shí kuài wǔ máo qián" },
+        { "english": "$350", "chinese": "三百五十塊", "pinyin": "sān bǎi wǔ shí kuài" },
+        { "english": "$1,248", "chinese": "一千兩百四十八塊", "pinyin": "yì qiān liǎng bǎi sì shí bā kuài" },
+        { "english": "$15,840", "chinese": "一萬五千八百四十塊", "pinyin": "yí wàn wǔ qiān bā bǎi sì shí kuài" }
+      ]
+    }
+  ]
+}

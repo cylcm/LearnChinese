@@ -1,0 +1,156 @@
+{
+  "id": 4,
+  "title": "Self-Introduction & Simple Questions",
+  "title_zh": "自我介紹 / 簡單問話",
+  "columns": ["filipino", "english", "chinese", "pinyin"],
+  "sections": [
+    {
+      "heading": "1. Question Words",
+      "items": [
+        { "filipino": "Ano", "english": "What", "chinese": "什麼", "pinyin": "shé me" },
+        { "filipino": "Saan", "english": "Where", "chinese": "那裡", "pinyin": "nǎ lǐ" },
+        { "filipino": "Sino", "english": "Who", "chinese": "誰", "pinyin": "shéi" },
+        { "filipino": "Kailan", "english": "When", "chinese": "什麼時候", "pinyin": "shé me shí hòu" },
+        { "filipino": "Anong oras", "english": "What time", "chinese": "幾點", "pinyin": "jǐ diǎn" },
+        { "filipino": "Paano", "english": "How", "chinese": "怎樣 / 怎麼", "pinyin": "zěn yàng / zěn me" },
+        { "filipino": "Kanino", "english": "Whose", "chinese": "誰的", "pinyin": "shéi de" },
+        { "filipino": "Bakit", "english": "Why", "chinese": "為什麼", "pinyin": "wèi shé me" },
+        { "filipino": "Magkano", "english": "How much", "chinese": "多少錢", "pinyin": "duō shǎo qián" },
+        { "filipino": "Ilan", "english": "How many", "chinese": "多少(個) / 幾(個)", "pinyin": "duō shǎo (gè) / jǐ (gè)" },
+        { "filipino": "Gaano katagal", "english": "How long", "chinese": "多久", "pinyin": "duō jiǔ" },
+        { "filipino": "Dapat", "english": "Should / Must", "chinese": "應該", "pinyin": "yīng gāi" },
+        { "filipino": "Dahil", "english": "Because", "chinese": "因為", "pinyin": "yīn wèi" },
+        { "filipino": "Kaya", "english": "That's why", "chinese": "所以", "pinyin": "suǒ yǐ" },
+        { "filipino": "Kahit", "english": "Although", "chinese": "雖然", "pinyin": "suī rán" },
+        { "filipino": "Subalit", "english": "But", "chinese": "可是 / 但是 / 不過", "pinyin": "kě shì / dàn shì / bú guò" },
+        { "filipino": "Kapag", "english": "If", "chinese": "如果", "pinyin": "rú guǒ" },
+        { "filipino": "Baka", "english": "Maybe", "chinese": "可能", "pinyin": "kě néng" },
+        { "filipino": "Gayon din", "english": "And also", "chinese": "還有", "pinyin": "hái yǒu" },
+        { "filipino": "Nasa", "english": "In / On / At", "chinese": "在", "pinyin": "zài" },
+        { "filipino": "at", "english": "and", "chinese": "和", "pinyin": "hé" },
+        { "filipino": "ay", "english": "is / are", "chinese": "是", "pinyin": "shì" },
+        { "filipino": "ba", "english": "(question particle)", "chinese": "嗎", "pinyin": "ma" }
+      ]
+    },
+    {
+      "heading": "2. Conversations",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "filipino": "Puwede po magtanong?", "english": "May I ask?", "chinese": "請問….", "pinyin": "Qǐng wèn…" }
+        ]},
+        { "lines": [
+          { "filipino": "Anong pangalan mo?", "english": "What is your name?", "chinese": "你叫什麼名字？", "pinyin": "Nǐ jiào shé me míng zi?" },
+          { "filipino": "Ako ay si ___.", "english": "I am ___.", "chinese": "我叫 ___", "pinyin": "Wǒ jiào ___." }
+        ]},
+        { "lines": [
+          { "filipino": "Saan ka ipinanganak?", "english": "Where were you born?", "chinese": "你在那裡出生？", "pinyin": "Nǐ zài nǎ lǐ chū shēng?" },
+          { "filipino": "Sa ___ ako ipinanganak.", "english": "I was born in ___.", "chinese": "我在 ___ 出生", "pinyin": "Wǒ zài ___ chū shēng" }
+        ]},
+        { "lines": [
+          { "filipino": "Kailan ang kaarawan mo?", "english": "When's your birthday?", "chinese": "你什麼時候生日？", "pinyin": "Nǐ shé me shí hòu shēng rì?" },
+          { "filipino": "Ang aking kaarawan ay sa ika-___ ng ___, taong ___.", "english": "My birthday is on ___ (year) ___ (month) ___ (date).", "chinese": "我的生日是 ___ 年 ___ 月 ___ 日", "pinyin": "Wǒ de shēng rì shì ___ nián ___ yuè ___ rì." }
+        ]},
+        { "lines": [
+          { "filipino": "Ilan taon ka na?", "english": "How old are you?", "chinese": "你幾歲？", "pinyin": "Nǐ jǐ suì?" },
+          { "filipino": "Ako ay ___ taon gulang.", "english": "I am ___ years old.", "chinese": "我 ___ 歲", "pinyin": "Wǒ ___ suì." }
+        ]},
+        { "lines": [
+          { "filipino": "May asawa ka na ba?", "english": "Are you married?", "chinese": "你結婚了嗎？", "pinyin": "Nǐ jié hūn le ma?" },
+          { "filipino": "May asawa na ako.", "english": "I am married.", "chinese": "我結婚了", "pinyin": "Wǒ jié hūn le." },
+          { "filipino": "Wala pa po akong asawa.", "english": "I am not married.", "chinese": "我還沒有結婚", "pinyin": "Wǒ hái méi yǒu jié hūn." },
+          { "filipino": "Hiwalay na ako sa asawa.", "english": "I am divorced.", "chinese": "我離婚了", "pinyin": "Wǒ lí hūn le." },
+          { "filipino": "Biyuda na ako.", "english": "I am a widow.", "chinese": "我守寡了", "pinyin": "Wǒ shǒu guǎ le." },
+          { "filipino": "Ako ay single mom.", "english": "I am a single mother.", "chinese": "我是單親媽媽", "pinyin": "Wǒ shì dān qīn mā ma." }
+        ]},
+        { "lines": [
+          { "filipino": "Saan ka nakatira?", "english": "Where do you live?", "chinese": "你住在那裡？", "pinyin": "Nǐ zhù zài nǎ lǐ?" },
+          { "filipino": "Sa ___ po ako nakatira.", "english": "I live at ___.", "chinese": "我住在 ___", "pinyin": "Wǒ zhù zài ___" }
+        ]},
+        { "lines": [
+          { "filipino": "Sino ang amo mo?", "english": "Who is your employer?", "chinese": "你的老闆是誰？", "pinyin": "Nǐ de lǎo bǎn shì shéi?" }
+        ]},
+        { "lines": [
+          { "filipino": "Magkano ang sahod mo?", "english": "How much is your salary?", "chinese": "你的薪水多少？", "pinyin": "Nǐ de xīn shuǐ duō shǎo?" }
+        ]},
+        { "lines": [
+          { "filipino": "Marunong ka bang magsalita ng Mandarin?", "english": "Do you know how to speak Mandarin?", "chinese": "你會講國語 / 普通話嗎？", "pinyin": "Nǐ huì jiǎng guó yǔ / pǔ tōng huà ma?" }
+        ]},
+        { "lines": [
+          { "filipino": "Masaya ka ba sa trabaho mo? May problema ba?", "english": "Are you happy with your work? Do you have any problem?", "chinese": "工作快樂嗎？有沒有問題？", "pinyin": "Gōng zuò kuài lè ma? Yǒu méi yǒu wèn tí?" },
+          { "filipino": "Walang problema, masaya po ako.", "english": "No problem. I am very happy.", "chinese": "沒問題。我非常快樂", "pinyin": "Méi wèn tí. Wǒ fēi cháng kuài lè." }
+        ]},
+        { "lines": [
+          { "filipino": "Kung may problema, tawagan ang ahensya para magpatulong.", "english": "If you have problem, please call up the agency and ask for help.", "chinese": "有問題，請找仲介幫忙溝通", "pinyin": "Yǒu wèn tí, qǐng zhǎo zhòng jiè bāng máng gōu tōng." }
+        ]},
+        { "lines": [
+          { "filipino": "Mayroon po kayong ibang kailangan?", "english": "Is there anything else you need?", "chinese": "還有別的需要嗎？", "pinyin": "Hái yǒu bié de xū yào ma?" }
+        ]},
+        { "lines": [
+          { "filipino": "Ano po ang bilin ninyo?", "english": "Do you want to leave any message?", "chinese": "有事交代嗎？", "pinyin": "Yǒu shì jiāo dài ma?" }
+        ]},
+        { "lines": [
+          { "filipino": "Oo o hindi? / Di ba?", "english": "Is it?", "chinese": "是不是？ / 是嗎？", "pinyin": "Shì bú shì? / Shì ma?" },
+          { "filipino": "Opo.", "english": "Yes.", "chinese": "是", "pinyin": "Shì" },
+          { "filipino": "Hindi po.", "english": "No.", "chinese": "不", "pinyin": "Bù" },
+          { "filipino": "Hindi po.", "english": "Not.", "chinese": "不是", "pinyin": "Bú shì" }
+        ]},
+        { "lines": [
+          { "filipino": "Mayroon o wala? / Mayroon ba?", "english": "Do you have?", "chinese": "有沒有？ / 有嗎？", "pinyin": "Yǒu méi yǒu? / Yǒu ma?" },
+          { "filipino": "Mayroon.", "english": "Have.", "chinese": "有", "pinyin": "Yǒu" },
+          { "filipino": "Wala.", "english": "Don't have.", "chinese": "沒有", "pinyin": "Méi yǒu" }
+        ]},
+        { "lines": [
+          { "filipino": "Gusto o ayaw? / Gusto ba?", "english": "Do you want?", "chinese": "要不要？ / 要嗎？", "pinyin": "Yào bú yào? / Yào ma?" },
+          { "filipino": "Gusto.", "english": "Want.", "chinese": "要", "pinyin": "Yào" },
+          { "filipino": "Ayaw.", "english": "Don't want.", "chinese": "不要", "pinyin": "Bú yào" }
+        ]},
+        { "lines": [
+          { "filipino": "Tama o mali? / Tama ba?", "english": "Is it correct?", "chinese": "對不對？ / 對嗎？", "pinyin": "Duì bú duì? / Duì ma?" },
+          { "filipino": "Tama.", "english": "Correct.", "chinese": "對", "pinyin": "Duì" },
+          { "filipino": "Mali.", "english": "Not correct.", "chinese": "不對", "pinyin": "Bú duì" }
+        ]},
+        { "lines": [
+          { "filipino": "Mabuti o hindi mabuti? Ayos o hindi ayos? / Mabuti ba? Ayos ba?", "english": "Is it good? / Is it okay?", "chinese": "好不好？ / 好嗎？", "pinyin": "Hǎo bù hǎo? / Hǎo ma?" },
+          { "filipino": "Mabuti. / Ayos.", "english": "Good. / Okay.", "chinese": "好", "pinyin": "Hǎo" },
+          { "filipino": "Hindi mabuti. / Hindi ayos.", "english": "Not good. / Not okay.", "chinese": "不好", "pinyin": "Bù hǎo" }
+        ]},
+        { "lines": [
+          { "filipino": "Puwede o hindi puwede? / Puwede ba?", "english": "May I? / Can I?", "chinese": "可不可以？ / 可以嗎？", "pinyin": "Kě bù kě yǐ? / Kě yǐ ma?" },
+          { "filipino": "Puwede.", "english": "Can.", "chinese": "可以", "pinyin": "Kě yǐ" },
+          { "filipino": "Hindi puwede.", "english": "Cannot.", "chinese": "不可以", "pinyin": "Bù kě yǐ" }
+        ]},
+        { "lines": [
+          { "filipino": "Nagustuhan o hindi nagustuhan? / Nagustuhan ba?", "english": "Do you like it?", "chinese": "喜不喜歡？ / 喜歡嗎？", "pinyin": "Xǐ bù xǐ huān? / Xǐ huān ma?" },
+          { "filipino": "Gusto.", "english": "Like it.", "chinese": "喜歡", "pinyin": "Xǐ huān" },
+          { "filipino": "Hindi gusto.", "english": "Don't like it.", "chinese": "不喜歡", "pinyin": "Bù xǐ huān" }
+        ]},
+        { "lines": [
+          { "filipino": "Alam o hindi alam? / Alam ba?", "english": "Do you know?", "chinese": "知不知道？ / 知道嗎？", "pinyin": "Zhī bù zhī dào? / Zhī dào ma?" },
+          { "filipino": "Alam.", "english": "Know.", "chinese": "知道", "pinyin": "Zhī dào" },
+          { "filipino": "Hindi alam.", "english": "Don't know.", "chinese": "不知道", "pinyin": "Bù zhī dào" }
+        ]},
+        { "lines": [
+          { "filipino": "Marunong o hindi marunong? / Marunong ba?", "english": "Do you know how to ___?", "chinese": "會不會？ / 會嗎？", "pinyin": "Huì bú huì? / Huì ma?" },
+          { "filipino": "Marunong.", "english": "Know.", "chinese": "會", "pinyin": "Huì" },
+          { "filipino": "Hindi marunong.", "english": "Don't know.", "chinese": "不會", "pinyin": "Bú huì" }
+        ]},
+        { "lines": [
+          { "filipino": "Naintindihan o hindi naintindihan? / Naintindihan ba?", "english": "Do you understand?", "chinese": "(a) 懂不懂？ / 懂嗎？  (b) 明不明白？ / 明白嗎？", "pinyin": "(a) Dǒng bù dǒng? / Dǒng ma?  (b) Míng bù míng bái? / Míng bái ma?" },
+          { "filipino": "Naintindihan.", "english": "Understand.", "chinese": "懂 / 明白", "pinyin": "Dǒng / Míng bái" },
+          { "filipino": "Hindi naintindihan.", "english": "Don't understand.", "chinese": "不懂 / 不明白", "pinyin": "Bù dǒng / Bù míng bái" }
+        ]},
+        { "lines": [
+          { "filipino": "May panahon o walang panahon? / May panahon ba?", "english": "Do you have time?", "chinese": "有沒有空？ / 有空嗎？", "pinyin": "Yǒu méi yǒu kòng? / Yǒu kòng ma?" },
+          { "filipino": "May panahon.", "english": "Have time.", "chinese": "有空", "pinyin": "Yǒu kòng" },
+          { "filipino": "Walang panahon.", "english": "Don't have time.", "chinese": "沒空", "pinyin": "Méi kòng" }
+        ]},
+        { "lines": [
+          { "filipino": "Abala o hindi abala? / Abala ba?", "english": "Are you busy?", "chinese": "忙不忙？ / 忙嗎？", "pinyin": "Máng bù máng? / Máng ma?" },
+          { "filipino": "Abala.", "english": "Very busy.", "chinese": "很忙", "pinyin": "Hěn máng" },
+          { "filipino": "Hindi abala.", "english": "Not busy.", "chinese": "不忙", "pinyin": "Bù máng" }
+        ]}
+      ]
+    }
+  ]
+}
