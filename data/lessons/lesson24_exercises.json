@@ -1,0 +1,81 @@
+{
+  "id": 24,
+  "title": "Exercises",
+  "title_zh": "練習",
+  "sections": [
+    {
+      "heading": "Exercise 1 — Self-Introduction (translate into Chinese)",
+      "type": "notes",
+      "text": "1. My name is ____________.<br>2. I am Filipino.<br>3. I am ____ years old.<br>4. My birthday is on ____ year ____ month ____ date.<br>5. I am married / I am not married.<br>6. I lived at ____________."
+    },
+    {
+      "heading": "Exercise 2 — Numerals, Time & Calendar (write in Chinese)",
+      "type": "notes",
+      "text": "1. 45,786<br>2. 567,890<br>3. 13,689,005<br>4. 24,242,242<br>5. 7:15am<br>6. 9:32pm<br>7. Monday 8:20am<br>8. August 18<br>9. First week of March<br>10. Next Tuesday"
+    },
+    {
+      "heading": "Exercise 3 — Adjectives",
+      "type": "vocab",
+      "items": [
+        { "english": "The teacher is very beautiful.", "chinese": "老師很漂亮。", "pinyin": "Lǎo shī hěn piào liàng." },
+        { "english": "Father is very hungry.", "chinese": "爸爸很餓。", "pinyin": "Bà ba hěn è." },
+        { "english": "The students are very naughty.", "chinese": "學生很頑皮。", "pinyin": "Xué shēng hěn wán pí." },
+        { "english": "The doctor is very worried.", "chinese": "醫生很擔心。", "pinyin": "Yī shēng hěn dān xīn." },
+        { "english": "My brother is taller.", "chinese": "我的哥哥比較高。", "pinyin": "Wǒ de gē ge bǐ jiào gāo." },
+        { "english": "Mother is very intelligent and very hard working.", "chinese": "媽媽很聰明和很勤勞。", "pinyin": "Mā ma hěn cōng míng hé hěn qín láo." },
+        { "english": "She likes her neighbor.", "chinese": "她很喜歡她的鄰居。", "pinyin": "Tā hěn xǐ huān tā de lín jū." },
+        { "english": "Mr Chen is very rich. Miss Li is very poor.", "chinese": "陳先生很富有。李小姐很窮。", "pinyin": "Chén xiān shēng hěn fù yǒu. Lǐ xiǎo jiě hěn qióng." },
+        { "english": "The workers are very lazy. Our boss is very angry.", "chinese": "工人很懶惰。我們的老闆很生氣，", "pinyin": "Gōng rén hěn lǎn duò. Wǒ men de lǎo bǎn hěn shēng qì," },
+        { "english": "That businessman is very busy.", "chinese": "那個生意人很忙。", "pinyin": "Nà gè shēng yì rén hěn máng." }
+      ]
+    },
+    {
+      "heading": "Exercise 4 — Verbs",
+      "type": "vocab",
+      "items": [
+        { "english": "I am eating.", "chinese": "我在吃飯。", "pinyin": "Wǒ zài chī fàn." },
+        { "english": "My boss is sleeping.", "chinese": "我的老闆在睡覺。", "pinyin": "Wǒ de lǎo bǎn zài shuì jiào." },
+        { "english": "The kids are playing.", "chinese": "孩子在玩。", "pinyin": "Hái zi zài wán." },
+        { "english": "The teacher is smiling.", "chinese": "老師在笑。", "pinyin": "Lǎo shī zài xiào." },
+        { "english": "Sister wants to take a bath.", "chinese": "姐姐想要洗澡。", "pinyin": "Jiě jie xiǎng yào xǐ zǎo." },
+        { "english": "Father will send money.", "chinese": "爸爸要寄錢。", "pinyin": "Bà ba yào jì qián." },
+        { "english": "The maid takes care of my younger brother.", "chinese": "傭人照顧我的弟弟。", "pinyin": "Yōng rén zhào gù wǒ de dì di." },
+        { "english": "The students had studied the lessons.", "chinese": "學生已經讀書。", "pinyin": "Xué shēng yǐ jīng dú shū." },
+        { "english": "Mother washed the clothes at 10 am.", "chinese": "媽媽早上十點(已經)洗衣服。", "pinyin": "Mā ma zǎo shàng shí diǎn (yǐ jīng) xǐ yī fú." },
+        { "english": "That worker wants to earn money.", "chinese": "那個工人想要賺錢。", "pinyin": "Nà gè gōng rén xiǎng yào zhuàn qián." }
+      ]
+    },
+    {
+      "heading": "Exercise 5 — Places and Directions",
+      "type": "vocab",
+      "items": [
+        { "english": "I went to market.", "chinese": "我去(到)菜市場。", "pinyin": "Wǒ qù (dào) cài shì chǎng." },
+        { "english": "She wants to go to church.", "chinese": "她(想)要去教堂。", "pinyin": "Tā (xiǎng) yào qù jiào táng." },
+        { "english": "Father will go to office.", "chinese": "爸爸要(會)去辦公室。", "pinyin": "Bà ba yào (huì) qù bàn gōng shì." },
+        { "english": "The airport is very near.", "chinese": "飛機場很近。", "pinyin": "Fēi jī chǎng hěn jìn." },
+        { "english": "The mall is too big.", "chinese": "商場太大。", "pinyin": "Shāng chǎng tài dà." },
+        { "english": "The workers work at warehouse.", "chinese": "工人在倉庫工作。", "pinyin": "Gōng rén zài cāng kù gōng zuò." },
+        { "english": "The students went to school at 6 am.", "chinese": "學生早上六點去學校。", "pinyin": "Xué shēng zǎo shàng liù diǎn qù xué xiào." },
+        { "english": "My friend went to drug store at 2 pm.", "chinese": "我的朋友下午兩點去藥房。", "pinyin": "Wǒ de péng yǒu xià wǔ liǎng diǎn qù yào fáng." },
+        { "english": "From 8 am to 5 pm.", "chinese": "從早上八點到下午五點。", "pinyin": "Cóng zǎo shàng bā diǎn dào xià wǔ wǔ diǎn." },
+        { "english": "From bus station to the park is very far.", "chinese": "從公車站到公園很遠。", "pinyin": "Cóng gōng chē zhàn dào gōng yuán hěn yuǎn." }
+      ]
+    },
+    {
+      "heading": "Exercise 6 — Shopping",
+      "type": "vocab",
+      "items": [
+        { "english": "My skirt is red.", "chinese": "我的裙子是紅色。", "pinyin": "Wǒ de qún zi shì hóng sè." },
+        { "english": "Her umbrella is very big.", "chinese": "她的雨傘很大。", "pinyin": "Tā de yǔ sǎn hěn dà." },
+        { "english": "Father wants big size jacket.", "chinese": "爸爸要大碼外套", "pinyin": "Bà ba yào dà mǎ wài tào" },
+        { "english": "They like blue shirt.", "chinese": "他們喜歡藍色的襯衫。", "pinyin": "Tā men xǐ huān lán sè de chèn shān." },
+        { "english": "My boss has many cellphones.", "chinese": "我的老闆有很多手機。", "pinyin": "Wǒ de lǎo bǎn yǒu hěn duō shǒu jī." },
+        { "english": "This watch is too expensive.", "chinese": "這個手錶太貴。", "pinyin": "Zhè gè shǒu biǎo tài guì." },
+        { "english": "That wallet is very cheap.", "chinese": "那個皮夾很便宜。", "pinyin": "Nà gè pí jiá hěn pián yí." },
+        { "english": "I forgot to pay.", "chinese": "我忘記付錢。", "pinyin": "Wǒ wàng jì fù qián." },
+        { "english": "Please give me small size.", "chinese": "請給我小碼。", "pinyin": "Qǐng gěi wǒ xiǎo mǎ." },
+        { "english": "The camera was damaged.", "chinese": "照相機壞了。", "pinyin": "Zhào xiàng jī huài le." }
+      ]
+    }
+  ]
+}
