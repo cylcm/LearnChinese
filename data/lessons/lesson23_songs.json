@@ -7,117 +7,394 @@
       "heading": "Napakatamis (So Sweet) — 甜蜜蜜 Tián Mì Mì",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "(I) Napakatamis, ang ngiti mo'y napakatamis.", "english": "So sweet, your smile is so sweet.", "chinese": "甜蜜蜜，你笑得甜蜜蜜。", "pinyin": "tián mì mì, nǐ xiào de tián mì mì." },
-          { "filipino": "Tulad ng bulaklak na namumukadkad sa tagsibol.", "english": "Like the flowers that blossom in the spring.", "chinese": "好像花兒開在春風裡，開在春風裡。", "pinyin": "hǎo xiàng huā ér kāi zài chūn fēng lǐ, kāi zài chūn fēng lǐ." }
-        ] },
-        { "lines": [
-          { "filipino": "(II) Saan kita nakita? Ang iyong ngiti ay natatandaan ko.", "english": "Where did I see you? Your smile is so familiar.", "chinese": "在那裡? 在那裡見過你? 你的笑容這樣熟悉。", "pinyin": "zài nǎ lǐ? zài nǎ lǐ jiàn guò nǐ? nǐ de xiào róng zhè yàng shóu xī." },
-          { "filipino": "Hindi ko agad naisip. Ah! Sa aking panaginip pala.", "english": "I cannot recall. Ah! It's in my dream.", "chinese": "我一時想不起。啊在夢裡。", "pinyin": "wǒ yì shí xiǎng bù qǐ. ā zài mèng lǐ." }
-        ] },
-        { "lines": [
-          { "filipino": "CHORUS: Nakita kita sa aking panaginip. Napakatamis ng iyong ngiti.", "english": "I saw you in my dream. Your smile is so sweet.", "chinese": "夢裡夢裡見過你。甜蜜笑得多甜蜜。", "pinyin": "mèng lǐ mèng lǐ jiàn guò nǐ. tián mì xiào de duō tián mì." },
-          { "filipino": "Ikaw na nga! Ikaw ang aking nakita sa panaginip.", "english": "It's you! The one that I saw in my dream is you.", "chinese": "是你! 是你! 夢見的就是你。", "pinyin": "shì nǐ! shì nǐ! mèng jiàn de jiù shì nǐ." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "(I) Napakatamis, ang ngiti mo'y napakatamis.",
+              "english": "So sweet, your smile is so sweet.",
+              "chinese": "甜蜜蜜，你笑得甜蜜蜜。",
+              "pinyin": "tián mì mì, nǐ xiào de tián mì mì."
+            },
+            {
+              "filipino": "Tulad ng bulaklak na namumukadkad sa tagsibol.",
+              "english": "Like the flowers that blossom in the spring.",
+              "chinese": "好像花兒開在春風裡，開在春風裡。",
+              "pinyin": "hǎo xiàng huā ér kāi zài chūn fēng lǐ, kāi zài chūn fēng lǐ."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "(II) Saan kita nakita? Ang iyong ngiti ay natatandaan ko.",
+              "english": "Where did I see you? Your smile is so familiar.",
+              "chinese": "在那裡? 在那裡見過你? 你的笑容這樣熟悉。",
+              "pinyin": "zài nǎ lǐ? zài nǎ lǐ jiàn guò nǐ? nǐ de xiào róng zhè yàng shóu xī."
+            },
+            {
+              "filipino": "Hindi ko agad naisip. Ah! Sa aking panaginip pala.",
+              "english": "I cannot recall. Ah! It's in my dream.",
+              "chinese": "我一時想不起。啊在夢裡。",
+              "pinyin": "wǒ yì shí xiǎng bù qǐ. ā zài mèng lǐ."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "CHORUS: Nakita kita sa aking panaginip. Napakatamis ng iyong ngiti.",
+              "english": "I saw you in my dream. Your smile is so sweet.",
+              "chinese": "夢裡夢裡見過你。甜蜜笑得多甜蜜。",
+              "pinyin": "mèng lǐ mèng lǐ jiàn guò nǐ. tián mì xiào de duō tián mì."
+            },
+            {
+              "filipino": "Ikaw na nga! Ikaw ang aking nakita sa panaginip.",
+              "english": "It's you! The one that I saw in my dream is you.",
+              "chinese": "是你! 是你! 夢見的就是你。",
+              "pinyin": "shì nǐ! shì nǐ! mèng jiàn de jiù shì nǐ."
+            }
+          ]
+        }
       ]
     },
     {
-      "heading": "The Moon Represents My Heart — 月亮代表我的心 Yuè Liàng Dài Biǎo Wǒ De Xīn",
+      "heading": "The Moon Represents My Heart — 月亮代表我的心 Yuè Liàng Dài Biǎo Wǒ De Xīn &nbsp; <a href=\"https://www.youtube.com/watch?v=XJsEZ18Wc2k&list=RDXJsEZ18Wc2k&start_radio=1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:13px;font-weight:normal\">🎬 YouTube</a>",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "(I) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.", "english": "You ask me how much I love you? I love you very much.", "chinese": "你問我愛你有多深，我愛你有幾分。", "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn." },
-          { "filipino": "Ang aking damdamin ay tunay. Ang aking pag-ibig ay tunay.", "english": "My feeling is true. My love is true.", "chinese": "我的情也真。我的愛也真。", "pinyin": "wǒ de qíng yě zhēn. wǒ de ài yě zhēn." },
-          { "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.", "english": "The moon represents my heart.", "chinese": "月亮代表我的心。", "pinyin": "yuè liàng dài biǎo wǒ de xīn." }
-        ] },
-        { "lines": [
-          { "filipino": "(II) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.", "english": "You ask me how much I love you? I love you very much.", "chinese": "你問我愛你有多深，我愛你有幾分。", "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn." },
-          { "filipino": "Ang aking damdamin ay hindi magbabago. Ang aking pag-ibig ay hindi magbabago.", "english": "My feeling will never change. My love will never change.", "chinese": "我的情不移。我的愛不變。", "pinyin": "wǒ de qíng bù yí. wǒ de ài bú biàn." },
-          { "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.", "english": "The moon represents my heart.", "chinese": "月亮代表我的心。", "pinyin": "yuè liàng dài biǎo wǒ de xīn." }
-        ] },
-        { "lines": [
-          { "filipino": "CHORUS: Isang halik lamang ay naantig na ang aking puso.", "english": "A kiss touched my heart.", "chinese": "輕輕的一個吻，已經打動我的心。", "pinyin": "qīng qīng de yí gè wěn, yǐ jīng dǎ dòng wǒ de xīn." },
-          { "filipino": "Ang malalim na pag-iibigan, magpahanggang ngayon ay naaalala pa rin.", "english": "The deepest relationship is still remembered until now.", "chinese": "深深的一段情，教我思念到如今。", "pinyin": "shēn shēn de yí duàn qíng, jiào wǒ sī niàn dào rú jīn." }
-        ] },
-        { "lines": [
-          { "filipino": "(III) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.", "english": "You ask me how much I love you? I love you very much.", "chinese": "你問我愛你有多深，我愛你有幾分。", "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn." },
-          { "filipino": "*Maaari mong isipin. Maaari mong makita.", "english": "*You can think of it. You can see it.", "chinese": "你去想一想。你去看一看。", "pinyin": "nǐ qù xiǎng yì xiǎng. nǐ qù kàn yí kàn." },
-          { "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.", "english": "The moon represents my heart.", "chinese": "月亮代表我的心。", "pinyin": "yuè liàng dài biǎo wǒ de xīn." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "(I) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.",
+              "english": "You ask me how much I love you? I love you very much.",
+              "chinese": "你問我愛你有多深，我愛你有幾分。",
+              "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn."
+            },
+            {
+              "filipino": "Ang aking damdamin ay tunay. Ang aking pag-ibig ay tunay.",
+              "english": "My feeling is true. My love is true.",
+              "chinese": "我的情也真。我的愛也真。",
+              "pinyin": "wǒ de qíng yě zhēn. wǒ de ài yě zhēn."
+            },
+            {
+              "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.",
+              "english": "The moon represents my heart.",
+              "chinese": "月亮代表我的心。",
+              "pinyin": "yuè liàng dài biǎo wǒ de xīn."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "(II) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.",
+              "english": "You ask me how much I love you? I love you very much.",
+              "chinese": "你問我愛你有多深，我愛你有幾分。",
+              "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn."
+            },
+            {
+              "filipino": "Ang aking damdamin ay hindi magbabago. Ang aking pag-ibig ay hindi magbabago.",
+              "english": "My feeling will never change. My love will never change.",
+              "chinese": "我的情不移。我的愛不變。",
+              "pinyin": "wǒ de qíng bù yí. wǒ de ài bú biàn."
+            },
+            {
+              "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.",
+              "english": "The moon represents my heart.",
+              "chinese": "月亮代表我的心。",
+              "pinyin": "yuè liàng dài biǎo wǒ de xīn."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "CHORUS: Isang halik lamang ay naantig na ang aking puso.",
+              "english": "A kiss touched my heart.",
+              "chinese": "輕輕的一個吻，已經打動我的心。",
+              "pinyin": "qīng qīng de yí gè wěn, yǐ jīng dǎ dòng wǒ de xīn."
+            },
+            {
+              "filipino": "Ang malalim na pag-iibigan, magpahanggang ngayon ay naaalala pa rin.",
+              "english": "The deepest relationship is still remembered until now.",
+              "chinese": "深深的一段情，教我思念到如今。",
+              "pinyin": "shēn shēn de yí duàn qíng, jiào wǒ sī niàn dào rú jīn."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "(III) Tinanong mo ako kung gaano kita kamahal? Mahal na mahal kita.",
+              "english": "You ask me how much I love you? I love you very much.",
+              "chinese": "你問我愛你有多深，我愛你有幾分。",
+              "pinyin": "nǐ wèn wǒ ài nǐ yǒu duō shēn, wǒ ài nǐ yǒu jǐ fēn."
+            },
+            {
+              "filipino": "*Maaari mong isipin. Maaari mong makita.",
+              "english": "*You can think of it. You can see it.",
+              "chinese": "你去想一想。你去看一看。",
+              "pinyin": "nǐ qù xiǎng yì xiǎng. nǐ qù kàn yí kàn."
+            },
+            {
+              "filipino": "Ang buwan ang siyang sumasagisag sa aking puso.",
+              "english": "The moon represents my heart.",
+              "chinese": "月亮代表我的心。",
+              "pinyin": "yuè liàng dài biǎo wǒ de xīn."
+            }
+          ]
+        }
       ]
     },
     {
-      "heading": "Kaibigan (Friends) — 朋友 Péng Yǒu",
+      "heading": "Kaibigan (Friends) — 朋友 Péng Yǒu &nbsp; <a href=\"https://www.youtube.com/watch?v=b4Da16HnXqg&list=RDb4Da16HnXqg&start_radio=1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:13px;font-weight:normal\">🎬 YouTube</a>",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "Nitong mga taon, mag-isang hinarap ang matinding hangin at ulan sa buhay.", "english": "These past years, I face the trials in life alone.", "chinese": "這些年，一個人，風也過，雨也走。", "pinyin": "zhè xiē nián, yí gè rén, fēng yě guò, yǔ yě zǒu." },
-          { "filipino": "Nagkaroon ng luha, nagkaroon ng pagkakamali, natatandaan pa ang mga ipinaglalaban.", "english": "There are tears, there are mistakes, still remember what I'm fighting for.", "chinese": "有過淚，有過錯，還記得堅持什麼?", "pinyin": "yǒu guò lèi, yǒu guò cuò, hái jì de jiān chí shé me?" },
-          { "filipino": "Kapag nagmahal ng tunay ay mauunawaan. Minsan ay mag-isa at binabalik-tanaw ang nakaraan.", "english": "If you loved truly, you will understand. Sometimes are lonely and recall the past.", "chinese": "真愛過，才會懂，會寂寞，會回首。", "pinyin": "zhēn ài guò, cái huì dǒng, huì jí mò, huì huí shǒu." },
-          { "filipino": "Laging may pangarap at ikaw ay laging nasa puso.", "english": "There are dreams and you are always in my heart.", "chinese": "終有夢，終有你，在心中。", "pinyin": "zhōng yǒu mèng, zhōng yǒu nǐ, zài xīn zhōng." }
-        ] },
-        { "lines": [
-          { "filipino": "CHORUS: Ang magkaibigan ay magkasama sa buong buhay. Hindi na maibabalik pa ang nakaraan.", "english": "Friends walk together in whole life. You cannot bring back the past.", "chinese": "朋友一生一起走，那些日子不再有。", "pinyin": "péng yǒu yì shēng yì qǐ zǒu, nà xiē rì zǐ bù zài yǒu." },
-          { "filipino": "*Isang salita lamang ay natatandaan ng buong buhay. Ang pagsasamahan ay tulad ng alak.", "english": "*One word is enough to remember in whole life. Our relation is like the precious wine.", "chinese": "一句話，一輩子，一生情，一杯酒。", "pinyin": "yí jù huà, yí bèi zǐ, yì shēng qíng, yì bēi jiǔ." },
-          { "filipino": "Hindi nag-iisa ang kaibigan. Isang tawag na kaibigan ay maiintindihan mo na.", "english": "Friends never get lonely. Whenever you call friends you will understand.", "chinese": "朋友不曾孤單過，一聲朋友你會懂。", "pinyin": "péng yǒu bù céng gū dān guò, yì shēng péng yǒu nǐ huì dǒng." },
-          { "filipino": "Kahit may sugat, kahit nasaktan, itutuloy pa rin ang paglalakbay, nandito lang ako.", "english": "There are wounds, there are pains, but still have to move on, I'm just here.", "chinese": "還有傷，還有痛，還要走，還有我。", "pinyin": "hái yǒu shāng, hái yǒu tòng, hái yào zǒu, hái yǒu wǒ." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "Nitong mga taon, mag-isang hinarap ang matinding hangin at ulan sa buhay.",
+              "english": "These past years, I face the trials in life alone.",
+              "chinese": "這些年，一個人，風也過，雨也走。",
+              "pinyin": "zhè xiē nián, yí gè rén, fēng yě guò, yǔ yě zǒu."
+            },
+            {
+              "filipino": "Nagkaroon ng luha, nagkaroon ng pagkakamali, natatandaan pa ang mga ipinaglalaban.",
+              "english": "There are tears, there are mistakes, still remember what I'm fighting for.",
+              "chinese": "有過淚，有過錯，還記得堅持什麼?",
+              "pinyin": "yǒu guò lèi, yǒu guò cuò, hái jì de jiān chí shé me?"
+            },
+            {
+              "filipino": "Kapag nagmahal ng tunay ay mauunawaan. Minsan ay mag-isa at binabalik-tanaw ang nakaraan.",
+              "english": "If you loved truly, you will understand. Sometimes are lonely and recall the past.",
+              "chinese": "真愛過，才會懂，會寂寞，會回首。",
+              "pinyin": "zhēn ài guò, cái huì dǒng, huì jí mò, huì huí shǒu."
+            },
+            {
+              "filipino": "Laging may pangarap at ikaw ay laging nasa puso.",
+              "english": "There are dreams and you are always in my heart.",
+              "chinese": "終有夢，終有你，在心中。",
+              "pinyin": "zhōng yǒu mèng, zhōng yǒu nǐ, zài xīn zhōng."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "CHORUS: Ang magkaibigan ay magkasama sa buong buhay. Hindi na maibabalik pa ang nakaraan.",
+              "english": "Friends walk together in whole life. You cannot bring back the past.",
+              "chinese": "朋友一生一起走，那些日子不再有。",
+              "pinyin": "péng yǒu yì shēng yì qǐ zǒu, nà xiē rì zǐ bù zài yǒu."
+            },
+            {
+              "filipino": "*Isang salita lamang ay natatandaan ng buong buhay. Ang pagsasamahan ay tulad ng alak.",
+              "english": "*One word is enough to remember in whole life. Our relation is like the precious wine.",
+              "chinese": "一句話，一輩子，一生情，一杯酒。",
+              "pinyin": "yí jù huà, yí bèi zǐ, yì shēng qíng, yì bēi jiǔ."
+            },
+            {
+              "filipino": "Hindi nag-iisa ang kaibigan. Isang tawag na kaibigan ay maiintindihan mo na.",
+              "english": "Friends never get lonely. Whenever you call friends you will understand.",
+              "chinese": "朋友不曾孤單過，一聲朋友你會懂。",
+              "pinyin": "péng yǒu bù céng gū dān guò, yì shēng péng yǒu nǐ huì dǒng."
+            },
+            {
+              "filipino": "Kahit may sugat, kahit nasaktan, itutuloy pa rin ang paglalakbay, nandito lang ako.",
+              "english": "There are wounds, there are pains, but still have to move on, I'm just here.",
+              "chinese": "還有傷，還有痛，還要走，還有我。",
+              "pinyin": "hái yǒu shāng, hái yǒu tòng, hái yào zǒu, hái yǒu wǒ."
+            }
+          ]
+        }
       ]
     },
     {
-      "heading": "Hindi na Natatakot (Not Afraid) — 不怕不怕 Bú Pà Bú Pà",
+      "heading": "Hindi na Natatakot (Not Afraid) — 不怕不怕 Bú Pà Bú Pà &nbsp; <a href=\"https://www.youtube.com/watch?v=SK9GAibmyKM&list=RDSK9GAibmyKM&start_radio=1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:13px;font-weight:normal\">🎬 YouTube</a>",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "MAI-A-HEE, MAI-A-HU, MAI-A-HO, MAI-A-HAHA (x4)", "english": "MAI-A-HEE, MAI-A-HU, MAI-A-HO, MAI-A-HAHA (x4)", "chinese": "", "pinyin": "" },
-          { "filipino": "Hello! Tingnan ako. Ano ba ang ikinatatakot mo?", "english": "Hello! Look at me. What are you afraid of?", "chinese": "Hello! 看我，你在害怕什麼?", "pinyin": "Hello! kàn wǒ, nǐ zài hài pà shé me?" },
-          { "filipino": "Kasalanan ko ito, hindi ako lumaki at natuto.", "english": "It's my fault, I am not mature.", "chinese": "是我錯，沒能夠啊把自己變得成熟。", "pinyin": "shì wǒ cuò, méi néng gòu à pǎ zì jǐ biàn de chéng shóu." }
-        ] },
-        { "lines": [
-          { "filipino": "(I) Napakaraming sugat, subalit wala na ang sakit nito.", "english": "There are a lot of wounds, but it does not hurt anymore.", "chinese": "傷口那麼多，已經不怕再痛。", "pinyin": "shāng kǒu nà me duō, yǐ jīng bú pà zài tòng." },
-          { "filipino": "(II) Napakarami na ng sugat na wala ng lugar na mapaglalagyan pa ng panibago.", "english": "There are a lot of wounds, there's no place for other wounds.", "chinese": "傷口那麼多，沒地方可以再受傷了。", "pinyin": "shāng kǒu nà me duō, méi dì fāng kě yǐ zài shòu shāng le." },
-          { "filipino": "Balewala iyon. Kapag umikot ako, magkakaroon ako ng kapangyarihan na magpoprotekta sa aking sarili.", "english": "It's nothing. If I turn my body, I will have supernatural power to protect myself.", "chinese": "沒什麼，轉身以後，我會練成護體神功。", "pinyin": "méi shé me, zhuǎn shēn yǐ hòu, wǒ huì liàn chéng hù tǐ shén gōng." },
-          { "filipino": "*Sa tuwing nakakakita ako ng mga ipis ay hindi na ako natatakot.", "english": "*Whenever I see cockroaches, I am not afraid anymore.", "chinese": "看見蟑螂，我不怕不怕啦。", "pinyin": "kàn jiàn zhāng láng, wǒ bú pà bú pà la." }
-        ] },
-        { "lines": [
-          { "filipino": "Malakas na ang aking loob, hindi na natatakot.", "english": "I became strong and is not afraid anymore.", "chinese": "我神經比較大，不怕不怕不怕啦。", "pinyin": "wǒ shén jīng bǐ jiào dà, bú pà bú pà bú pà la." },
-          { "filipino": "Kapag nagpapakaduwag ay magiging matamlay lamang ako.", "english": "If I am weak, I will be disheartened.", "chinese": "膽怯只會讓自己更憔悴。", "pinyin": "dǎn què zhǐ huì ràng zì jǐ gèng qiáo cuì." },
-          { "filipino": "Ang pagpapakamanhid ay isang paraan upang maipakita ang katapangan.", "english": "Being numb is a way to show courage.", "chinese": "麻痺也是勇敢表現。", "pinyin": "má bì yě shì yǒng gǎn biǎo xiàn." },
-          { "filipino": "Kahit na mag-isa lang sa pagtulog ay hindi na natatakot.", "english": "Even if I sleep alone, I am not afraid.", "chinese": "一個人睡，也不怕不怕啦。", "pinyin": "yí gè rén shuì, yě bú pà bú pà la." },
-          { "filipino": "Ang katapangan ang magsisilbing kumot. Hinding-hindi na matatakot.", "english": "Strength will serve as blanket. I am not afraid anymore.", "chinese": "勇氣當棉被。不怕不怕不怕啦，", "pinyin": "yǒng qì dāng mián bèi. bú pà bú pà bú pà la," },
-          { "filipino": "Kahit na madilim ang gabi, kunwari'y hindi ko ito nakikita.", "english": "Even in the darkness, I pretend not to see it.", "chinese": "夜晚再黑，我就當看不見，", "pinyin": "yè wǎn zài hēi, wǒ jiù dāng kàn bú jiàn," },
-          { "filipino": "Siguradong kasunod niyon ay sisilay din ang araw.", "english": "For sure the sun will arise soon.", "chinese": "太陽一定就快出現。", "pinyin": "tài yáng yí dìng jiù kuài chū xiàn." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "MAI-A-HEE, MAI-A-HU, MAI-A-HO, MAI-A-HAHA (x4)",
+              "english": "MAI-A-HEE, MAI-A-HU, MAI-A-HO, MAI-A-HAHA (x4)",
+              "chinese": "",
+              "pinyin": ""
+            },
+            {
+              "filipino": "Hello! Tingnan ako. Ano ba ang ikinatatakot mo?",
+              "english": "Hello! Look at me. What are you afraid of?",
+              "chinese": "Hello! 看我，你在害怕什麼?",
+              "pinyin": "Hello! kàn wǒ, nǐ zài hài pà shé me?"
+            },
+            {
+              "filipino": "Kasalanan ko ito, hindi ako lumaki at natuto.",
+              "english": "It's my fault, I am not mature.",
+              "chinese": "是我錯，沒能夠啊把自己變得成熟。",
+              "pinyin": "shì wǒ cuò, méi néng gòu à pǎ zì jǐ biàn de chéng shóu."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "(I) Napakaraming sugat, subalit wala na ang sakit nito.",
+              "english": "There are a lot of wounds, but it does not hurt anymore.",
+              "chinese": "傷口那麼多，已經不怕再痛。",
+              "pinyin": "shāng kǒu nà me duō, yǐ jīng bú pà zài tòng."
+            },
+            {
+              "filipino": "(II) Napakarami na ng sugat na wala ng lugar na mapaglalagyan pa ng panibago.",
+              "english": "There are a lot of wounds, there's no place for other wounds.",
+              "chinese": "傷口那麼多，沒地方可以再受傷了。",
+              "pinyin": "shāng kǒu nà me duō, méi dì fāng kě yǐ zài shòu shāng le."
+            },
+            {
+              "filipino": "Balewala iyon. Kapag umikot ako, magkakaroon ako ng kapangyarihan na magpoprotekta sa aking sarili.",
+              "english": "It's nothing. If I turn my body, I will have supernatural power to protect myself.",
+              "chinese": "沒什麼，轉身以後，我會練成護體神功。",
+              "pinyin": "méi shé me, zhuǎn shēn yǐ hòu, wǒ huì liàn chéng hù tǐ shén gōng."
+            },
+            {
+              "filipino": "*Sa tuwing nakakakita ako ng mga ipis ay hindi na ako natatakot.",
+              "english": "*Whenever I see cockroaches, I am not afraid anymore.",
+              "chinese": "看見蟑螂，我不怕不怕啦。",
+              "pinyin": "kàn jiàn zhāng láng, wǒ bú pà bú pà la."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "Malakas na ang aking loob, hindi na natatakot.",
+              "english": "I became strong and is not afraid anymore.",
+              "chinese": "我神經比較大，不怕不怕不怕啦。",
+              "pinyin": "wǒ shén jīng bǐ jiào dà, bú pà bú pà bú pà la."
+            },
+            {
+              "filipino": "Kapag nagpapakaduwag ay magiging matamlay lamang ako.",
+              "english": "If I am weak, I will be disheartened.",
+              "chinese": "膽怯只會讓自己更憔悴。",
+              "pinyin": "dǎn què zhǐ huì ràng zì jǐ gèng qiáo cuì."
+            },
+            {
+              "filipino": "Ang pagpapakamanhid ay isang paraan upang maipakita ang katapangan.",
+              "english": "Being numb is a way to show courage.",
+              "chinese": "麻痺也是勇敢表現。",
+              "pinyin": "má bì yě shì yǒng gǎn biǎo xiàn."
+            },
+            {
+              "filipino": "Kahit na mag-isa lang sa pagtulog ay hindi na natatakot.",
+              "english": "Even if I sleep alone, I am not afraid.",
+              "chinese": "一個人睡，也不怕不怕啦。",
+              "pinyin": "yí gè rén shuì, yě bú pà bú pà la."
+            },
+            {
+              "filipino": "Ang katapangan ang magsisilbing kumot. Hinding-hindi na matatakot.",
+              "english": "Strength will serve as blanket. I am not afraid anymore.",
+              "chinese": "勇氣當棉被。不怕不怕不怕啦，",
+              "pinyin": "yǒng qì dāng mián bèi. bú pà bú pà bú pà la,"
+            },
+            {
+              "filipino": "Kahit na madilim ang gabi, kunwari'y hindi ko ito nakikita.",
+              "english": "Even in the darkness, I pretend not to see it.",
+              "chinese": "夜晚再黑，我就當看不見，",
+              "pinyin": "yè wǎn zài hēi, wǒ jiù dāng kàn bú jiàn,"
+            },
+            {
+              "filipino": "Siguradong kasunod niyon ay sisilay din ang araw.",
+              "english": "For sure the sun will arise soon.",
+              "chinese": "太陽一定就快出現。",
+              "pinyin": "tài yáng yí dìng jiù kuài chū xiàn."
+            }
+          ]
+        }
       ]
     },
     {
-      "heading": "Nasilayang Muli ang Usok (I Saw the Smoke Again) — 又見炊煙 Yòu Jiàn Chuī Yān",
+      "heading": "Nasilayang Muli ang Usok (I Saw the Smoke Again) — 又見炊煙 Yòu Jiàn Chuī Yān &nbsp; <a href=\"https://www.youtube.com/watch?v=Wi_grQRkT3k&list=RDWi_grQRkT3k&start_radio=1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:13px;font-weight:normal\">🎬 YouTube</a>",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "(I) Nasilayang muli ang usok. Tinakpan ng takipsilim ang malawak na lupa.", "english": "I saw the smoke again. The dusk covered the ground.", "chinese": "又見炊煙升起，暮色罩大地。", "pinyin": "yòu jiàn chuī yān shēng qǐ, mù sè zhào dà dì." },
-          { "filipino": "Nais tanungin ang mga usok, saan ba kayo paroroon?", "english": "I want to ask the smoke, where are you going?", "chinese": "想問陣陣炊煙，你要去那裡。", "pinyin": "xiǎng wèn zhèn zhèn chuī yān, nǐ yào qù nǎ lǐ." }
-        ] },
-        { "lines": [
-          { "filipino": "CHORUS: Ang paglubog ng araw ay tulad ng isang tula. Ang takipsilim ay tulad ng isang larawan.", "english": "The sunset is like a poem. The dusk is like a painting.", "chinese": "夕陽有詩情，黃昏有畫意。", "pinyin": "xì yáng yǒu shī qíng, huáng hūn yǒu huà yì." },
-          { "filipino": "*Kahit na napakaganda ng tula at larawan. Sa aking puso ay tanging ikaw lamang.", "english": "*Even the poems and paintings are beautiful. There's only you in my heart.", "chinese": "詩情畫意雖然美麗。我心中祇有你。", "pinyin": "shī qíng huà yì suī rán měi lì. wǒ xīn zhōng zhǐ yǒu nǐ." }
-        ] },
-        { "lines": [
-          { "filipino": "(II) Nasilayang muli ang usok. Nanumbalik ang aking alaala.", "english": "I saw the smoke again. I reminisce the memories.", "chinese": "又見炊煙升起，勾起我回憶。", "pinyin": "yòu jiàn chuī yān shēng qǐ, gōu qǐ wǒ huí yì." },
-          { "filipino": "Nais kong maging makulay na ulap ka na lumilipad sa aking panaginip.", "english": "I wish that you will become rosy clouds and flow to my dream.", "chinese": "願你變做彩霞，飛到我夢裡。", "pinyin": "yuàn nǐ biàn zuò cǎi xiá, fēi dào wǒ mèng lǐ." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "(I) Nasilayang muli ang usok. Tinakpan ng takipsilim ang malawak na lupa.",
+              "english": "I saw the smoke again. The dusk covered the ground.",
+              "chinese": "又見炊煙升起，暮色罩大地。",
+              "pinyin": "yòu jiàn chuī yān shēng qǐ, mù sè zhào dà dì."
+            },
+            {
+              "filipino": "Nais tanungin ang mga usok, saan ba kayo paroroon?",
+              "english": "I want to ask the smoke, where are you going?",
+              "chinese": "想問陣陣炊煙，你要去那裡。",
+              "pinyin": "xiǎng wèn zhèn zhèn chuī yān, nǐ yào qù nǎ lǐ."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "CHORUS: Ang paglubog ng araw ay tulad ng isang tula. Ang takipsilim ay tulad ng isang larawan.",
+              "english": "The sunset is like a poem. The dusk is like a painting.",
+              "chinese": "夕陽有詩情，黃昏有畫意。",
+              "pinyin": "xì yáng yǒu shī qíng, huáng hūn yǒu huà yì."
+            },
+            {
+              "filipino": "*Kahit na napakaganda ng tula at larawan. Sa aking puso ay tanging ikaw lamang.",
+              "english": "*Even the poems and paintings are beautiful. There's only you in my heart.",
+              "chinese": "詩情畫意雖然美麗。我心中祇有你。",
+              "pinyin": "shī qíng huà yì suī rán měi lì. wǒ xīn zhōng zhǐ yǒu nǐ."
+            }
+          ]
+        },
+        {
+          "lines": [
+            {
+              "filipino": "(II) Nasilayang muli ang usok. Nanumbalik ang aking alaala.",
+              "english": "I saw the smoke again. I reminisce the memories.",
+              "chinese": "又見炊煙升起，勾起我回憶。",
+              "pinyin": "yòu jiàn chuī yān shēng qǐ, gōu qǐ wǒ huí yì."
+            },
+            {
+              "filipino": "Nais kong maging makulay na ulap ka na lumilipad sa aking panaginip.",
+              "english": "I wish that you will become rosy clouds and flow to my dream.",
+              "chinese": "願你變做彩霞，飛到我夢裡。",
+              "pinyin": "yuàn nǐ biàn zuò cǎi xiá, fēi dào wǒ mèng lǐ."
+            }
+          ]
+        }
       ]
     },
     {
-      "heading": "Tayo ay Nagsama-sama (The More We Get Together) — 當我們同在一起 Dāng Wǒ Mén Tóng Zài Yī Qǐ",
+      "heading": "Tayo ay Nagsama-sama (The More We Get Together) — 當我們同在一起 Dāng Wǒ Mén Tóng Zài Yī Qǐ &nbsp; <a href=\"https://www.youtube.com/watch?v=-_b8aysrn78&list=RD-_b8aysrn78&start_radio=1\" target=\"_blank\" rel=\"noopener\" style=\"font-size:13px;font-weight:normal\">🎬 YouTube</a>",
       "type": "dialogue",
       "dialogues": [
-        { "lines": [
-          { "filipino": "Tayo ay nagsama-sama, nagsama, nagsama.", "english": "The more we get together, together, together.", "chinese": "當我們同在一起，在一起，在一起。", "pinyin": "dāng wǒ mén tóng zài yì qǐ, zài yì qǐ, zài yì qǐ." },
-          { "filipino": "Tayo ay nagsama-sama, ubod ng saya.", "english": "The more we get together, the happier are we.", "chinese": "當我們同在一起真快樂無比。", "pinyin": "dāng wǒ mén tóng zài yì qǐ zhēn kuài lè wú bǐ." },
-          { "filipino": "Ngumingiti ang lahat. Nagtatawanan tayo.", "english": "For your friends are my friends and my friends are your friends.", "chinese": "你對著我笑嘻嘻。我對著你笑哈哈。", "pinyin": "nǐ duì zhe wǒ xiào xī xī, wǒ duì zhe nǐ xiào hā hā." },
-          { "filipino": "Tayo ay nagsama-sama, ubod ng saya.", "english": "The more we get together, the happier are we.", "chinese": "當我們同在一起真快樂無比。", "pinyin": "dāng wǒ mén tóng zài yì qǐ zhēn kuài lè wú bǐ." }
-        ] }
+        {
+          "lines": [
+            {
+              "filipino": "Tayo ay nagsama-sama, nagsama, nagsama.",
+              "english": "The more we get together, together, together.",
+              "chinese": "當我們同在一起，在一起，在一起。",
+              "pinyin": "dāng wǒ mén tóng zài yì qǐ, zài yì qǐ, zài yì qǐ."
+            },
+            {
+              "filipino": "Tayo ay nagsama-sama, ubod ng saya.",
+              "english": "The more we get together, the happier are we.",
+              "chinese": "當我們同在一起真快樂無比。",
+              "pinyin": "dāng wǒ mén tóng zài yì qǐ zhēn kuài lè wú bǐ."
+            },
+            {
+              "filipino": "Ngumingiti ang lahat. Nagtatawanan tayo.",
+              "english": "For your friends are my friends and my friends are your friends.",
+              "chinese": "你對著我笑嘻嘻。我對著你笑哈哈。",
+              "pinyin": "nǐ duì zhe wǒ xiào xī xī, wǒ duì zhe nǐ xiào hā hā."
+            },
+            {
+              "filipino": "Tayo ay nagsama-sama, ubod ng saya.",
+              "english": "The more we get together, the happier are we.",
+              "chinese": "當我們同在一起真快樂無比。",
+              "pinyin": "dāng wǒ mén tóng zài yì qǐ zhēn kuài lè wú bǐ."
+            }
+          ]
+        }
       ]
     }
   ]
