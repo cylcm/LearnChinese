@@ -1,0 +1,275 @@
+{
+  "id": 21,
+  "title": "Units of Measurement & Specifiers",
+  "title_zh": "單位",
+  "sections": [
+    {
+      "heading": "Specifiers",
+      "type": "vocab",
+      "items": [
+        { "english": "each / every (piece)", "chinese": "每(個)", "pinyin": "měi (gè)" },
+        { "english": "which (piece)?", "chinese": "哪(個)?", "pinyin": "nǎ (gè)?" },
+        { "english": "this (piece)", "chinese": "這(個)", "pinyin": "zhè (gè)" },
+        { "english": "that (piece)", "chinese": "那(個)", "pinyin": "nà (gè)" },
+        { "english": "half (piece)", "chinese": "半(個)", "pinyin": "bàn (gè)" },
+        { "english": "one (piece)", "chinese": "一(個)", "pinyin": "yī (gè)" },
+        { "english": "two (pieces)", "chinese": "兩(個)", "pinyin": "liǎng (gè)" },
+        { "english": "ten (pieces)", "chinese": "十(個)", "pinyin": "shí (gè)" }
+      ]
+    },
+    {
+      "heading": "Units of Measurement — 個 gè (people / general measure / some body parts)",
+      "type": "vocab",
+      "items": [
+        { "english": "each person", "chinese": "每個人", "pinyin": "měi gè rén" },
+        { "english": "one doctor", "chinese": "一個醫生", "pinyin": "yí gè yī shēng" },
+        { "english": "two television sets", "chinese": "兩個電視", "pinyin": "liǎng gè diàn shì" },
+        { "english": "three staplers", "chinese": "三個釘書機", "pinyin": "sān gè dìng shū jī" },
+        { "english": "four balls", "chinese": "四個球", "pinyin": "sì gè qiú" },
+        { "english": "five dolls", "chinese": "五個洋娃娃", "pinyin": "wǔ gè yáng wā wā" },
+        { "english": "six calculators", "chinese": "六個計算機", "pinyin": "liù gè jì suàn jī" },
+        { "english": "a nose", "chinese": "一個鼻子", "pinyin": "yí gè bí zi" }
+      ]
+    },
+    {
+      "heading": "塊 kuài (slices of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one slice of beancurd", "chinese": "一塊豆腐", "pinyin": "yí kuài dòu fǔ" },
+        { "english": "two slices of biscuits", "chinese": "兩塊餅乾", "pinyin": "liǎng kuài bǐng gān" },
+        { "english": "three slices of cheese", "chinese": "三塊起司", "pinyin": "sān kuài qǐ sī" },
+        { "english": "four slices of woods", "chinese": "四塊木板", "pinyin": "sì kuài mù bǎn" }
+      ]
+    },
+    {
+      "heading": "件 jiàn (events / clothings)",
+      "type": "vocab",
+      "items": [
+        { "english": "an event", "chinese": "一件事情", "pinyin": "yí jiàn shì qíng" },
+        { "english": "two jackets", "chinese": "兩件外套", "pinyin": "liǎng jiàn wài tào" },
+        { "english": "three skirts", "chinese": "三件裙子", "pinyin": "sān jiàn qún zi" },
+        { "english": "four pairs of pants", "chinese": "四件褲子", "pinyin": "sì jiàn kù zi" }
+      ]
+    },
+    {
+      "heading": "粒 lì (grains, pellets of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one piece of seed", "chinese": "一粒種子", "pinyin": "yí lì zhǒng zi" },
+        { "english": "two pieces of beans", "chinese": "兩粒豆子", "pinyin": "liǎng lì dòu zi" },
+        { "english": "three pieces of buttons", "chinese": "三粒鈕扣", "pinyin": "sān lì niǔ kòu" },
+        { "english": "four pieces of candies", "chinese": "四粒糖果", "pinyin": "sì lì táng guǒ" }
+      ]
+    },
+    {
+      "heading": "把 bǎ (some tools)",
+      "type": "vocab",
+      "items": [
+        { "english": "one knife", "chinese": "一把刀子", "pinyin": "yì bǎ dāo zi" },
+        { "english": "two scissors", "chinese": "兩把剪刀", "pinyin": "liǎng bǎ jiǎn dāo" },
+        { "english": "three brooms", "chinese": "三把掃帚", "pinyin": "sān bǎ sào zhǒu" }
+      ]
+    },
+    {
+      "heading": "隻 zhī (animals / insects / some body parts, except aquatic animals)",
+      "type": "vocab",
+      "items": [
+        { "english": "one tiger", "chinese": "一隻老虎", "pinyin": "yì zhī lǎo hǔ" },
+        { "english": "two bears", "chinese": "兩隻熊", "pinyin": "liǎng zhī xióng" },
+        { "english": "three rats", "chinese": "三隻老鼠", "pinyin": "sān zhī lǎo shǔ" },
+        { "english": "one hand", "chinese": "一隻手", "pinyin": "yì zhī shǒu" },
+        { "english": "two feet", "chinese": "兩隻腳", "pinyin": "liǎng zhī jiǎo" },
+        { "english": "an eye", "chinese": "一隻眼睛", "pinyin": "yì zhī yǎn jīng" },
+        { "english": "an ear", "chinese": "一隻耳朵", "pinyin": "yì zhī ěr duō" },
+        { "english": "ten fingers", "chinese": "十隻手指", "pinyin": "shí zhī shǒu zhǐ" }
+      ]
+    },
+    {
+      "heading": "張 zhāng (objects with flat surface)",
+      "type": "vocab",
+      "items": [
+        { "english": "one sheet of paper", "chinese": "一張紙", "pinyin": "yì zhāng zhǐ" },
+        { "english": "three calling cards", "chinese": "三張名片", "pinyin": "sān zhāng míng piàn" },
+        { "english": "four pictures", "chinese": "四張照片", "pinyin": "sì zhāng zhào piàn" },
+        { "english": "five beds", "chinese": "五張床", "pinyin": "wǔ zhāng chuáng" },
+        { "english": "six tables", "chinese": "六張桌子", "pinyin": "liù zhāng zhuō zi" },
+        { "english": "seven chairs", "chinese": "七張椅子", "pinyin": "qī zhāng yǐ zi" },
+        { "english": "a mouth", "chinese": "一張嘴巴", "pinyin": "yì zhāng zuǐ bā" }
+      ]
+    },
+    {
+      "heading": "本 běn (items measurable in volumes / book-like)",
+      "type": "vocab",
+      "items": [
+        { "english": "one book", "chinese": "一本書", "pinyin": "yì běn shū" },
+        { "english": "two photo albums", "chinese": "兩本像簿", "pinyin": "liǎng běn xiàng bù" },
+        { "english": "three dictionaries", "chinese": "三本字典", "pinyin": "sān běn zì diǎn" },
+        { "english": "five magazines", "chinese": "五本雜誌", "pinyin": "wǔ běn zá zhì" },
+        { "english": "six notebooks", "chinese": "六本簿子", "pinyin": "liù běn bù zi" }
+      ]
+    },
+    {
+      "heading": "卷 juǎn (rolls of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one roll of ropes", "chinese": "一卷繩子", "pinyin": "yì juǎn shéng zi" },
+        { "english": "two rolls of papers", "chinese": "兩卷紙", "pinyin": "liǎng juǎn zhǐ" }
+      ]
+    },
+    {
+      "heading": "枝 zhī (stick-like objects)",
+      "type": "vocab",
+      "items": [
+        { "english": "one pen", "chinese": "一枝筆", "pinyin": "yì zhī bǐ" },
+        { "english": "two cigarettes", "chinese": "兩枝香煙", "pinyin": "liǎng zhī xiāng yān" },
+        { "english": "three lipsticks", "chinese": "三枝口紅", "pinyin": "sān zhī kǒu hóng" },
+        { "english": "four needles", "chinese": "四枝針", "pinyin": "sì zhī zhēn" }
+      ]
+    },
+    {
+      "heading": "條 tiáo (long, skinny objects)",
+      "type": "vocab",
+      "items": [
+        { "english": "one belt", "chinese": "一條皮帶", "pinyin": "yì tiáo pí dài" },
+        { "english": "two ropes", "chinese": "兩條繩子", "pinyin": "liǎng tiáo shéng zi" },
+        { "english": "three electrical cords", "chinese": "三條電線", "pinyin": "sān tiáo diàn xiàn" },
+        { "english": "four threads", "chinese": "四條線", "pinyin": "sì tiáo xiàn" },
+        { "english": "five zippers", "chinese": "五條拉鍊", "pinyin": "wǔ tiáo lā liàn" },
+        { "english": "six snakes", "chinese": "六條蛇", "pinyin": "liù tiáo shé" },
+        { "english": "seven gold fishes", "chinese": "七條金魚", "pinyin": "qī tiáo jīn yú" },
+        { "english": "eight crocodiles", "chinese": "八條鱷魚", "pinyin": "bā tiáo è yú" }
+      ]
+    },
+    {
+      "heading": "間 jiān (rooms, spaces, establishments)",
+      "type": "vocab",
+      "items": [
+        { "english": "one classroom", "chinese": "一間課室", "pinyin": "yì jiān kè shì" },
+        { "english": "two toilets", "chinese": "兩間廁所", "pinyin": "liǎng jiān cè suǒ" },
+        { "english": "three restaurants", "chinese": "三間餐廳", "pinyin": "sān jiān cān tīng" },
+        { "english": "four hospitals", "chinese": "四間醫院", "pinyin": "sì jiān yī yuàn" }
+      ]
+    },
+    {
+      "heading": "包 bāo (packs of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one pack of noodles", "chinese": "一包麵", "pinyin": "yì bāo miàn" }
+      ]
+    },
+    {
+      "heading": "杯 bēi (cups of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one glass of water", "chinese": "一杯水", "pinyin": "yì bēi shuǐ" }
+      ]
+    },
+    {
+      "heading": "碗 wǎn (bowls of food)",
+      "type": "vocab",
+      "items": [
+        { "english": "one bowl of soup", "chinese": "一碗湯", "pinyin": "yì wǎn tāng" }
+      ]
+    },
+    {
+      "heading": "盤 pán (flat and shallow containers)",
+      "type": "vocab",
+      "items": [
+        { "english": "one plate of fruits", "chinese": "一盤水果", "pinyin": "yì pán shuǐ guǒ" }
+      ]
+    },
+    {
+      "heading": "盆 pén (something that is put in a pot / basin)",
+      "type": "vocab",
+      "items": [
+        { "english": "one pot of flowers", "chinese": "一盆花", "pinyin": "yì pén huā" },
+        { "english": "one basin of clothes", "chinese": "一盆衣服", "pinyin": "yì pén yī fú" }
+      ]
+    },
+    {
+      "heading": "盒 hé (boxes of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one box of toys", "chinese": "一盒玩具", "pinyin": "yì hé wán jù" }
+      ]
+    },
+    {
+      "heading": "箱 xiāng (cases / cartons of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one case of softdrinks", "chinese": "一箱汽水", "pinyin": "yì xiāng qì shuǐ" },
+        { "english": "one carton of books", "chinese": "一箱書", "pinyin": "yì xiāng shū" }
+      ]
+    },
+    {
+      "heading": "瓶 píng (bottles of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one bottle of perfume", "chinese": "一瓶香水", "pinyin": "yì píng xiāng shuǐ" },
+        { "english": "two bottles of milk", "chinese": "兩瓶牛奶", "pinyin": "liǎng píng niú nǎi" }
+      ]
+    },
+    {
+      "heading": "罐 guàn (cans of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one can of beer", "chinese": "一罐啤酒", "pinyin": "yí guàn pí jiǔ" }
+      ]
+    },
+    {
+      "heading": "對 / 雙 duì / shuāng (a matched pair of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one pair of shoes", "chinese": "一雙鞋子", "pinyin": "yì shuāng xié zi" },
+        { "english": "one pair of earrings", "chinese": "一對耳環", "pinyin": "yí duì ěr huán" }
+      ]
+    },
+    {
+      "heading": "套 tào (sets of things)",
+      "type": "vocab",
+      "items": [
+        { "english": "one set of dinnerwares", "chinese": "一套餐具", "pinyin": "yí tào cān jù" },
+        { "english": "two sets of jewelries", "chinese": "兩套手飾", "pinyin": "liǎng tào shǒu shì" },
+        { "english": "three sets of suits", "chinese": "三套西裝", "pinyin": "sān tào xī zhuāng" }
+      ]
+    },
+    {
+      "heading": "一些 yī xiē (plural marker)",
+      "type": "vocab",
+      "items": [
+        { "english": "some food", "chinese": "一些食物", "pinyin": "yì xiē shí wù" },
+        { "english": "some students", "chinese": "一些學生", "pinyin": "yì xiē xué shēng" },
+        { "english": "some houses", "chinese": "一些房子", "pinyin": "yì xiē fáng zi" }
+      ]
+    },
+    {
+      "heading": "打 dǎ (dozen — twelve items)",
+      "type": "vocab",
+      "items": [
+        { "english": "one dozen of eggs", "chinese": "一打雞蛋", "pinyin": "yì dǎ jī dàn" },
+        { "english": "half dozen of socks", "chinese": "半打襪子", "pinyin": "bàn dǎ wà zi" }
+      ]
+    },
+    {
+      "heading": "公斤 gōng jīn (kilogram — weight of 1000 grams)",
+      "type": "vocab",
+      "items": [
+        { "english": "one kilo of meat", "chinese": "一公斤肉", "pinyin": "yì gōng jīn ròu" }
+      ]
+    },
+    {
+      "heading": "斤 jīn (catty — Chinese unit equivalent to 600 grams)",
+      "type": "vocab",
+      "items": [
+        { "english": "one catty of cabbage", "chinese": "一斤高麗菜", "pinyin": "yì jīn gāo lì cài" }
+      ]
+    },
+    {
+      "heading": "磅 bàng (pound — British unit equivalent to 453.6 grams)",
+      "type": "vocab",
+      "items": [
+        { "english": "one pound of fish ball", "chinese": "一磅魚丸", "pinyin": "yí bàng yú wán" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 22,
+  "title": "Sample Conversation for Role Play",
+  "title_zh": "短劇對話",
+  "sections": [
+    {
+      "heading": "1. Telephone Conversation",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: Hello!", "chinese": "喂!", "pinyin": "Wéi!" },
+          { "english": "B: Is Mrs. Lin there?", "chinese": "請問林太太在嗎?", "pinyin": "Qǐng wèn Lín tài tài zài ma?" },
+          { "english": "A: She is not around. May I know who's calling?", "chinese": "她不在。請問哪裡找?", "pinyin": "Tā bú zài. Qǐng wèn nǎ lǐ zhǎo?" },
+          { "english": "B: I'm her friend. I'm Mrs. Luo.", "chinese": "我是她的朋友。我是羅太太。", "pinyin": "Wǒ shì tā de péng yǒu. Wǒ shì Luó tài tài." },
+          { "english": "A: How are you Mrs. Luo? Do you want to leave any message?", "chinese": "羅太太好。你要留話嗎?", "pinyin": "Luó tài tài hǎo. Nǐ yào liú huà ma?" },
+          { "english": "B: Please ask her to return my call.", "chinese": "請她回電話給我。", "pinyin": "Qǐng tā huí diàn huà gěi wǒ." },
+          { "english": "A: Okay! Does she know your telephone number?", "chinese": "好的! 她知道你的電話號碼嗎?", "pinyin": "Hǎo de! Tā zhī dào nǐ de diàn huà hào mǎ ma?" },
+          { "english": "B: My telephone number is 2467089.", "chinese": "我的電話號碼是 2467089。", "pinyin": "Wǒ de diàn huà hào mǎ shì èr sì liù qī líng bā jiǔ." },
+          { "english": "A: I will tell her when she arrives.", "chinese": "她回來我會告訴她。", "pinyin": "Tā huí lái wǒ huì gào sù tā." },
+          { "english": "B: Thank you!", "chinese": "謝謝你。", "pinyin": "Xiè xiè nǐ." },
+          { "english": "A: You're welcome!", "chinese": "不客氣。", "pinyin": "Bú kè qì." },
+          { "english": "B: Good bye!", "chinese": "再見!", "pinyin": "Zài jiàn!" }
+        ] }
+      ]
+    },
+    {
+      "heading": "2. Entertaining Visitor",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: Miss Chen how are you? Please come in.", "chinese": "陳小姐, 你好。請進來。", "pinyin": "Chén xiǎo jiě, nǐ hǎo. Qǐng jìn lái." },
+          { "english": "B: Thank you! Is Mrs. Fang here?", "chinese": "謝謝! 方太太在嗎?", "pinyin": "Xiè xiè! Fāng tài tài zài ma?" },
+          { "english": "A: She's here. Please take a seat.", "chinese": "她在。你請坐。", "pinyin": "Tā zài. Nǐ qǐng zuò." },
+          { "english": "B: Okay!", "chinese": "好的。", "pinyin": "Hǎo de." },
+          { "english": "A: Madam is taking her bath. Please wait for a while.", "chinese": "太太在洗澡。請你等一下。", "pinyin": "Tài tài zài xǐ zǎo. Qǐng nǐ děng yí xià." },
+          { "english": "B: Okay! I'll just wait for her.", "chinese": "沒關係! 我在這裡等她。", "pinyin": "Méi guān xì! Wǒ zài zhè lǐ děng tā." },
+          { "english": "A: Miss Chen please have a cup of tea.", "chinese": "陳小姐請喝茶。", "pinyin": "Chén xiǎo jiě qǐng hē chá." },
+          { "english": "B: Thank you!", "chinese": "謝謝!", "pinyin": "Xiè xiè!" },
+          { "english": "A: You're welcome! Here's some newspapers. You might want to read while waiting.", "chinese": "不客氣! 這裡有報紙。請看報紙。", "pinyin": "Bú kè qì! Zhè lǐ yǒu bào zhǐ. Qǐng kàn bào zhǐ." },
+          { "english": "B: Thank you! You entertain guest so well.", "chinese": "謝謝! 你很會招待客人。", "pinyin": "Xiè xiè! Nǐ hěn huì zhāo dài kè rén." },
+          { "english": "A: This is my job.", "chinese": "這是我的工作。", "pinyin": "Zhè shì wǒ de gōng zuò." },
+          { "english": "B: Mrs. Fang is so lucky to have a maid like you.", "chinese": "方太太有你這麼好的傭人真福氣。", "pinyin": "Fāng tài tài yǒu nǐ zhè me hǎo de yōng rén zhēn fú qì." }
+        ] }
+      ]
+    },
+    {
+      "heading": "3. At the Market",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: How much is the apple?", "chinese": "蘋果多少錢?", "pinyin": "Píng guǒ duō shǎo qián?" },
+          { "english": "B: NT$12 each.", "chinese": "十二塊一個。", "pinyin": "Shí èr kuài yí gè." },
+          { "english": "A: Too expensive. Can you lower the price?", "chinese": "太貴了。可以便宜一點嗎?", "pinyin": "Tài guì le. Kě yǐ pián yí yì diǎn ma?" },
+          { "english": "B: How much do you want?", "chinese": "你要多少錢?", "pinyin": "Nǐ yào duō shǎo qián?" },
+          { "english": "A: Can I have it at NT$10 each?", "chinese": "可以十塊一個嗎?", "pinyin": "Kě yǐ shí kuài yí gè ma?" },
+          { "english": "B: Okay! How many do you want?", "chinese": "好的。你要幾個?", "pinyin": "Hǎo de. Nǐ yào jǐ gè?" },
+          { "english": "A: Please give me 5 pieces.", "chinese": "請給我五個。", "pinyin": "Qǐng gěi wǒ wǔ gè." },
+          { "english": "B: Do you need some other fruits?", "chinese": "還要其他水果嗎?", "pinyin": "Hái yào qí tā shuǐ guǒ ma?" },
+          { "english": "A: How much is the water melon?", "chinese": "西瓜多少錢?", "pinyin": "Xī guā duō shǎo qián?" },
+          { "english": "B: NT$70 each.", "chinese": "七十塊一個。", "pinyin": "Qī shí kuài yí gè." },
+          { "english": "A: Give me one. How much is the total?", "chinese": "給我一個。一共多少錢?", "pinyin": "Gěi wǒ yí gè. Yí gòng duō shǎo qián?" },
+          { "english": "B: Total is NT$120.", "chinese": "一共一百二十塊。", "pinyin": "Yí gòng yì bǎi èr shí kuài." }
+        ] }
+      ]
+    },
+    {
+      "heading": "4. At the Department Store",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: Miss what are you looking for?", "chinese": "小姐需要什麼嗎?", "pinyin": "Xiǎo jiě xū yào shé me ma?" },
+          { "english": "B: I want to buy polo shirt.", "chinese": "我要買襯衫。", "pinyin": "Wǒ yào mǎi chèn shān." },
+          { "english": "A: Do you like this one?", "chinese": "這件你喜歡嗎?", "pinyin": "Zhè jiàn nǐ xǐ huān ma?" },
+          { "english": "B: This one is very nice. How much?", "chinese": "這件很漂亮。多少錢?", "pinyin": "Zhè jiàn hěn piào liàng. Duō shǎo qián?" },
+          { "english": "A: NT$300.", "chinese": "三百塊。", "pinyin": "Sān bǎi kuài." },
+          { "english": "B: Very cheap. Do you have other colors?", "chinese": "很便宜。你們有其他顏色嗎?", "pinyin": "Hěn pián yí. Nǐ mén yǒu qí tā yán sè ma?" },
+          { "english": "A: We have white and red.", "chinese": "我們有白色和紅色。", "pinyin": "Wǒ mén yǒu bái sè hé hóng sè." },
+          { "english": "B: I want the white one.", "chinese": "我要白色。", "pinyin": "Wǒ yào bái sè." },
+          { "english": "A: What size?", "chinese": "你要什麼碼?", "pinyin": "Nǐ yào shé me mǎ?" },
+          { "english": "B: I want medium size. Can I fit it?", "chinese": "我要中碼。我可以試穿嗎?", "pinyin": "Wǒ yào zhōng mǎ. Wǒ kě yǐ shì chuān ma?" },
+          { "english": "A: No problem! Fitting room is over there.", "chinese": "沒問題! 更衣室在那邊。", "pinyin": "Méi wèn tí! Gēng yī shì zài nà biān." },
+          { "english": "B: Thank you!", "chinese": "謝謝!", "pinyin": "Xiè xiè!" },
+          { "english": "A: You're welcome!", "chinese": "不客氣!", "pinyin": "Bú kè qì!" }
+        ] }
+      ]
+    },
+    {
+      "heading": "5. At the Restaurant",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: Miss may I have your order please?", "chinese": "小姐請問你要點什麼菜?", "pinyin": "Xiǎo jiě qǐng wèn nǐ yào diǎn shé me cài?" },
+          { "english": "B: Please give me one plate of vegetables and one plate of tofu.", "chinese": "請給我一盤青菜和一盤豆腐。", "pinyin": "Qǐng gěi wǒ yì pán qīng cài hé yì pán dòu fǔ." },
+          { "english": "A: Do you want to try our steak?", "chinese": "要不要試試我們的牛排?", "pinyin": "Yào bú yào shì shì wǒ mén de niú pái?" },
+          { "english": "B: No!", "chinese": "不要!", "pinyin": "Bú yào!" },
+          { "english": "A: Do you want to have some drinks?", "chinese": "要不要喝什麼飲料?", "pinyin": "Yào bú yào hē shé me yǐn liào?" },
+          { "english": "B: Please give me a glass of coke.", "chinese": "請給我一杯可樂。", "pinyin": "Qǐng gěi wǒ yì bēi kě lè." },
+          { "english": "A: Okay! Do you want to order anything else?", "chinese": "好的! 還有沒有其他需要的?", "pinyin": "Hǎo de! Hái yǒu méi yǒu qí tā xū yào de?" },
+          { "english": "B: That would be all.", "chinese": "沒有了。", "pinyin": "Méi yǒu le." },
+          { "english": "A: Thank you.", "chinese": "謝謝!", "pinyin": "Xiè xiè!" },
+          { "english": "B: Please make it fast. I'm in a hurry.", "chinese": "請快一點。我在趕時間。", "pinyin": "Qǐng kuài yì diǎn. Wǒ zài gǎn shí jiān." },
+          { "english": "A: No problem. I will serve it as fast as I can.", "chinese": "沒問題! 我儘快送來。", "pinyin": "Méi wèn tí! Wǒ jìn kuài sòng lái." },
+          { "english": "B: Thank you.", "chinese": "謝謝!", "pinyin": "Xiè xiè!" },
+          { "english": "A: You're welcome!", "chinese": "不客氣!", "pinyin": "Bú kè qì!" }
+        ] }
+      ]
+    },
+    {
+      "heading": "6. At the Bus Station",
+      "type": "dialogue",
+      "dialogues": [
+        { "lines": [
+          { "english": "A: Miss, is this the bus station going to Taipei?", "chinese": "小姐, 這是到台北的公車站嗎?", "pinyin": "Xiǎo jiě, zhè shì dào Tái běi de gōng chē zhàn ma?" },
+          { "english": "B: Yes! Do you want to buy ticket?", "chinese": "是的! 你要買票嗎?", "pinyin": "Shì de! Nǐ yào mǎi piào ma?" },
+          { "english": "A: How much is the fare?", "chinese": "請問車費多少錢?", "pinyin": "Qǐng wèn chē fèi duō shǎo qián?" },
+          { "english": "B: NT$18.", "chinese": "十八塊。", "pinyin": "Shí bā kuài." },
+          { "english": "A: How long would it take for the bus ride to reach Taipei?", "chinese": "從這裡坐公車到台北要多久?", "pinyin": "Cóng zhè lǐ zuò gōng chē dào Tái Běi yào duō jiǔ?" },
+          { "english": "B: Around 45 minutes.", "chinese": "大約四十五分鐘。", "pinyin": "Dà yuē sì shí wǔ fēn zhōng." },
+          { "english": "A: How long is the interval for each bus schedule?", "chinese": "多久一班車?", "pinyin": "Duō jiǔ yì bān chē?" },
+          { "english": "B: Half hour interval for each bus.", "chinese": "半個小時一班。", "pinyin": "Bàn gè xiǎo shí yì bān." },
+          { "english": "A: That's too long. I'm in a hurry.", "chinese": "太久了。我在趕時間。", "pinyin": "Tài jiǔ le. Wǒ zài gǎn shí jiān." },
+          { "english": "B: You can take MRT. MRT is over there.", "chinese": "你可以搭捷運。捷運在那邊。", "pinyin": "Nǐ kě yǐ dā jié yùn. Jié yùn zài nà biān." },
+          { "english": "A: Thank you!", "chinese": "謝謝你!", "pinyin": "Xiè xiè nǐ!" },
+          { "english": "B: You're welcome!", "chinese": "不客氣!", "pinyin": "Bú kè qì!" }
+        ] }
+      ]
+    }
+  ]
+}
