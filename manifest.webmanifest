@@ -1,0 +1,17 @@
+{
+  "name": "My Personal Language Tutor",
+  "short_name": "语言导师",
+  "description": "Filipino / English / 中文 — reference lessons + AI study tools",
+  "start_url": "mandarin_tutor.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf7f2",
+  "theme_color": "#c0392b",
+  "lang": "en",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -8,6 +8,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#c0392b">
 <meta name="apple-mobile-web-app-title" content="My Personal Language Tutor">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" href="icon-192.png">
 <title>My Personal Language Tutor — Filipino / English / 中文</title>
 <style>
   :root{
@@ -571,6 +574,15 @@ document.getElementById("chat-btn").onclick=async()=>{const inp=document.getElem
     const reply=await callClaude(sys,chatHistory,900);t.remove();addMsg("ai",reply);chatHistory.push({role:"assistant",content:reply});
   }catch(e){t.remove();addMsg("ai","⚠️ "+e.message);}};
 document.getElementById("chat-clear").onclick=()=>{chatHistory=[];chatLog.innerHTML="";};
+
+/* ============ PWA: register service worker for install + offline ============ */
+if("serviceWorker" in navigator){
+  window.addEventListener("load",()=>{
+    navigator.serviceWorker.register("service-worker.js").catch(err=>{
+      console.warn("Service worker registration failed:",err);
+    });
+  });
+}
 </script>
 </body>
 </html>
