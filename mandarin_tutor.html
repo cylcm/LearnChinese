@@ -128,6 +128,33 @@
     .dlg .ch-cell{flex-wrap:wrap}
   }
 
+  /* ===== Install banner + modal ===== */
+  .install-banner{display:flex;align-items:center;gap:12px;background:#fff8e1;border:1px solid #f0d98c;border-radius:10px;padding:12px 14px;margin:4px 0 14px}
+  .install-banner[hidden]{display:none}
+  .install-icon{font-size:24px;line-height:1}
+  .install-text{display:flex;flex-direction:column;flex:1;min-width:0}
+  .install-text b{font-size:15px}
+  .install-text span{font-size:13px;color:var(--muted)}
+  .install-actions{display:flex;align-items:center;gap:6px}
+  .install-go{padding:9px 16px;min-height:40px;font-size:14px}
+  .install-dismiss{background:transparent;border:none;color:var(--muted);font-size:18px;cursor:pointer;padding:6px 8px;line-height:1;min-height:40px}
+  .install-dismiss:hover{color:var(--ink)}
+  .install-modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:100;padding:18px}
+  .install-modal[hidden]{display:none}
+  .install-modal-card{background:var(--panel);border-radius:12px;padding:22px;max-width:380px;width:100%;position:relative;max-height:85vh;overflow-y:auto}
+  .install-modal-card h3{color:var(--accent);margin:0 30px 12px 0;font-size:18px}
+  .install-modal-close{position:absolute;top:12px;right:12px;background:transparent;border:none;font-size:20px;color:var(--muted);cursor:pointer;line-height:1;padding:4px}
+  .install-step{display:flex;gap:10px;align-items:flex-start;padding:8px 0;font-size:15px;border-bottom:1px dashed var(--line)}
+  .install-step:last-child{border-bottom:none}
+  .install-step-num{flex:0 0 24px;height:24px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;font-weight:bold}
+  @media (max-width:600px){
+    .install-banner{flex-wrap:wrap}
+    .install-text{flex:1 1 100%;order:1;margin-bottom:6px}
+    .install-icon{order:0}
+    .install-actions{order:2;flex:1 1 100%}
+    .install-go{flex:1}
+  }
+
   /* Respect users who prefer reduced motion */
   @media (prefers-reduced-motion: reduce){
     *{scroll-behavior:auto !important}
@@ -142,6 +169,28 @@
 </header>
 
 <div class="wrap">
+  <!-- ===================== INSTALL BANNER ===================== -->
+  <div class="install-banner" id="install-banner" hidden>
+    <span class="install-icon">📲</span>
+    <div class="install-text">
+      <b>Install this app</b>
+      <span>Add it to your home screen for one-tap access and offline use.</span>
+    </div>
+    <div class="install-actions">
+      <button class="go install-go" id="install-go">Install</button>
+      <button class="install-dismiss" id="install-dismiss" title="Not now">✕</button>
+    </div>
+  </div>
+
+  <!-- iOS / manual instructions modal -->
+  <div class="install-modal" id="install-modal" hidden>
+    <div class="install-modal-card">
+      <button class="install-modal-close" id="install-modal-close" title="Close">✕</button>
+      <h3 id="install-modal-title">Add to Home Screen</h3>
+      <div id="install-modal-steps"></div>
+    </div>
+  </div>
+
   <nav id="nav">
     <button data-tab="lessons" class="active">📚 Lessons</button>
     <button data-tab="pinyin">📖 Pinyin & Tones</button>
@@ -583,6 +632,98 @@ if("serviceWorker" in navigator){
     });
   });
 }
+
+/* ============ PWA: install banner + instructions ============ */
+(function(){
+  const DISMISS_KEY="mandarinTutor.install_dismissed";
+  const banner=document.getElementById("install-banner");
+  const goBtn=document.getElementById("install-go");
+  const dismissBtn=document.getElementById("install-dismiss");
+  const modal=document.getElementById("install-modal");
+  const modalSteps=document.getElementById("install-modal-steps");
+  const modalTitle=document.getElementById("install-modal-title");
+  const modalClose=document.getElementById("install-modal-close");
+  let deferredPrompt=null;
+
+  // Already installed / running standalone? Never show.
+  const isStandalone=window.matchMedia("(display-mode: standalone)").matches
+    || window.navigator.standalone===true;
+
+  const ua=navigator.userAgent||"";
+  const isIOS=/iphone|ipad|ipod/i.test(ua)
+    || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1); // iPadOS
+  const isAndroid=/android/i.test(ua);
+
+  function steps(list){
+    modalSteps.innerHTML=list.map((s,i)=>
+      `<div class="install-step"><span class="install-step-num">${i+1}</span><span>${s}</span></div>`
+    ).join("");
+  }
+  function showModal(){
+    if(isIOS){
+      modalTitle.textContent="Add to Home Screen (iPhone / iPad)";
+      steps([
+        "Tap the <b>Share</b> button (the square with an upward arrow) in Safari's toolbar.",
+        "Scroll down and tap <b>Add to Home Screen</b>.",
+        "Tap <b>Add</b> in the top-right corner.",
+        "The 汉 icon appears on your home screen — open it like any app."
+      ]);
+    }else if(isAndroid){
+      modalTitle.textContent="Add to Home Screen (Android)";
+      steps([
+        "Tap the <b>⋮</b> menu in the top-right of your browser.",
+        "Tap <b>Install app</b> or <b>Add to Home screen</b>.",
+        "Confirm by tapping <b>Install</b> / <b>Add</b>.",
+        "The 汉 icon appears in your app drawer and home screen."
+      ]);
+    }else{
+      modalTitle.textContent="Install on your computer";
+      steps([
+        "Look for the install icon (a small ⊕ or monitor) at the right edge of the address bar.",
+        "Click it, then click <b>Install</b>.",
+        "If you don't see it, open the browser menu and choose <b>Install / Apps → Install this site</b>.",
+        "Chrome and Edge support this best."
+      ]);
+    }
+    modal.hidden=false;
+  }
+  function hideBanner(){ banner.hidden=true; }
+  function rememberDismiss(){ try{localStorage.setItem(DISMISS_KEY,"1");}catch(e){} }
+  function wasDismissed(){ try{return localStorage.getItem(DISMISS_KEY)==="1";}catch(e){return false;} }
+
+  modalClose.onclick=()=>{ modal.hidden=true; };
+  modal.addEventListener("click",e=>{ if(e.target===modal) modal.hidden=true; });
+  dismissBtn.onclick=()=>{ hideBanner(); rememberDismiss(); };
+
+  goBtn.onclick=async()=>{
+    if(deferredPrompt){
+      // Chrome / Edge / Android: fire the real install prompt.
+      deferredPrompt.prompt();
+      const choice=await deferredPrompt.userChoice;
+      deferredPrompt=null;
+      if(choice && choice.outcome==="accepted"){ hideBanner(); rememberDismiss(); }
+    }else{
+      // iOS Safari & others without programmatic install: show steps.
+      showModal();
+    }
+  };
+
+  // Chrome/Edge/Android: capture the install opportunity and reveal the banner.
+  window.addEventListener("beforeinstallprompt",e=>{
+    e.preventDefault();
+    deferredPrompt=e;
+    if(!isStandalone && !wasDismissed()) banner.hidden=false;
+  });
+
+  // Hide everything once installed.
+  window.addEventListener("appinstalled",()=>{ hideBanner(); modal.hidden=true; rememberDismiss(); });
+
+  // iOS never fires beforeinstallprompt, so show the banner ourselves
+  // (it routes to the manual steps modal).
+  if(isIOS && !isStandalone && !wasDismissed()){
+    banner.hidden=false;
+  }
+})();
 </script>
 </body>
 </html>
