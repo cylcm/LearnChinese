@@ -5,9 +5,9 @@ const APP_SHELL = [
   "mandarin_tutor.html",
   "index.html",
   "manifest.webmanifest",
-  "icon-192.png",
-  "icon-512.png",
-  "icon-maskable-512.png"
+  "config/icon-192.png",
+  "config/icon-512.png",
+  "config/icon-maskable-512.png"
 ];
 
 // Pre-cache the app shell on install.
