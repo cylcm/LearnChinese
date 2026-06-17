@@ -28,6 +28,7 @@
   nav{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0;position:sticky;top:0;z-index:20;background:var(--bg);padding:8px 0}
   nav button{background:var(--chip);border:1px solid var(--line);padding:9px 14px;border-radius:20px;cursor:pointer;font-size:14px;font-family:inherit;color:var(--ink);min-height:40px;white-space:nowrap}
   nav button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  nav button#nav-install{background:var(--accent2);color:#fff;border-color:var(--accent2)}
   .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin-bottom:18px;display:none}
   .panel.show{display:block}
   h2{color:var(--accent);font-size:19px;border-bottom:2px solid var(--line);padding-bottom:6px;margin-top:0}
@@ -199,6 +200,7 @@
     <button data-tab="quiz">🎯 Quiz</button>
     <button data-tab="chat">💬 Tutor Chat</button>
     <button data-tab="settings">⚙️ API Key</button>
+    <button id="nav-install" type="button" title="Install this app">📲 Install</button>
   </nav>
 
   <!-- ===================== LESSONS ===================== -->
@@ -358,6 +360,7 @@ document.getElementById("cons-ref").innerHTML=refRows(CONS);
 
 /* ============ TABS ============ */
 document.querySelectorAll("#nav button").forEach(b=>{b.onclick=()=>{
+  if(!b.dataset.tab) return; // skip non-tab buttons (e.g. Install)
   document.querySelectorAll("#nav button").forEach(x=>x.classList.remove("active"));
   document.querySelectorAll(".panel").forEach(p=>p.classList.remove("show"));
   b.classList.add("active");document.getElementById(b.dataset.tab).classList.add("show");
@@ -651,8 +654,13 @@ if("serviceWorker" in navigator){
 
   const ua=navigator.userAgent||"";
   const isIOS=/iphone|ipad|ipod/i.test(ua)
-    || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1); // iPadOS
+    || (/Macintosh/.test(ua) && navigator.maxTouchPoints>1); // iPadOS reports as Mac
   const isAndroid=/android/i.test(ua);
+  // Safari (incl. iOS) has no beforeinstallprompt, so it always uses the manual modal.
+  const isSafari=/^((?!chrome|android|crios|fxios|edgios).)*safari/i.test(ua);
+  // Touch device without the install event = treat like iOS (show manual steps).
+  const isTouchNoPrompt=(isIOS||isSafari) ||
+    (navigator.maxTouchPoints>1 && !/chrome|crios|edg|edgios|samsung/i.test(ua));
 
   function steps(list){
     modalSteps.innerHTML=list.map((s,i)=>
@@ -660,7 +668,7 @@ if("serviceWorker" in navigator){
     ).join("");
   }
   function showModal(){
-    if(isIOS){
+    if(isIOS||(isTouchNoPrompt&&!isAndroid)){
       modalTitle.textContent="Add to Home Screen (iPhone / iPad)";
       steps([
         "Tap the <b>Share</b> button (the square with an upward arrow) in Safari's toolbar.",
@@ -695,18 +703,29 @@ if("serviceWorker" in navigator){
   modal.addEventListener("click",e=>{ if(e.target===modal) modal.hidden=true; });
   dismissBtn.onclick=()=>{ hideBanner(); rememberDismiss(); };
 
-  goBtn.onclick=async()=>{
+  function triggerInstall(){
     if(deferredPrompt){
-      // Chrome / Edge / Android: fire the real install prompt.
       deferredPrompt.prompt();
-      const choice=await deferredPrompt.userChoice;
-      deferredPrompt=null;
-      if(choice && choice.outcome==="accepted"){ hideBanner(); rememberDismiss(); }
+      deferredPrompt.userChoice.then(choice=>{
+        deferredPrompt=null;
+        if(choice && choice.outcome==="accepted"){ hideBanner(); rememberDismiss(); }
+      });
+    }else if(isStandalone){
+      alert("This app is already installed — open it from your home screen.");
     }else{
-      // iOS Safari & others without programmatic install: show steps.
+      // No programmatic prompt (iOS Safari, or event not yet fired): show steps.
       showModal();
     }
-  };
+  }
+
+  // Permanent nav button — always available, ignores prior dismissal.
+  const navInstall=document.getElementById("nav-install");
+  if(navInstall){
+    if(isStandalone) navInstall.style.display="none"; // already installed
+    navInstall.onclick=triggerInstall;
+  }
+
+  goBtn.onclick=triggerInstall;
 
   // Chrome/Edge/Android: capture the install opportunity and reveal the banner.
   window.addEventListener("beforeinstallprompt",e=>{
@@ -718,9 +737,9 @@ if("serviceWorker" in navigator){
   // Hide everything once installed.
   window.addEventListener("appinstalled",()=>{ hideBanner(); modal.hidden=true; rememberDismiss(); });
 
-  // iOS never fires beforeinstallprompt, so show the banner ourselves
+  // iOS / Safari never fire beforeinstallprompt, so show the banner ourselves
   // (it routes to the manual steps modal).
-  if(isIOS && !isStandalone && !wasDismissed()){
+  if(isTouchNoPrompt && !isStandalone && !wasDismissed()){
     banner.hidden=false;
   }
 })();
